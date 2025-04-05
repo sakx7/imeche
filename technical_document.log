@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  5 APR 2025 20:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  5 APR 2025 20:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1749,16 +1749,17 @@ File: pdftex.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
 \c@deadlineyear=\count477
 \c@deadlinemonth=\count478
 \c@deadlineday=\count479
-\c@mydatenumber=\count480
-\c@currentdate=\count481
-\c@daysdiff=\count482
-\c@currenttime=\count483
-\c@totalminutes=\count484
-\c@displaydays=\count485
-\c@remainingmins=\count486
-\c@displayhours=\count487
-\c@displaymins=\count488
-\c@tcb@cnt@briefillus=\count489
+\c@deadlinetime=\count480
+\c@mydatenumber=\count481
+\c@currentdate=\count482
+\c@daysdiff=\count483
+\c@currenttime=\count484
+\c@totalminutes=\count485
+\c@displaydays=\count486
+\c@remainingmins=\count487
+\c@displayhours=\count488
+\c@displaymins=\count489
+\c@tcb@cnt@briefillus=\count490
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
@@ -1773,9 +1774,9 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthfirst=\dimen470
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 326.
+h' as default language. on input line 334.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-26.
+34.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1783,37 +1784,37 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (./technical_document.aux)
 \openout1 = `technical_document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 326.
-LaTeX Font Info:    ... okay on input line 326.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 326.
-LaTeX Font Info:    ... okay on input line 326.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 326.
-LaTeX Font Info:    ... okay on input line 326.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 326.
-LaTeX Font Info:    ... okay on input line 326.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 326.
-LaTeX Font Info:    ... okay on input line 326.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 326.
-LaTeX Font Info:    ... okay on input line 326.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 326.
-LaTeX Font Info:    ... okay on input line 326.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 326.
-LaTeX Font Info:    ... okay on input line 326.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 326.
-LaTeX Font Info:    ... okay on input line 326.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 334.
+LaTeX Font Info:    ... okay on input line 334.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 334.
+LaTeX Font Info:    ... okay on input line 334.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 334.
+LaTeX Font Info:    ... okay on input line 334.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 334.
+LaTeX Font Info:    ... okay on input line 334.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 334.
+LaTeX Font Info:    ... okay on input line 334.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 334.
+LaTeX Font Info:    ... okay on input line 334.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 334.
+LaTeX Font Info:    ... okay on input line 334.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 334.
+LaTeX Font Info:    ... okay on input line 334.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 334.
+LaTeX Font Info:    ... okay on input line 334.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count490
+\scratchcounter=\count491
 \scratchdimen=\dimen471
 \scratchbox=\box138
-\nofMPsegments=\count491
-\nofMParguments=\count492
+\nofMPsegments=\count492
+\nofMParguments=\count493
 \everyMPshowfont=\toks67
-\MPscratchCnt=\count493
+\MPscratchCnt=\count494
 \MPscratchDim=\dimen472
-\MPnumerator=\count494
-\makeMPintoPDFobject=\count495
+\MPnumerator=\count495
+\makeMPintoPDFobject=\count496
 \everyMPtoPDFconversion=\toks68
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1846,13 +1847,13 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 326.
-Package hyperref Info: Link coloring ON on input line 326.
+or `english'. on input line 334.
+Package hyperref Info: Link coloring ON on input line 334.
  (./technical_document.out) (./technical_document.out)
 \@outlinefile=\write4
 \openout4 = `technical_document.out'.
 
-\c@lstlisting=\count496
+\c@lstlisting=\count497
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
@@ -1880,24 +1881,24 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen473
 \MT@vwid@rightmargin=\dimen474
-LaTeX Info: Redefining \microtypecontext on input line 326.
-Package microtype Info: Applying patch `item' on input line 326.
-Package microtype Info: Applying patch `toc' on input line 326.
+LaTeX Info: Redefining \microtypecontext on input line 334.
+Package microtype Info: Applying patch `item' on input line 334.
+Package microtype Info: Applying patch `toc' on input line 334.
 Package microtype Info: The `eqnum' patch may not be effective because you are
 (microtype)             using the mathtools package. Make sure to insert
 (microtype)             `\leftprotrusion' and `\rightprotrusion' as
 (microtype)             appropriate in mathtools's `\newtagform' command.
-Package microtype Info: Applying patch `eqnum' on input line 326.
-Package microtype Info: Applying patch `footnote' on input line 326.
-Package microtype Info: Applying patch `verbatim' on input line 326.
-LaTeX Info: Redefining \microtypesetup on input line 326.
+Package microtype Info: Applying patch `eqnum' on input line 334.
+Package microtype Info: Applying patch `footnote' on input line 334.
+Package microtype Info: Applying patch `verbatim' on input line 334.
+LaTeX Info: Redefining \microtypesetup on input line 334.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 326.
+LaTeX Info: Redefining \showhyphens on input line 334.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1945,13 +1946,13 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 File: fc-english.def 2016/01/12
 )
 <images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-convert
-er(2).jpg, id=95, 2835.59375pt x 3854.4pt>
+er(2).jpg, id=91, 2835.59375pt x 3854.4pt>
 File: images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-co
 nverter(2).jpg Graphic file (type jpg)
 <use images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-con
 verter(2).jpg>
 Package pdftex.def Info: images/A4-document-placeholder-medium-blue_0.jpg-ezgif
-.com-webp-to-jpg-converter(2).jpg  used on input line 331.
+.com-webp-to-jpg-converter(2).jpg  used on input line 339.
 (pdftex.def)             Requested size: 614.27042pt x 794.92102pt.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -1960,14 +1961,14 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/14
 .4'
-(microtype)             (new value: 14.4pt) on input line 341.
+(microtype)             (new value: 14.4pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/10
 '
-(microtype)             (new value: 10.0pt) on input line 341.
+(microtype)             (new value: 10.0pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/7'
 
-(microtype)             (new value: 7.0pt) on input line 341.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 341
+(microtype)             (new value: 7.0pt) on input line 349.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 349
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1976,7 +1977,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 341
+LaTeX Font Info:    Trying to load font information for U+msb on input line 349
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1987,47 +1988,47 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/14.4
 '
-(microtype)             (new value: 14.4pt) on input line 341.
+(microtype)             (new value: 14.4pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 341.
+(microtype)             (new value: 10.0pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/7'
-(microtype)             (new value: 7.0pt) on input line 341.
+(microtype)             (new value: 7.0pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/14.4
 '
-(microtype)             (new value: 14.4pt) on input line 341.
+(microtype)             (new value: 14.4pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 341.
+(microtype)             (new value: 10.0pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/7'
-(microtype)             (new value: 7.0pt) on input line 341.
+(microtype)             (new value: 7.0pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/14.4
 '
-(microtype)             (new value: 14.4pt) on input line 341.
+(microtype)             (new value: 14.4pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 341.
+(microtype)             (new value: 10.0pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/7'
-(microtype)             (new value: 7.0pt) on input line 341.
+(microtype)             (new value: 7.0pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/14.4
 '
-(microtype)             (new value: 14.4pt) on input line 341.
+(microtype)             (new value: 14.4pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 341.
+(microtype)             (new value: 10.0pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/7'
-(microtype)             (new value: 7.0pt) on input line 341.
+(microtype)             (new value: 7.0pt) on input line 349.
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 34
-1.
+9.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/14
 .4'
-(microtype)             (new value: 14.4pt) on input line 341.
+(microtype)             (new value: 14.4pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/10
 '
-(microtype)             (new value: 10.0pt) on input line 341.
+(microtype)             (new value: 10.0pt) on input line 349.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/7'
 
-(microtype)             (new value: 7.0pt) on input line 341.
+(microtype)             (new value: 7.0pt) on input line 349.
 
 
 [1
@@ -2072,11 +2073,11 @@ document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-converter(2).jpg>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/a13d25fa5178ce400e90e65f61d696d3.jpg, id=103, 1405.25pt x 2107.875pt>
+<images/a13d25fa5178ce400e90e65f61d696d3.jpg, id=99, 1405.25pt x 2107.875pt>
 File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 <use images/a13d25fa5178ce400e90e65f61d696d3.jpg>
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
-nput line 362.
+nput line 370.
 (pdftex.def)             Requested size: 614.3022pt x 794.98625pt.
 > Step: init table outer spec.
 > Step: parse table options.
@@ -2088,46 +2089,46 @@ nput line 362.
 > Step: build the whole table.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/12
 '
-(microtype)             (new value: 12.0pt) on input line 377.
+(microtype)             (new value: 12.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/8'
 
-(microtype)             (new value: 8.0pt) on input line 377.
+(microtype)             (new value: 8.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/6'
 
-(microtype)             (new value: 6.0pt) on input line 377.
+(microtype)             (new value: 6.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 377.
+(microtype)             (new value: 12.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 377.
+(microtype)             (new value: 8.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 377.
+(microtype)             (new value: 6.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 377.
+(microtype)             (new value: 12.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 377.
+(microtype)             (new value: 8.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 377.
+(microtype)             (new value: 6.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 377.
+(microtype)             (new value: 12.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 377.
+(microtype)             (new value: 8.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 377.
+(microtype)             (new value: 6.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 377.
+(microtype)             (new value: 12.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 377.
+(microtype)             (new value: 8.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 377.
+(microtype)             (new value: 6.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/12
 '
-(microtype)             (new value: 12.0pt) on input line 377.
+(microtype)             (new value: 12.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/8'
 
-(microtype)             (new value: 8.0pt) on input line 377.
+(microtype)             (new value: 8.0pt) on input line 385.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/6'
 
-(microtype)             (new value: 6.0pt) on input line 377.
+(microtype)             (new value: 6.0pt) on input line 385.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2136,13 +2137,13 @@ Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/6'
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-<example-image.pdf, id=104, 321.2pt x 240.9pt>
+<example-image.pdf, id=100, 321.2pt x 240.9pt>
 File: example-image.pdf Graphic file (type pdf)
 <use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 394.
+Package pdftex.def Info: example-image.pdf  used on input line 402.
 (pdftex.def)             Requested size: 379.4048pt x 284.52756pt.
 
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 394--395
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 402--403
  [] 
  []
 
@@ -2155,7 +2156,7 @@ Overfull \hbox (12.79999pt too wide) in paragraph at lines 394--395
 File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 <use images/a13d25fa5178ce400e90e65f61d696d3.jpg>
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
-nput line 403.
+nput line 411.
 (pdftex.def)             Requested size: 614.3022pt x 794.98625pt.
 > Step: init table outer spec.
 > Step: parse table options.
@@ -2164,55 +2165,55 @@ nput line 403.
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-<images/profile.png, id=115, 903.375pt x 831.105pt>
+<images/profile.png, id=111, 903.375pt x 831.105pt>
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 > Step: build the whole table.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 424.
+Package pdftex.def Info: images/profile.png  used on input line 432.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 
 
@@ -2252,7 +2253,7 @@ Package pdftex.def Info: images/profile.png  used on input line 424.
 File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 <use images/a13d25fa5178ce400e90e65f61d696d3.jpg>
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
-nput line 429.
+nput line 437.
 (pdftex.def)             Requested size: 614.3022pt x 794.98625pt.
  (./technical_document.toc
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/5'
@@ -2283,13 +2284,13 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
 
-<images/Kingston_University_London_logo_200-tablet.png, id=139, 200.75pt x 200.
+<images/Kingston_University_London_logo_200-tablet.png, id=134, 200.75pt x 200.
 75pt>
 File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 446.
+ used on input line 454.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2306,7 +2307,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 450.
+ used on input line 458.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2316,14 +2317,14 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 452--454
+Underfull \hbox (badness 10000) in paragraph at lines 460--462
 
  []
 
-<extracted_images/image_4_2.png, id=148, 701.62125pt x 321.45094pt>
+<extracted_images/image_4_2.png, id=143, 701.62125pt x 321.45094pt>
 File: extracted_images/image_4_2.png Graphic file (type png)
 <use extracted_images/image_4_2.png>
-Package pdftex.def Info: extracted_images/image_4_2.png  used on input line 455
+Package pdftex.def Info: extracted_images/image_4_2.png  used on input line 463
 .
 (pdftex.def)             Requested size: 498.66258pt x 228.47209pt.
 Missing character: There is no â in font ptmr7t!
@@ -2356,7 +2357,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 465.
+ used on input line 473.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2366,10 +2367,10 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
 [7 <./extracted_images/image_4_2.png (PNG copy)>]
-<images/image_6_2-Photoroom.png, id=154, 583.17876pt x 379.4175pt>
+<images/image_6_2-Photoroom.png, id=149, 583.17876pt x 379.4175pt>
 File: images/image_6_2-Photoroom.png Graphic file (type png)
 <use images/image_6_2-Photoroom.png>
-Package pdftex.def Info: images/image_6_2-Photoroom.png  used on input line 468
+Package pdftex.def Info: images/image_6_2-Photoroom.png  used on input line 476
 .
 (pdftex.def)             Requested size: 349.06227pt x 227.10805pt.
 
@@ -2377,14 +2378,14 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 
  []
 
-<images/image_7_2-Photoroom.png, id=155, 479.7925pt x 411.5375pt>
+<images/image_7_2-Photoroom.png, id=150, 479.7925pt x 411.5375pt>
 File: images/image_7_2-Photoroom.png Graphic file (type png)
 <use images/image_7_2-Photoroom.png>
-Package pdftex.def Info: images/image_7_2-Photoroom.png  used on input line 475
+Package pdftex.def Info: images/image_7_2-Photoroom.png  used on input line 483
 .
 (pdftex.def)             Requested size: 349.06227pt x 299.40887pt.
 
@@ -2393,7 +2394,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 476.
+ used on input line 484.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2406,10 +2407,10 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-<images/image_8_2-Photoroom.png, id=161, 564.1075pt x 392.46625pt>
+<images/image_8_2-Photoroom.png, id=156, 564.1075pt x 392.46625pt>
 File: images/image_8_2-Photoroom.png Graphic file (type png)
 <use images/image_8_2-Photoroom.png>
-Package pdftex.def Info: images/image_8_2-Photoroom.png  used on input line 480
+Package pdftex.def Info: images/image_8_2-Photoroom.png  used on input line 488
 .
 (pdftex.def)             Requested size: 349.06227pt x 242.85345pt.
 
@@ -2418,7 +2419,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 481.
+ used on input line 489.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2437,7 +2438,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 485.
+ used on input line 493.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2452,7 +2453,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 489.
+ used on input line 497.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2467,7 +2468,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 493.
+ used on input line 501.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2477,8 +2478,8 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
 [12]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-98.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+06.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -2491,7 +2492,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 522.
+ used on input line 530.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2507,7 +2508,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 526.
+ used on input line 534.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2517,11 +2518,11 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
 [14]
-<extracted_images/image_10_2.png, id=193, 549.252pt x 413.1435pt>
+<extracted_images/image_10_2.png, id=188, 549.252pt x 413.1435pt>
 File: extracted_images/image_10_2.png Graphic file (type png)
 <use extracted_images/image_10_2.png>
-Package pdftex.def Info: extracted_images/image_10_2.png  used on input line 52
-9.
+Package pdftex.def Info: extracted_images/image_10_2.png  used on input line 53
+7.
 (pdftex.def)             Requested size: 349.06227pt x 262.55753pt.
 
 
@@ -2529,7 +2530,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 535.
+ used on input line 543.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2544,7 +2545,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 538.
+ used on input line 546.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2558,38 +2559,27 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `technical_document.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `technical_document.out':
-(rerunfilecheck)             Before: 478B580561CD1062590C7F2402C2A8F2;1509
-(rerunfilecheck)             After:  BA468F1E1206EDA484CB3B4F42812644;1431.
+Package rerunfilecheck Info: File `technical_document.out' has not changed.
+(rerunfilecheck)             Checksum: BA468F1E1206EDA484CB3B4F42812644;1431.
  ) 
 Here is how much of TeX's memory you used:
- 77196 strings out of 473201
- 1907186 string characters out of 5716126
- 2778177 words of memory out of 5000000
- 99234 multiletter control sequences out of 15000+600000
+ 77200 strings out of 473201
+ 1907245 string characters out of 5716126
+ 2778242 words of memory out of 5000000
+ 99239 multiletter control sequences out of 15000+600000
  609150 words of font info for 243 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,15n,117p,1015b,1129s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsection.9.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/202
-4/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on technical_document.pdf (16 pages, 2085162 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pf
+b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local
+/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on technical_document.pdf (16 pages, 2085026 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 46391 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 46383 words of extra memory for PDF output out of 51595 (max. 10000000)
 

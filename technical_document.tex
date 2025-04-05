@@ -235,10 +235,11 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 \def\tick#1#2{\draw[thick] (#1)++(#2:0.1) --++ (#2-180:0.2)}
 
 
-% Initialize counters
+
 \newcounter{deadlineyear}\setcounter{deadlineyear}{2025}
 \newcounter{deadlinemonth}\setcounter{deadlinemonth}{4}
 \newcounter{deadlineday}\setcounter{deadlineday}{9}
+\newcounter{deadlinetime}\setcounter{deadlinetime}{1439} % Default: 23:59 (1439 minutes)
 \newcounter{mydatenumber}
 \newcounter{currentdate}
 \newcounter{daysdiff}
@@ -248,6 +249,12 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 \newcounter{remainingmins}
 \newcounter{displayhours}
 \newcounter{displaymins}
+
+% ====== MACROS ======
+% Set deadline time (e.g., \setdeadlinetime{23}{59})
+\newcommand{\setdeadlinetime}[2]{%
+	\setcounter{deadlinetime}{#1 * 60 + #2}%
+}
 
 % Main calculation command
 \newcommand{\timeUntilDeadline}{%
@@ -259,8 +266,8 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	% Get current time in minutes since midnight
 	\setcounter{currenttime}{\time}%
 	
-	% Calculate total remaining minutes
-	\setcounter{totalminutes}{\numexpr\thedaysdiff * 1440 - \thecurrenttime}%
+	% Calculate total remaining minutes (deadline time - current time)
+	\setcounter{totalminutes}{\thedaysdiff * 1440 + \thedeadlinetime - \thecurrenttime}%
 	
 	% Check deadline status
 	\ifnum\thetotalminutes < 0
@@ -268,9 +275,9 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	\else
 	% Calculate time components
 	\setcounter{displaydays}{\thetotalminutes / 1440}%
-	\setcounter{remainingmins}{\numexpr\thetotalminutes - \thedisplaydays * 1440}%
+	\setcounter{remainingmins}{\thetotalminutes - \thedisplaydays * 1440}%
 	\setcounter{displayhours}{\theremainingmins / 60}%
-	\setcounter{displaymins}{\numexpr\theremainingmins - \thedisplayhours * 60}%
+	\setcounter{displaymins}{\theremainingmins - \thedisplayhours * 60}%
 	
 	% Format output
 	\textbf{%
@@ -289,7 +296,8 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 		\ifnum\thedisplaymins > 0
 		\thedisplaymins\ minute\ifnum\thedisplaymins > 1 s\fi%
 		\fi%
-		\ left}%
+		\ left%
+	}%
 	\fi
 }
 
