@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  5 APR 2025 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  5 APR 2025 20:13
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1945,7 +1945,7 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 File: fc-english.def 2016/01/12
 )
 <images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-convert
-er(2).jpg, id=103, 2835.59375pt x 3854.4pt>
+er(2).jpg, id=95, 2835.59375pt x 3854.4pt>
 File: images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-co
 nverter(2).jpg Graphic file (type jpg)
 <use images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-con
@@ -2072,7 +2072,7 @@ document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-converter(2).jpg>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/a13d25fa5178ce400e90e65f61d696d3.jpg, id=111, 1405.25pt x 2107.875pt>
+<images/a13d25fa5178ce400e90e65f61d696d3.jpg, id=103, 1405.25pt x 2107.875pt>
 File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 <use images/a13d25fa5178ce400e90e65f61d696d3.jpg>
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
@@ -2136,7 +2136,7 @@ Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/6'
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-<example-image.pdf, id=112, 321.2pt x 240.9pt>
+<example-image.pdf, id=104, 321.2pt x 240.9pt>
 File: example-image.pdf Graphic file (type pdf)
 <use example-image.pdf>
 Package pdftex.def Info: example-image.pdf  used on input line 394.
@@ -2164,7 +2164,7 @@ nput line 403.
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-<images/profile.png, id=123, 903.375pt x 831.105pt>
+<images/profile.png, id=115, 903.375pt x 831.105pt>
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
 Package pdftex.def Info: images/profile.png  used on input line 424.
@@ -2282,25 +2282,14 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--452
 
- []
-
-<extracted_images/image_4_2.png, id=149, 701.62125pt x 321.45094pt>
-File: extracted_images/image_4_2.png Graphic file (type png)
-<use extracted_images/image_4_2.png>
-Package pdftex.def Info: extracted_images/image_4_2.png  used on input line 453
-.
-(pdftex.def)             Requested size: 498.66258pt x 228.47209pt.
-
-
-<images/Kingston_University_London_logo_200-tablet.png, id=150, 200.75pt x 200.
+<images/Kingston_University_London_logo_200-tablet.png, id=139, 200.75pt x 200.
 75pt>
 File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 455.
+ used on input line 446.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2311,50 +2300,91 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 [5
 
- <./images/Kingston_University_London_logo_200-tablet.png (PNG copy)> <./extrac
-ted_images/image_4_2.png (PNG copy)>]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-<images/image_6_2-Photoroom.png, id=155, 583.17876pt x 379.4175pt>
-File: images/image_6_2-Photoroom.png Graphic file (type png)
-<use images/image_6_2-Photoroom.png>
-Package pdftex.def Info: images/image_6_2-Photoroom.png  used on input line 467
-.
-(pdftex.def)             Requested size: 349.06227pt x 227.10805pt.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
+ <./images/Kingston_University_London_logo_200-tablet.png (PNG copy)>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--473
+File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
+png)
+<use images/Kingston_University_London_logo_200-tablet.png>
+Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
+ used on input line 450.
+(pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 452--454
 
  []
 
-<images/image_7_2-Photoroom.png, id=156, 479.7925pt x 411.5375pt>
+<extracted_images/image_4_2.png, id=148, 701.62125pt x 321.45094pt>
+File: extracted_images/image_4_2.png Graphic file (type png)
+<use extracted_images/image_4_2.png>
+Package pdftex.def Info: extracted_images/image_4_2.png  used on input line 455
+.
+(pdftex.def)             Requested size: 498.66258pt x 228.47209pt.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+
+File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
+png)
+<use images/Kingston_University_London_logo_200-tablet.png>
+Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
+ used on input line 465.
+(pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
+
+[7 <./extracted_images/image_4_2.png (PNG copy)>]
+<images/image_6_2-Photoroom.png, id=154, 583.17876pt x 379.4175pt>
+File: images/image_6_2-Photoroom.png Graphic file (type png)
+<use images/image_6_2-Photoroom.png>
+Package pdftex.def Info: images/image_6_2-Photoroom.png  used on input line 468
+.
+(pdftex.def)             Requested size: 349.06227pt x 227.10805pt.
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+ []
+
+<images/image_7_2-Photoroom.png, id=155, 479.7925pt x 411.5375pt>
 File: images/image_7_2-Photoroom.png Graphic file (type png)
 <use images/image_7_2-Photoroom.png>
-Package pdftex.def Info: images/image_7_2-Photoroom.png  used on input line 474
+Package pdftex.def Info: images/image_7_2-Photoroom.png  used on input line 475
 .
 (pdftex.def)             Requested size: 349.06227pt x 299.40887pt.
 
@@ -2363,7 +2393,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 475.
+ used on input line 476.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2372,14 +2402,14 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
-[6 <./images/image_6_2-Photoroom.png>]
+[8 <./images/image_6_2-Photoroom.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-<images/image_8_2-Photoroom.png, id=162, 564.1075pt x 392.46625pt>
+<images/image_8_2-Photoroom.png, id=161, 564.1075pt x 392.46625pt>
 File: images/image_8_2-Photoroom.png Graphic file (type png)
 <use images/image_8_2-Photoroom.png>
-Package pdftex.def Info: images/image_8_2-Photoroom.png  used on input line 479
+Package pdftex.def Info: images/image_8_2-Photoroom.png  used on input line 480
 .
 (pdftex.def)             Requested size: 349.06227pt x 242.85345pt.
 
@@ -2388,7 +2418,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 480.
+ used on input line 481.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2397,23 +2427,17 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
-[7 <./images/image_7_2-Photoroom.png>]
+[9 <./images/image_7_2-Photoroom.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-<extracted_images/image_10_2.png, id=169, 549.252pt x 413.1435pt>
-File: extracted_images/image_10_2.png Graphic file (type png)
-<use extracted_images/image_10_2.png>
-Package pdftex.def Info: extracted_images/image_10_2.png  used on input line 48
-9.
-(pdftex.def)             Requested size: 349.06227pt x 262.55753pt.
 
 
 File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 490.
+ used on input line 485.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2422,28 +2446,42 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
-[8 <./images/image_8_2-Photoroom.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-00.
+[10 <./images/image_8_2-Photoroom.png>]
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
+png)
+<use images/Kingston_University_London_logo_200-tablet.png>
+Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
+ used on input line 489.
+(pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
+
+[11]
+
+File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
+png)
+<use images/Kingston_University_London_logo_200-tablet.png>
+Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
+ used on input line 493.
+(pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
+
+[12]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
+98.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-
-File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
-png)
-<use images/Kingston_University_London_logo_200-tablet.png>
-Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 503.
-(pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
-
-Package fancyhdr Warning: \headheight is too small (30.0pt): 
-(fancyhdr)                Make it at least 37.74326pt, for example:
-(fancyhdr)                \setlength{\headheight}{37.74326pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
-
-[9 <./extracted_images/image_10_2.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
@@ -2453,7 +2491,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 529.
+ used on input line 522.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2462,33 +2500,96 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
-[10{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}]
-(./technical_document.aux)
+[13{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}]
+
+
+File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
+png)
+<use images/Kingston_University_London_logo_200-tablet.png>
+Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
+ used on input line 526.
+(pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
+
+[14]
+<extracted_images/image_10_2.png, id=193, 549.252pt x 413.1435pt>
+File: extracted_images/image_10_2.png Graphic file (type png)
+<use extracted_images/image_10_2.png>
+Package pdftex.def Info: extracted_images/image_10_2.png  used on input line 52
+9.
+(pdftex.def)             Requested size: 349.06227pt x 262.55753pt.
+
+
+File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
+png)
+<use images/Kingston_University_London_logo_200-tablet.png>
+Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
+ used on input line 535.
+(pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
+
+[15 <./extracted_images/image_10_2.png>]
+
+File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
+png)
+<use images/Kingston_University_London_logo_200-tablet.png>
+Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
+ used on input line 538.
+(pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
+
+[16] (./technical_document.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `technical_document.out' has not changed.
-(rerunfilecheck)             Checksum: 49635F137555A2DF3747E97C8764C833;1707.
+
+
+Package rerunfilecheck Warning: File `technical_document.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `technical_document.out':
+(rerunfilecheck)             Before: 478B580561CD1062590C7F2402C2A8F2;1509
+(rerunfilecheck)             After:  BA468F1E1206EDA484CB3B4F42812644;1431.
  ) 
 Here is how much of TeX's memory you used:
- 77194 strings out of 473201
- 1907180 string characters out of 5716126
- 2778172 words of memory out of 5000000
- 99236 multiletter control sequences out of 15000+600000
+ 77196 strings out of 473201
+ 1907186 string characters out of 5716126
+ 2778177 words of memory out of 5000000
+ 99234 multiletter control sequences out of 15000+600000
  609150 words of font info for 243 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,15n,117p,1015b,1173s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pf
-b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2
-024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on technical_document.pdf (10 pages, 2082831 bytes).
+ 98i,15n,117p,1015b,1129s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.9.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/t
+exlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/202
+4/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on technical_document.pdf (16 pages, 2085162 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 46407 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 236 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 46391 words of extra memory for PDF output out of 51595 (max. 10000000)
 
