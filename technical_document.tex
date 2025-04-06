@@ -328,8 +328,9 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 
 \usepackage{titlesec}
 
-\titleformat{\section}[block]{\normalfont\Large\bfseries\color{mainblue}}{\color{mainblue}\thesection}{1em}{}
+\titleformat{\section}[block]{\vspace*{-10pt}\centering\normalfont\Large\bfseries\color{mainblue}}{\color{mainblue}\thesection}{1em}{}
 \titleformat{\subsection}[block]{\normalfont\large\bfseries\color{mainblue}}{\color{mainblue}\thesubsection}{1em}{}
+\titleformat{\subsubsection}[block]{\normalfont\normalsize\bfseries\color{mainblue}}{\color{mainblue}\thesubsubsection}{1em}{}
 
 \begin{document}
 
@@ -435,7 +436,7 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 
 \normalsize
 \newpage\newgeometry{top=0.2in,bottom=1in,left=0.8in,right=0.8in}\tikz[remember picture,overlay] \node[opacity=0.5,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{images/a13d25fa5178ce400e90e65f61d696d3.jpg}};
-\noindent\vspace{7em}
+\noindent\vspace{7em}\pagenumbering{gobble}
 \begin{center}
 	\LARGE \textbf{\textcolor{mainblue}{Table of Contents}}\\[-7em]
 \end{center}
@@ -445,56 +446,144 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 }    
 
 
-\large\newpage\restoregeometry\vspace*{-20pt}
-\noindent
+\large\newpage\restoregeometry
+\noindent\pagenumbering{arabic}\setcounter{page}{1}
+
 \section{Abstract}
+This report/logbook serves as a comprehensive account of our group's involvement in the IMechE Design Challenge 2025, which tasks first-year engineering students with designing, building, and testing an autonomous robotic charging device. Although the design appeared simple at first, transforming our ideas into a working prototype presented significant challenges. Throughout the project, we encountered technical and mechanical obstacles that required creative problem-solving and adaptation. This report details the design process, challenges faced, solutions implemented, and the collaborative efforts that led to the final product. Through this challenge, we gained invaluable experience in practical engineering, teamwork, and the application of analogue electronics principles, all while exploring the potential of autonomous and sustainable technologies.
 
-The task of this assignment was to produce a repeatable car that can traverse a distance between 1.4 – 1.5 meters and return to its original starting point. There were many challenges that presented itself but were overcome due to the knowledge of our team. Although the design deemed simple at first, physically printing and assembling the car was much more of a challenge than we expected. Despite all of this we still came out learning essential engineering skills such as adaptability and attention to detail. 
-
-\newpage\vspace*{-20pt}
+\newpage
 \section{Introduction}
-The main objective of this project was to build and run a device that can simulate an autonomous robotic charging device. The device should be able to go along a straight line on a horizontal track. It can be made of any type of construction but limited by cost and size. It can move by any means of transport e.g. sliding, wheels, and walking. The method of starting the car must be attached to the car itself.  
-
-\newpage\vspace*{-20pt}
-\section{Competition rules}
-There are competing rules that must be adhered to which are as follows: the device should have completed its specified movements within a deadline of 3 minutes. The device should be started off manually and should perform its movements individually without any help. It should be able to perform on real installation where there may be errors on the track. It should be able to start, stop, and return to specified designated locations. It should be able to engage with the plug simulator and simulate a battery charging engagement by keeping contact with the vertical surface for a specified amount of time.
-Below is a typical lane setup:\\
+The \textit{Design Challenge}, organized annually by the Institution of Mechanical Engineers (IMechE), invites first-year undergraduate engineering students to participate in a competition that tests their skills in designing, building, and testing innovative solutions. This year, the challenge involves designing an \textbf{autonomous robotic charging device}. 
+\subsection{Competition Overview}
+Design a self-contained device that autonomously connects/disconnects from a charging target, simulating EV charging. It must navigate a 1m-wide horizontal track (1.4-4.0m length) to engage a vertical wall (0.3m min height) under these rules:
+\subsubsection*{Key Requirements}
+\begin{itemize}[itemsep=-0.5mm,topsep=0pt]
+	\item Complete mission autonomously within 3 minutes
+	\item Tolerate real-world conditions (8mm/1.5m level variance, 3mm surface gaps)
+	\item Engage charging target (50mm height for single, 50/150mm for double target)
+	\item Maintain contact for specified charging duration
+	\item Handle three distance ranges:
+	\begin{itemize}[noitemsep,topsep=0pt]
+		\item Short: 1.4-2.2m
+		\item Medium: 2.4-3.0m
+		\item Long: 3.2-4.0m
+	\end{itemize}
+\end{itemize}
+\subsubsection*{Track Specifications}
+\begin{itemize}[noitemsep,topsep=0pt]
+	\item \textbf{Material}: Commercial wood boards (plywood/OSB/MDF) or approved hard floors
+	\item \textbf{Construction}: Joined boards (3mm max level variance, 2mm max gaps)
+	\item \textbf{Layout}: Multiple lanes with 1m spacing
+\end{itemize}
 \begin{center}
-	\includegraphics[width=1\textwidth]{extracted_images/image_4_2.png}
+	\includegraphics[width=0.8\textwidth]{extracted_images/image_4_2.png}\\
+	\small\textbf{Figure 3:} Lane setup (dimensions in mm)
 \end{center}
+\subsubsection*{Measurement Tolerance}
+$\pm$10mm using a single tape measure. Barrier positions vary in 50mm increments within each range.
 
-\subsection{Product Design Specification}
-Safety – The design should not contain any exposed electrical connections and there should be no risk of finger trapping in moveable elements such as the belts and gears.
-Size – The device should be able to fit the specified specification.
-Aesthetic – Ensure that the design is simple and looks well assembled and appealing.
-Cost – The expense of the device should not be able to exceed the given specified budget.
-Weight – The weight should be not as heavy since it’ll work more efficiently when it is light.
-Durability – The car should be able to withstand pressure and weight so that it isn’t fragile when it hits the wall.
-\newpage\vspace*{-20pt}
+
+\section{Product Design Specification}
+Info is catered to the Foundation Group.
+\subsection{Dimensional Requirements}
+\begin{itemize}[itemsep=-0.7mm]
+	\item Maximum working envelope: 400mm $\times$ 400mm $\times$ 400mm (including all components)
+	\item Must maintain envelope compliance during all competition movements
+	\item Front plunger (plug simulator):
+	\begin{itemize}[noitemsep,topsep=0pt]
+		\item Max dimensions: 10mm $\times$ 10mm
+		\item Minimum protrusion: 10mm from device body when disengaged
+	\end{itemize}
+\end{itemize}
+
+\subsection{Required Components}
+\begin{itemize}[itemsep=-0.7mm]
+	\item \textbf{Rear datum pointer} (RS Components 397-4954):
+	\begin{itemize}[noitemsep,topsep=0pt]
+		\item Must remain vertical (pointing downward)
+		\item Max 6mm clearance from track surface
+		\item Determines device positioning
+	\end{itemize}
+	\item \textbf{Single front plunger} (non-adjustable height for Foundation Group)
+\end{itemize}
+
+\subsection{Visual Indicators}
+\begin{itemize}[noitemsep,topsep=0pt]
+	\item Continuous green light during operation
+	\item Red light + audible signal upon successful wall engagement
+\end{itemize}
+
+\subsection{Technical Restrictions}
+\begin{itemize}[itemsep=-0.7mm,topsep=0pt]
+	\item \textbf{No programmable circuitry} permitted (analog systems only)
+	\item All repairs must be completed within allocated competition time
+	\item Device must be fully self-contained (no external control)
+\end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{extracted_images/image_10_2.png}
+		\caption{Front plunger requirements}
+	\end{minipage}
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\includegraphics[width=0.8\textwidth,height=3.2cm]{extracted_images/image_10_1.png}
+		\caption{Datum pointer specification}
+	\end{minipage}
+\end{figure}
+\subsection*{Key Differences from Advanced Category}
+\begin{itemize}[itemsep=-0.7mm]
+	\item No height adjustment capability required
+	\item No programming or digital components allowed
+	\item Simplified single-target operation
+\end{itemize}
+
+
+\newpage\newgeometry{left=0.8in,right=0.8in,top=1in,bottom=0.5in}
 \section{Design Concepts}
-\begin{center}
-	\includegraphics[width=0.7\textwidth]{images/image_6_2-Photoroom.png}
-\end{center}\vspace{0.6em}\noindent
-This was our first initial concept idea. Its strengths was that it contained little/no refinement however its major weakness was its costliness. It was an accurate model that did however fit the specification, but the major downside was that it contained high manufacturing costs and was complex to build.
 
-\subsection{Evaluation}
-A common issue within real world workplaces is manufacturing costs. If the product is too expensive to make it won’t be possible for a worldwide scale of manufacturing due to the costs. Since the product is also too expensive to build, everything will increase such as labour costs, machinery, and time. This will result in a longer time to produce the item and an increase in expenses. The positives of this design is that it does meet the required specifications as it does fit the purpose of its role.\\
-\begin{center}
-	\includegraphics[width=0.7\textwidth]{images/image_7_2-Photoroom.png}
-\end{center}\vspace{0.6em}\noindent
-This was our second design which was very simple and aesthetically pleasing to look at. Its major strengths was that it was simple to build and small thus resulting in extra space if we needed to exchange or swap parts out. It was a very adaptable design however the major disadvantage to this design was that it is prone easily to breakages.\\[1em]
-The negatives of this build is that it is easily prone to breakages which is extremely unreliable. This factor is extremely important since during the testing phase it needs to pass it otherwise the car is not fit to function. If it is prone easily to breakages it will reduce its longevity over time as materials might deteriorate overtime. Since it is also a small design, there will be less space to add any improvements if need be. It is however an aesthetic build since it is versatile and is east to swap parts out if it breaks. The compactness of the build is very efficient too since it enhances the overall aerodynamics of the car and is light since it doesn’t contained compact components.
-\begin{center}
-	\includegraphics[width=0.7\textwidth]{images/image_8_2-Photoroom.png}
-\end{center}\vspace{0.6em}\noindent
-This was our final concept idea that again was like our first concept which contained little/no refinement. Its disadvantages was the cost, since it contained many different unique moving parts. It is however, a very durable but complex design but does in fact exceed the budget which is given in the technical specification\\[1em]
-The overall budget of this design was very high since there was many different parts needed for it run which increases the manufacturing cost to make it. There was in fact a lack of refinement within this build as there was some inefficiencies within the design itself. It was also very complex which results in a difficult assembly and more chances of errors that be fixed easily if it wasn’t as complex. It was however a durable and strong design which can withstand impact and can perform well.
+\begin{minipage}{0.59\textwidth}
+\subsection{Design Concept 1}
+This was our initial concept idea, which had the advantage of being simple with minimal refinement. However, its main drawback was the high cost. While the model was accurate and met the specifications, its complexity and expensive manufacturing process made it difficult to produce.\\[8pt]
+A major issue with this design is that high manufacturing costs can make large-scale production unfeasible. When a product is too costly to produce, it affects everything, from labor and machinery costs to production time, resulting in increased expenses and longer production timelines.
+\end{minipage}\hfill
+\begin{minipage}{0.4\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{images/image_6_2-Photoroom.png}
+\captionof{figure}{Design Concept 1}
+\end{minipage}\\[8pt]
+The positives of this design is that it does meet the required specifications as it does fit the purpose of its role.\\[1em]
+\begin{minipage}{0.59\textwidth}
+	\subsection{Design Concept 2}
+	This was our second design, which was simple and aesthetically pleasing. Its major strength was its ease of construction and compact size, which provided extra space for potential part exchanges or swaps. It was an adaptable design, but the main drawback was its susceptibility to breakages.\\[8pt]
+	The negatives of this build are that it is prone to breakages, making it unreliable. This is crucial because during the testing phase, the design must pass to function correctly. If it is prone to breaking easily, it will reduce its longevity as materials deteriorate over time. The small size also means less room for improvements if needed.
+\end{minipage}\hfill
+\begin{minipage}{0.35\textwidth}
+	\centering
+	\includegraphics[width=1\textwidth]{images/image_7_2-Photoroom.png}
+	\captionof{figure}{Design Concept 2}
+\end{minipage}\\[4pt]
+However, it is an aesthetic and versatile design, easy to swap parts if it breaks. The compactness is efficient for aerodynamics, and the lightness comes from the absence of bulky components.\\[1em]
+\begin{minipage}{0.59\textwidth}
+	\subsection{Design Concept 3}
+	This was our final concept idea, which, like the first, had minimal refinement. Its major drawback was the cost, as it involved many unique moving parts. Although this design was durable and strong, it exceeded the budget outlined in the technical specifications.\\[8pt]
+	The overall budget of this design was very high due to the numerous parts required, which increased manufacturing costs. There was also a lack of refinement, leading to inefficiencies in the design itself. The complexity of the build made assembly difficult, resulting in a higher likelihood of errors that could have been easily fixed with a simpler design. 
+\end{minipage}\hfill
+\begin{minipage}{0.4\textwidth}
+	\centering
+	\includegraphics[width=1\textwidth]{images/image_8_2-Photoroom.png}
+	\captionof{figure}{Design Concept 3}
+\end{minipage}\\[8pt]
+Despite this, it was a durable and strong design that could withstand impact and perform well.
 
-\newpage\vspace*{-20pt}
+\newpage\restoregeometry
 \section{CAD}
 
 
-\newpage\vspace*{-20pt}
+\newpage
 \section{Electronics}
 Oh yes
 
@@ -531,7 +620,7 @@ These were parts that were essential when building the device. Since we used all
 \section{Manufacturing process}
 
 
-\newpage\vspace*{-20pt}
+\newpage
 \section{Final design}
 \begin{center}
 	\includegraphics[width=0.7\textwidth]{extracted_images/image_10_2.png}
@@ -540,7 +629,7 @@ As you can see from the picture provided of the car, you can see that we have fu
 As you can see, we received no penalties given since our datum pointer was not too high from the ground. Our front plunger was not larger that it was allowed, and it could realign between the two vertical targets. If the above was not completed it would have resulted in penalties for our team.\\[1em]
 The size of envelope is 400x400x400mm which our device was within regulation of. The device should also be able to fit within the envelope throughout the whole competition. We ensured that the datum pointer is in a vertical position and is pointing downwards.
 
-\newpage\vspace*{-20pt}
+\newpage
 \section{References}
 
 \end{document}

@@ -1,12 +1,18 @@
-\contentsline {section}{\numberline {1}Abstract}{5}{section.1}%
-\contentsline {section}{\numberline {2}Introduction}{6}{section.2}%
-\contentsline {section}{\numberline {3}Competition rules}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Product Design Specification}{7}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Design Concepts}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Evaluation}{8}{subsection.4.1}%
-\contentsline {section}{\numberline {5}CAD}{11}{section.5}%
-\contentsline {section}{\numberline {6}Electronics}{12}{section.6}%
-\contentsline {section}{\numberline {7}BOM (Bill of materials)}{13}{section.7}%
-\contentsline {section}{\numberline {8}Manufacturing process}{14}{section.8}%
-\contentsline {section}{\numberline {9}Final design}{15}{section.9}%
-\contentsline {section}{\numberline {10}References}{16}{section.10}%
+\contentsline {section}{\numberline {1}Abstract}{1}{section.1}%
+\contentsline {section}{\numberline {2}Introduction}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Competition Overview}{2}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Product Design Specification}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Dimensional Requirements}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Required Components}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Visual Indicators}{3}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Technical Restrictions}{3}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Design Concepts}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Design Concept 1}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Design Concept 2}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Design Concept 3}{4}{subsection.4.3}%
+\contentsline {section}{\numberline {5}CAD}{5}{section.5}%
+\contentsline {section}{\numberline {6}Electronics}{6}{section.6}%
+\contentsline {section}{\numberline {7}BOM (Bill of materials)}{7}{section.7}%
+\contentsline {section}{\numberline {8}Manufacturing process}{8}{section.8}%
+\contentsline {section}{\numberline {9}Final design}{9}{section.9}%
+\contentsline {section}{\numberline {10}References}{10}{section.10}%
