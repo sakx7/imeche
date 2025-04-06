@@ -13,7 +13,8 @@
 \usepackage{siunitx}
 \usepackage{lipsum}
 \usepackage[most]{tcolorbox}
-
+\definecolor{light-gray}{gray}{0.9}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
 
 %\usepackage{showframe}
 \usepackage{times}
@@ -542,7 +543,7 @@ Info is catered to the Foundation Group.
 \end{itemize}
 
 
-\newpage\newgeometry{left=0.8in,right=0.8in,top=1in,bottom=0.5in}
+\newpage\newgeometry{left=0.8in,right=0.8in,top=1in,bottom=0.69in}
 \section{Design Concepts}
 
 \begin{minipage}{0.59\textwidth}
@@ -583,11 +584,91 @@ Despite this, it was a durable and strong design that could withstand impact and
 \section{CAD}
 
 
-\newpage
+\newpage\newgeometry{left=0.8in,right=0.8in,top=1in,bottom=0.69in}
 \section{Electronics}
-Oh yes
+Given the scope of this report and its intended audience, this section provides a overview of my electronics development journey---from initial concept to final implementation. Rather than a deep \textbf{technical} dive, it serves as a reflective summary, documenting key learnings, challenges, and methodological insights.\\[8pt]
+At this academic level, the expectations for hands-on electronics proficiency were limited, and formal guidance was sparse. While I acknowledge that instructors prioritized foundational theory over practical support, this approach posed difficulties for beginners. Mastering the necessary electronics concepts---especially under time constraints---can take months, and the lack of structured mentorship made the process more daunting.\\[8pt]
+The primary advice given was to use \textit{Tinkercad} for construction. While this tool has merits, I found it insufficient for my needs. Instead, I adopted a hybrid approach, blending theoretical understanding with targeted research to bridge knowledge gaps.
+
+
+\subsection{Starting Structure}
+My process started with building the core of the system: a \textbf{MOSFET-based H-bridge} using complementary P-channel and N-channel MOSFETs. At this stage, the focus was on creating two simple and clear signal inputs to control the motor: \textbf{DIR} for direction (CW/CCW) and \textbf{PWR} for enabling or disabling the motor. I approached the design with basic logic gates, using {AND} and {NOT} gates to process the inputs into the necessary control signals for the MOSFETs. The logic was straightforward yet crucial, as it needed to handle some key responsibilities:
+\begin{enumerate}[itemsep=-1mm]
+	\item When {PWR = 0}, the system would disable the motor, allowing it to coast to a stop.
+	\item When {PWR = 1}, the {DIR} signal would control which MOSFET pairs were activated, determining the motor’s direction.
+\end{enumerate}
+This initial switching matrix became the backbone of the system, and everything I built afterward had to integrate seamlessly with this simple but essential layer. I made sure to carefully test and validate the gate network, ensuring it was stable and reliable before moving on to more complex features. Ultimately, the success of the entire system depended on the reliability of this basic setup.
+
+\subsection{Prioritizing Pause Logic}
+With the H-bridge logic in place, the next challenge was to implement a method to {pause the motor} for a fixed duration, triggered via physical contact. I decided to use a \textbf{555 timer} with a push-button trigger. The timer was configured to generate a $\sim$15-second HIGH pulse upon activation, with the configuration $$1.1 \times 470\ \mu{F} \times 27\ {k}\Omega\approx 15s$$
+The HIGH output from the timer was {inverted} and used to control one of the input pins for an AND gate ({PWR}). This way, while the timer was active, the motor would {coast/stop}. Once the timer expired, the motor would resume operation. By this point, the directional control was fixed, and I planned to tackle that aspect later, after establishing a reliable pause-reset flow.
+
+\subsection{Direction Logic}
+\subsubsection{Button-Based Reversal}
+With the timer working, I wanted to make the motor {switch direction} after each cycle. My first idea was to {reuse the same push-button} that triggered the 555 timer to also reverse the direction. I designed a separate logic circuit using transistors, capacitors, and button presses to toggle the signal. It worked perfectly in isolation. However, when I tried to integrate it into the 555 setup, things didn’t go as planned. The reversal circuit and the timer had different assumptions about how the button behaved, leading to conflicting logic and erratic behavior. I ultimately abandoned this approach.
+
+\subsubsection{Relay Logic}
+After abandoning the button-based method, I came up with a better idea: to use the {555’s own output pulse} to handle direction switching. This would separate the trigger from the direction logic, making the system more modular.\\[8pt]
+In {CircuitJS}, I built a setup using a {relay} that flipped the direction signal each time the 555 pulse occurred. It worked as expected-the relay acted like a physical toggle, and I used invisible labels to manage virtual connections and logic states.\\[8pt]
+However, when I tried to replicate this in {Tinkercad}, it didn’t work. Tinkercad couldn’t support the internal relay wiring or virtual labels I had used in the simulation, so I had to rethink the approach. After much trial and error, I found it difficult to make the setup work in that platform-it just felt bulky and inefficient. I needed something cleaner and more logical, not forced.
+
+\subsubsection{T Flip-Flop}
+Frustrated, I turned to an online forum. A helpful suggestion came through: {use a T flip-flop.}\\
+This turned out to be exactly what I needed. A \textbf{T flip-flop} toggles its state on every clock pulse-in my case, the falling edge of the 555 timer. This solution completely decoupled the direction logic from the button and worked perfectly both in theory and in practice.\\[3pt]
+I set it up so that:
+\begin{itemize}[itemsep=-1mm]
+	\item The {555 timer} would disable the motor for 15 seconds.
+	\item When the pulse ended, the falling edge would clock the {T flip-flop}, toggling the direction.
+	\item The T flip-flop output would then feed into the direction input of the H-bridge.
+\end{itemize}
+This setup was stable, minimal, and, most importantly, felt right.
+
+\subsection{Breadboarding}
+Moving from simulation to real hardware brought its own set of challenges.
+\begin{itemize}[itemsep=-1mm]
+	\item First, the {T flip-flop} (actually implemented using a J-K flip-flop with both J and K set high to mimic T flip-flop behavior, and using {PRE} and {CLR} as reset) behaved unpredictably. It turned out the trigger was {floating}, and I hadn’t added pull-down resistors (new to me at the time). Simulations hadn’t shown this, but adding the resistors fixed the issue.
+	\item I also realized the 555’s button needed debouncing. Since the 555 timer was in monostable mode, if the button was pressed longer than the pulse duration, it wouldn’t change state as expected. To solve this, I added two 10kΩ resistors and a 0.1µF capacitor with the button. This ensured the 555 timer was triggered only once per button press, even if the button was held down longer than the pulse duration.
+	\item By now, I had long since moved beyond Tinkercad. It couldn’t simulate well and too many things didn’t behave as they did in the real world.
+\end{itemize}
+\subsection{Final Behavior -- What It Actually Does}
+Here’s what the final circuit accomplishes:
+\begin{itemize}[itemsep=-1mm]
+	\item Pressing a {button} triggers a 15-second pulse via a {555 timer}.
+	\item While the pulse is active, the {inverted output} disables the motor (via the H-bridge's enable line).
+	\item When the timer ends, the {T flip-flop toggles} the direction.
+	\item Logic gates maintain signal integrity and enforce state rules.
+	\item A {limit switch} cuts the circuit entirely if triggered, providing a safety cutoff.
+\end{itemize}
+Additional tasks such as cleaning signals, filtering, and ensuring smooth overall behavior were then implemented, along with essential components like the buzzer and fuse box, placed in their respective locations.\\[8pt]
+While I had intended to discuss the PCB creation, that step was never completed---thanks to the university's machine breaking down just before I could proceed.
+
+
 
 \newpage
+
+\subsection{Circuit Diagrams and Breadboard Setup}
+The underlying main circuit schematic is shown below:\vspace{-1em}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{images/swappy-20250406-185116.png}\vspace{-1em}
+	\caption{Main Circuit Schematic}
+\end{figure}
+The breadboard schematic is presented here:\vspace{-1em}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg}\vspace{-1em}
+	\caption{Breadboard Schematic}
+\end{figure}
+The actual breadboard setup is shown below:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{images/Image(2).jpg}
+	\caption{Breadboard Setup}
+\end{figure}\noindent
+These diagrams and setups were subject to change as the project progressed. They are included here to illustrate the foundational premise of the design. You may notice discrepancies, such as the RC debounce circuit, fuse box, limit-switch, and other minor details, which were refined and adjusted throughout the process.
+
+\newpage\restoregeometry
+
 
 \section{BOM (Bill of materials)}
 Parts listed for the device are stated below. Every part that was mentioned was used within the final design of the device.
@@ -604,15 +685,15 @@ Parts listed for the device are stated below. Every part that was mentioned was 
 \end{itemize}\noindent
 Below is a list of the electrical components that were used within the device. Everything mentioned below was used in the final design of the device.
 \begin{itemize}[itemsep=-1mm]
-	\item 9V Battery
-	\item 555 Timer
-	\item 10 k$\Omega$ Resistor
-	\item 1 k$\Omega$ Resistor
-	\item 2.2$\sim\mu$F Capacitor
-	\item Red LED
-	\item Green LED
-	\item 470$\sim\mu$F Capacitor
-	\item DPDT Switch
+	\item \textbf{Chips:} SN7404N (NOT/INVERTER), SN74LS08N (AND), SN7476N (J\&K), 555 Timer
+	\item \textbf{Resistors:} 33k, 27k, 10k (x2), 220 (x2)
+	\item \textbf{Capacitors:} 470~\textmu F, 100~nF
+	\item \textbf{LEDs:} Green, Red
+	\item \textbf{MOSFETs:} 2 NPN, 2 PNP
+	\item \textbf{Switches:} Main switch (SPDT), Limit switch, Push switch
+	\item \textbf{Source:} 6V (4 batteries)
+	\item \textbf{Motor:} Unbranded/Generic (50 and 100 rpm testing)
+	\item \textbf{Miscellaneous:} Buzzer, Fusebox, Wires, Heat Shrink Insulation Tape
 \end{itemize}
 These were parts that were essential when building the device. Since we used all components, we did not waste any money, which could have impacted our costs — we could have used the money to purchase better equipment or parts if needed.
 
