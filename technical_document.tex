@@ -609,7 +609,7 @@ With the timer working, I wanted to make the motor {switch direction} after each
 
 \subsubsection{Relay Logic}
 After abandoning the button-based method, I came up with a better idea: to use the {555’s own output pulse} to handle direction switching. This would separate the trigger from the direction logic, making the system more modular.\\[8pt]
-In {CircuitJS}, I built a setup using a {relay} that flipped the direction signal each time the 555 pulse occurred. It worked as expected-the relay acted like a physical toggle, and I used invisible labels to manage virtual connections and logic states.\\[8pt]
+In {CircuitJS}, I built a setup using a \textbf{relay} that flipped the direction signal each time the 555 pulse occurred. It worked as expected-the relay acted like a physical toggle, and I used invisible labels to manage virtual connections and logic states.\\[8pt]
 However, when I tried to replicate this in {Tinkercad}, it didn’t work. Tinkercad couldn’t support the internal relay wiring or virtual labels I had used in the simulation, so I had to rethink the approach. After much trial and error, I found it difficult to make the setup work in that platform-it just felt bulky and inefficient. I needed something cleaner and more logical, not forced.
 
 \subsubsection{T Flip-Flop}
