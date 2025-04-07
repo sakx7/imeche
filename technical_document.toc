@@ -14,14 +14,14 @@
 \contentsline {section}{\numberline {6}Electronics}{6}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Starting Structure}{6}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Prioritizing Pause Logic}{6}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Direction Logic}{6}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}Button-Based Reversal}{6}{subsubsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3}Direction Logic}{7}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Button-Based Reversal}{7}{subsubsection.6.3.1}%
 \contentsline {subsubsection}{\numberline {6.3.2}Relay Logic}{7}{subsubsection.6.3.2}%
 \contentsline {subsubsection}{\numberline {6.3.3}T Flip-Flop}{7}{subsubsection.6.3.3}%
 \contentsline {subsection}{\numberline {6.4}Breadboarding}{7}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Final Behavior -- What It Actually Does}{7}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.5}Final Behavior -- What It Actually Does}{8}{subsection.6.5}%
 \contentsline {subsection}{\numberline {6.6}Circuit Diagrams and Breadboard Setup}{8}{subsection.6.6}%
-\contentsline {section}{\numberline {7}BOM (Bill of materials)}{9}{section.7}%
+\contentsline {section}{\numberline {7}Bill of materials}{9}{section.7}%
 \contentsline {section}{\numberline {8}Manufacturing process}{10}{section.8}%
 \contentsline {section}{\numberline {9}Final design}{11}{section.9}%
 \contentsline {section}{\numberline {10}References}{12}{section.10}%

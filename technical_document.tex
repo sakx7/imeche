@@ -38,7 +38,26 @@
 \usepackage{xstring}
 
 \pgfplotsset{compat=1.18}
-\usepackage[oldvoltagedirection]{circuitikz}
+
+
+\usepackage[european,americanvoltages,americanresistors,cuteinductors,fetbodydiode]{circuitikz}
+\usetikzlibrary{circuits.logic.US}
+\usepackage{siunitx}
+\usetikzlibrary{arrows,shapes,calc, positioning, patterns, decorations, decorations.markings}
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc}
+%\ctikzset{bipoles/thickness=1}
+%\tikzstyle{every node}=[font=\small]
+%\tikzstyle{every path}=[line width=0.8pt,line cap=round,line join=round]
+
+\def\CalcC#1{%
+	\coordinate (base) at (#1.base);
+	\coordinate (collector) at (#1.collector);
+	\coordinate (emitter) at (#1.emitter);
+	\draw (barycentric cs:base=0.5,collector=0.5,emitter=0.5) circle [radius=14pt];
+}
+
+
 \usepackage{microtype}
 \usepackage{tikz-3dplot}
 \usepackage{textcomp}
@@ -333,6 +352,9 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 \titleformat{\subsection}[block]{\normalfont\large\bfseries\color{mainblue}}{\color{mainblue}\thesubsection}{1em}{}
 \titleformat{\subsubsection}[block]{\normalfont\normalsize\bfseries\color{mainblue}}{\color{mainblue}\thesubsubsection}{1em}{}
 
+
+
+
 \begin{document}
 
 \thispagestyle{empty}
@@ -564,7 +586,7 @@ The positives of this design is that it does meet the required specifications as
 \end{minipage}\hfill
 \begin{minipage}{0.35\textwidth}
 	\centering
-	\includegraphics[width=1\textwidth]{images/image_7_2-Photoroom.png}
+	\includegraphics[width=0.95\textwidth]{images/image_7_2-Photoroom.png}
 	\captionof{figure}{Design Concept 2}
 \end{minipage}\\[4pt]
 However, it is an aesthetic and versatile design, easy to swap parts if it breaks. The compactness is efficient for aerodynamics, and the lightness comes from the absence of bulky components.\\[1em]
@@ -582,27 +604,184 @@ Despite this, it was a durable and strong design that could withstand impact and
 
 \newpage\restoregeometry
 \section{CAD}
-A 3D model of the base of the vehicle was created using fusion 360. From the image provided, you can see that we are showing a finite element analysis of the design of the vehicle. The colours on the vehicle represent different stresses such as yellow/red is high stress whereas green/blue is representing a low stress. There is two pictures provided that show different shapes of the vehicle. The top one is squared design, and the bottom image is a narrower design. The main reason why we chose fusion 360 was that we can input these models into the software, and it shows the max stress on each design. The top design has a maximum stress of 2.165 MPa, and the bottom design has a maximum stress of 2.001 MPa. Since the bottom design contains a lesser load for it to function, we went with this concept.\\[8pt]
+\begin{minipage}{0.4\textwidth}
+	\centering
+	\includegraphics[width=1\textwidth]{extracted_images2/image_9_2.png}
+	\captionof{figure}{s}
+\end{minipage}\hfil
+\begin{minipage}{0.55\textwidth}
+	A 3D model of the base of the vehicle was created using fusion 360. From the image provided, you can see that we are showing a finite element analysis of the design of the vehicle. The colours on the vehicle represent different stresses such as yellow/red is high stress whereas green/blue is representing a low stress. There is two pictures provided that show different shapes of the vehicle. The top one is squared design, and the bottom image is a narrower design. The main reason why we chose fusion 360 was that we can input these models into the software, and it shows the max stress on each design. The top design has a maximum stress of 2.165 MPa, and the bottom design has a maximum stress of 2.001 MPa. Since the bottom design contains a lesser load for it to function, we went with this concept.
+\end{minipage}\\[8pt]
+\begin{minipage}{0.4\textwidth}
+	\centering
+	\includegraphics[width=1\textwidth]{extracted_images2/image_9_3.png}
+	\captionof{figure}{s}
+\end{minipage}\hfil
+\begin{minipage}{0.55\textwidth}
 In this image provided, you can see the chassis, shafts, and bearings shown on SolidWorks. This is the mechanism that drives the car to move where the shaft is rotating to move the car. The screw threaded rod is connected to a motor which is moving the car. The motor is then spinning the rod which will then rotate the rear wheels. The wiring for this design is that the red and black wires are connected to the motor which is connected to the circuit. 
+\end{minipage}
 
-\newpage\newgeometry{left=0.8in,right=0.8in,top=1in,bottom=0.69in}
+
+\newpage\newgeometry{left=0.7in,right=0.7in,top=1in,bottom=0.6in}
 \section{Electronics}
 Given the scope of this report and its intended audience, this section provides a overview of my electronics development journey---from initial concept to final implementation. Rather than a deep \textbf{technical} dive, it serves as a reflective summary, documenting key learnings, challenges, and methodological insights.\\[8pt]
 At this academic level, the expectations for hands-on electronics proficiency were limited, and formal guidance was sparse. While I acknowledge that instructors prioritized foundational theory over practical support, this approach posed difficulties for beginners. Mastering the necessary electronics concepts---especially under time constraints---can take months, and the lack of structured mentorship made the process more daunting.\\[8pt]
 The primary advice given was to use \textit{Tinkercad} for construction. While this tool has merits, I found it insufficient for my needs. Instead, I adopted a hybrid approach, blending theoretical understanding with targeted research to bridge knowledge gaps.
-
-
+\vspace{-0.4em}
 \subsection{Starting Structure}
-My process started with building the core of the system: a \textbf{MOSFET-based H-bridge} using complementary P-channel and N-channel MOSFETs. At this stage, the focus was on creating two simple and clear signal inputs to control the motor: \textbf{DIR} for direction (CW/CCW) and \textbf{PWR} for enabling or disabling the motor. I approached the design with basic logic gates, using {AND} and {NOT} gates to process the inputs into the necessary control signals for the MOSFETs. The logic was straightforward yet crucial, as it needed to handle some key responsibilities:
-\begin{enumerate}[itemsep=-1mm]
-	\item When {PWR = 0}, the system would disable the motor, allowing it to coast to a stop.
-	\item When {PWR = 1}, the {DIR} signal would control which MOSFET pairs were activated, determining the motor’s direction.
-\end{enumerate}
-This initial switching matrix became the backbone of the system, and everything I built afterward had to integrate seamlessly with this simple but essential layer. I made sure to carefully test and validate the gate network, ensuring it was stable and reliable before moving on to more complex features. Ultimately, the success of the entire system depended on the reliability of this basic setup.
 
+\begin{minipage}{0.4\textwidth}
+\begin{minipage}{1.6\textwidth}
+My process started with building the core of the system:
+\end{minipage}\\[8pt] 
+\textbf{MOSFET-based H-bridge} using complementary P-channel and N-channel MOSFETs. At this stage, the focus was on creating two simple and clear signal inputs to control the motor:\\[8pt] 
+\textbf{DIR} for direction (CW/CCW) and \textbf{PWR} for enabling or disabling the motor.\\[8pt]
+\begin{minipage}{1.6\textwidth}
+ I approached the design with basic logic gates, using {AND} and {NOT} gates to process the inputs into the necessary control signals for the MOSFETs. 
+\end{minipage}
+\end{minipage}\hspace*{0.4em}
+\begin{minipage}{0.4\textwidth}\vspace{-2em}
+\begin{center}
+\begin{tikzpicture}[
+	scale=0.8,
+	transform shape
+	]
+	\def\gap{3}	
+	% PMOSFETs
+	\node [pigfete,scale=0.8,name=fet1] at (0,2) {};
+	\node [pigfete,scale=0.8,xscale=-1,name=fet2] at (\gap,2) {};
+	% NMOSFETs
+	\node [pigfete,scale=0.8,yscale=1,name=fet3] at (0,0) {};
+	\node [pigfete,scale=0.8,yscale=1,xscale=-1,name=fet4] at (\gap,0) {};
+	
+	
+	\draw (fet1.D) -- (fet3.S);
+	\draw (fet2.D) -- (fet4.S);
+	\coordinate (mottop) at ($(fet1.D)!0.5!(fet3.S)$);
+	\coordinate (motbottom) at ($(fet2.D)!0.5!(fet4.S)$);
+	\draw (mottop) to[short,*-*,current/distance=0.9,Telmech=M] (motbottom);
+
+	
+	\draw (fet1.S) -- ++(0,0.5) coordinate (vdd1);
+	\draw (fet2.S) -- ++(0,0.5) coordinate (vdd2);
+
+	\draw (vdd1) -- (vdd2) coordinate[midway] (mid1)
+	(mid1) -- ++(0,0.5)
+	node[above] {\large Vcc};
+	\node[circle,color=black, fill=black, inner sep=0pt,minimum size=3pt] (b) at (mid1) {};
+	
+	
+	\draw (fet3.D) -- ++(0,-0.5) coordinate (gnd1);
+	\draw (fet4.D) -- ++(0,-0.5) coordinate (gnd2);
+	
+	\draw (gnd1) -- (gnd2) coordinate[midway] (midpoint);
+	\draw (midpoint) -- ++(0,-0.1) node[ground]{} coordinate[midway] (gnd);
+	\node[below=0.7] at (gnd) {\large GND};
+	\node[circle,color=black, fill=black, inner sep=0pt,minimum size=3pt] (b) at (midpoint) {};
+
+
+%	\foreach \i in {fet1,fet3} {
+%		\node at (\i.S) [left=-0.1] {\tiny\(S\)};
+%		\node at (\i.D) [left=-0.1] {\tiny\(D\)};
+%		\node at (\i.G) [left=-0.1] {\tiny\(G\)};
+%	}
+%
+%	\foreach \i in {fet2,fet4} {
+%		\node at (\i.S) [right=-0.1] {\tiny\(S\)};
+%		\node at (\i.D) [right=-0.1] {\tiny\(D\)};
+%		\node at (\i.G) [right=-0.1] {\tiny\(G\)};
+%	}
+	\node at (fet1) [right=0.3cm] {\small\(P_1\)};
+	\node at (fet2) [left=0.3cm] {\small\(P_2\)};
+	\node at (fet3) [right=0.3cm] {\small\(N_1\)};
+	\node at (fet4) [left=0.3cm] {\small\(N_2\)};
+	
+	
+	\def\a{0.4}
+	\def\b{0}
+	
+	\def\sigx{1}
+	
+	\def\left{-0.4}
+	\def\lefto{-0.4}
+	
+	\def\leftot{\lefto*2}
+
+	
+	
+	\node[ieeestd not port, anchor=in, scale=0.5] (not1) at ($(fet1.G) + (-1,0)$) {};
+	\node[ieeestd not port, anchor=in, scale=-0.5] (not2) at ($(fet2.G) + (1,0)$) {};
+		
+	\node[ieeestd and port, anchor=in 1, scale=0.5] (and1) at (-4,1.4-\b) {};	
+	\node[ieeestd and port, anchor=in 1, scale=0.5] (and2) at (-4,0-\a) {};
+	
+	\coordinate (not0pos) at ($(and1.in 1) + (-1,1)$);
+	\node[ieeestd not port, anchor=out, scale=0.5] (not0) at (not0pos) {};	
+	
+	\draw (not0.out) -| ($(and1.in 1) + (\left,0)$)-- (and1.in 1);
+		
+	\coordinate (not01pos) at ($(and2.in 2) + (-1,0)$);
+	\node[ieeestd not port, anchor=out, scale=0.5] (not01) at (not01pos) {};	
+
+	\draw (not01.out) -- (and2.in 2);
+	
+	\coordinate (midand) at ($(and2.in 1)!0.5!(and1.in 2)+ (-2.4,0)$);		
+	\draw ($(midand)+(-\sigx,0)$) coordinate (dir) -- (midand) node[circ] {};
+	\draw (midand) |- (and1.in 2);	
+	\draw (midand) |- (not01.in);
+	
+	\draw ($(and1.in 1)+(\left,0)$) |- (and2.in 1);	
+	
+	\draw (and1.out) -| ($(fet3.G)+(\leftot,0)$) -- (fet3.G);
+	\draw ($(fet3.G)+(\leftot,0)$) -- ($(fet3.G)+(\leftot,-2.7)$) -| ($(not2.in)-(\lefto,0)$) -- (not2.in);	
+
+	\draw (and2.out) -| ($(not1.in)+(\lefto,0)$) -- (not1.in);	
+	
+	\node[circ] at ($(fet3.G)+(\leftot,0)$) {};
+	
+	\draw ($(and2.out-|not1.in)+(\lefto,0)$) --($(and2.out-|not1.in)+(\lefto,-2.7)$) -| ($(fet4.G)-(\lefto,0)$) -- (fet4.G);
+	
+	\node[circ] at ($(and2.out-|not1.in)+(\lefto,0)$) {};
+
+	\node[circ] at ($(and1.in 1)+(\left,0)$) {};
+
+
+	\draw (not1.out) -- (fet1.G);
+	\draw (not2.out) -- (fet2.G);
+
+	
+	\draw (not0.in) --++(-\sigx*1.5,0) coordinate (pwr);
+	
+	\node[label={[font=\large]120:\textbf{PWR}}, draw, circle, fill=white, draw=black, scale=0.5,thick] at (pwr) {};
+
+	\node[label={[font=\large]120:\textbf{DIR}}, draw, circle, fill=white, draw=black, scale=0.5,thick] at (dir) {};
+			
+	\end{tikzpicture}
+\end{center}
+\end{minipage}\\[1em]
+The logic was straightforward yet crucial, as it needed to handle some key responsibilities:\\[5pt]
+\hspace*{-1em}
+\begin{minipage}{0.53\textwidth}
+	\textbf{Power Disable Mode (\texttt{PWR = 1}):} 
+	When the power signal is high, the system disables motor drive, allowing it to coast to a stop.
+	\begin{itemize}[itemsep=-1mm]
+		\item \code{1} : Activates both high-side MOSFETs ($P_1$, $P_2$)
+		\item \code{0} : Direction control (\texttt{DIR}) becomes active
+	\end{itemize}	
+\end{minipage}\hspace{1em}
+\begin{minipage}{0.5\textwidth}
+	\textbf{Direction Control Mode (\texttt{PWR = 0}):} 
+	When power is disabled, the direction signal determines the active MOSFET pairs:
+	\begin{itemize}[itemsep=-1mm]
+		\item \code{1} : Reverse direction ($P_2$ and $N_1$ activated)
+		\item \code{0} : Forward direction ($P_1$ and $N_2$ activated)
+	\end{itemize}
+\end{minipage}\\[5pt]
+This initial switching matrix became the backbone of the system, and everything I built afterward had to integrate seamlessly with this simple but essential layer. I made sure to carefully test and validate the gate network, ensuring it was stable and reliable before moving on to more complex features. Ultimately, the success of the entire system depended on the reliability of this basic setup.
+\vspace{-0.4em}
 \subsection{Prioritizing Pause Logic}
 With the H-bridge logic in place, the next challenge was to implement a method to {pause the motor} for a fixed duration, triggered via physical contact. I decided to use a \textbf{555 timer} with a push-button trigger. The timer was configured to generate a $\sim$15-second HIGH pulse upon activation, with the configuration $$1.1 \times 470\ \mu{F} \times 27\ {k}\Omega\approx 15s$$
-The HIGH output from the timer was {inverted} and used to control one of the input pins for an AND gate ({PWR}). This way, while the timer was active, the motor would {coast/stop}. Once the timer expired, the motor would resume operation. By this point, the directional control was fixed, and I planned to tackle that aspect later, after establishing a reliable pause-reset flow.
+The HIGH output from the timer was {inverted} and used to control one of the input pins for an AND gate. This way, while the timer was active, the motor would {coast/stop}. Once the timer expired, the motor would resume operation. By this point, the directional control was fixed, and I planned to tackle that aspect later, after establishing a reliable pause-reset flow.
 
 \subsection{Direction Logic}
 \subsubsection{Button-Based Reversal}
@@ -611,67 +790,61 @@ With the timer working, I wanted to make the motor {switch direction} after each
 \subsubsection{Relay Logic}
 After abandoning the button-based method, I came up with a better idea: to use the {555’s own output pulse} to handle direction switching. This would separate the trigger from the direction logic, making the system more modular.\\[8pt]
 In {CircuitJS}, I built a setup using a \textbf{relay} that flipped the direction signal each time the 555 pulse occurred. It worked as expected-the relay acted like a physical toggle, and I used invisible labels to manage virtual connections and logic states.\\[8pt]
-However, when I tried to replicate this in {Tinkercad}, it didn’t work. Tinkercad couldn’t support the internal relay wiring or virtual labels I had used in the simulation, so I had to rethink the approach. After much trial and error, I found it difficult to make the setup work in that platform-it just felt bulky and inefficient. I needed something cleaner and more logical, not forced.
+However, when I tried to replicate this in {Tinkercad}, it didn’t work. Tinkercad couldn’t support the internal relay wiring or virtual labels I had used in the simulation, so I had to rethink the approach. After much trial and error, I found it difficult to make the setup work in that platform and generally in a physical sense as well--it just felt bulky and inefficient. I needed something cleaner and more logical, not forced.
 
 \subsubsection{T Flip-Flop}
 Frustrated, I turned to an online forum. A helpful suggestion came through: {use a T flip-flop.}\\
-This turned out to be exactly what I needed. A \textbf{T flip-flop} toggles its state on every clock pulse-in my case, the falling edge of the 555 timer. This solution completely decoupled the direction logic from the button and worked perfectly both in theory and in practice.\\[3pt]
+This turned out to be exactly what I needed. A \textbf{T flip-flop} toggles its state on every clock pulse-in my case, the falling edge of the 555 timer output. This solution completely decoupled the direction logic from the button and worked perfectly both in theory and in practice.\\[3pt]
 I set it up so that:
 \begin{itemize}[itemsep=-1mm]
 	\item The {555 timer} would disable the motor for 15 seconds.
-	\item When the pulse ended, the falling edge would clock the {T flip-flop}, toggling the direction.
-	\item The T flip-flop output would then feed into the direction input of the H-bridge.
+	\item When the pulse ended, the falling edge would clock the {T flip-flop}, toggling the output(s) in which in turn would then feed into the direction signals of the relevant AND gate.
 \end{itemize}
 This setup was stable, minimal, and, most importantly, felt right.
 
 \subsection{Breadboarding}
 Moving from simulation to real hardware brought its own set of challenges.
-\begin{itemize}[itemsep=-1mm]
+\begin{itemize}[itemsep=0mm]
 	\item First, the {T flip-flop} (actually implemented using a J-K flip-flop with both J and K set high to mimic T flip-flop behavior, and using {PRE} and {CLR} as reset) behaved unpredictably. It turned out the trigger was {floating}, and I hadn’t added pull-down resistors (new to me at the time). Simulations hadn’t shown this, but adding the resistors fixed the issue.
 	\item I also realized the 555’s button needed debouncing. Since the 555 timer was in monostable mode, if the button was pressed longer than the pulse duration, it wouldn’t change state as expected. To solve this, I added two 10kΩ resistors and a 0.1µF capacitor with the button. This ensured the 555 timer was triggered only once per button press, even if the button was held down longer than the pulse duration.
-	\item By now, I had long since moved beyond Tinkercad. It couldn’t simulate well and too many things didn’t behave as they did in the real world.
+	\item By now, I had long since moved beyond Tinkercad. It couldn’t simulate well and too many things didn’t behave as they did in the real world. I felt competent enough to resolve problems if and when there were any at this point.
 \end{itemize}
+\newpage
 \subsection{Final Behavior -- What It Actually Does}
 Here’s what the final circuit accomplishes:
 \begin{itemize}[itemsep=-1mm]
 	\item Pressing a {button} triggers a 15-second pulse via a {555 timer}.
-	\item While the pulse is active, the {inverted output} disables the motor (via the H-bridge's enable line).
+	\item While the pulse is active, the {inverted output} disables the motor.
 	\item When the timer ends, the {T flip-flop toggles} the direction.
 	\item Logic gates maintain signal integrity and enforce state rules.
-	\item A {limit switch} cuts the circuit entirely if triggered, providing a safety cutoff.
+	\item A {limit switch} cuts the circuit entirely if triggered (end of race), providing a safety cutoff.
 \end{itemize}
-Additional tasks such as cleaning signals, filtering, and ensuring smooth overall behavior were then implemented, along with essential components like the buzzer and fuse box, placed in their respective locations.\\[8pt]
+Additional tasks such as cleaning signals, filtering, and ensuring smooth overall behavior were then implemented, along with essential components like the buzzer, fuse box, and other relevant compliances, all placed in their respective places.\\[8pt]
 While I had intended to discuss the PCB creation, that step was never completed---thanks to the university's machine breaking down just before I could proceed.
 
-
-
-\newpage
-
 \subsection{Circuit Diagrams and Breadboard Setup}
-The underlying main circuit schematic is shown below:\vspace{-1em}
+The underlying main circuit schematic is shown below:\\
+\hspace*{-2em}
+\begin{minipage}{0.4\textwidth}
+	\centering
+	\includegraphics[width=1\textwidth]{images/swappy-20250406-185116.png}
+	\captionof{figure}{Main Circuit Schematic}
+\end{minipage}\hspace{1em}
+\begin{minipage}{0.5\textwidth}
+	\centering
+	\includegraphics[width=1.3\textwidth]{images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg}
+	\captionof{figure}{Breadboard Schematic}
+\end{minipage}\\
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.4\textwidth]{images/swappy-20250406-185116.png}\vspace{-1em}
-	\caption{Main Circuit Schematic}
-\end{figure}
-The breadboard schematic is presented here:\vspace{-1em}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg}\vspace{-1em}
-	\caption{Breadboard Schematic}
-\end{figure}
-The actual breadboard setup is shown below:
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\textwidth]{images/Image(2).jpg}
+	\includegraphics[width=0.6\textwidth]{images/Image(2).jpg}
 	\caption{Breadboard Setup}
 \end{figure}\noindent
-These diagrams and setups were subject to change as the project progressed. They are included here to illustrate the foundational premise of the design. You may notice discrepancies, such as the RC debounce circuit, fuse box, limit-switch, and other minor details, which were refined and adjusted throughout the process.
+These diagrams and setups were/are subject to change as the project progressed. They are included here to illustrate the foundational premise of the design. You may notice discrepancies, such as the RC debounce, fuse box, limit-switch, and other minor details, please note these are things refined and adjusted throughout the process.
 
 \newpage\restoregeometry
 
-
-\section{BOM (Bill of materials)}
+\section{Bill of materials}
 Parts listed for the device are stated below. Every part that was mentioned was used within the final design of the device.
 \begin{itemize}[itemsep=-1mm]
 	\item Wheels x 4
