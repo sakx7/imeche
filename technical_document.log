@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 01:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2891,20 +2891,13 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `technical_document.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `technical_document.out':
-(rerunfilecheck)             Before: 143794EB99C838D50BF366C4045DAAFF;4535
-(rerunfilecheck)             After:  F27E01958E7FE19571001F99D06072F6;4578.
+Package rerunfilecheck Info: File `technical_document.out' has not changed.
+(rerunfilecheck)             Checksum: F27E01958E7FE19571001F99D06072F6;4578.
  ) 
 Here is how much of TeX's memory you used:
  80394 strings out of 473201
- 1995600 string characters out of 5716126
- 2916742 words of memory out of 5000000
+ 1995597 string characters out of 5716126
+ 2917814 words of memory out of 5000000
  102244 multiletter control sequences out of 15000+600000
  622528 words of font info for 316 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2921,7 +2914,7 @@ xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on technical_document.pdf (17 pages, 5116761 bytes).
+Output written on technical_document.pdf (17 pages, 5117111 bytes).
 PDF statistics:
  396 PDF objects out of 1000 (max. 8388607)
  304 compressed objects within 4 object streams

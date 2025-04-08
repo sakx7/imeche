@@ -771,7 +771,7 @@ The logic was straightforward yet crucial, as it needed to handle some key respo
 \end{minipage}\hspace{1em}
 \begin{minipage}{0.5\textwidth}
 	\textbf{Direction Control Mode (\texttt{PWR = 0}):} 
-	When power is disabled, the direction signal determines the active MOSFET pairs:
+	When power signal is disabled, the direction signal determines the active MOSFET pairs (a bit awkward, I know):
 	\begin{itemize}[itemsep=-1mm]
 		\item \code{1} : Reverse direction ($P_2$ and $N_1$ activated)
 		\item \code{0} : Forward direction ($P_1$ and $N_2$ activated)
@@ -781,7 +781,7 @@ This initial switching matrix became the backbone of the system, and everything 
 \vspace{-0.4em}
 \subsection{Prioritizing Pause Logic}
 With the H-bridge logic in place, the next challenge was to implement a method to {pause the motor} for a fixed duration, triggered via physical contact. I decided to use a \textbf{555 timer} with a push-button trigger. The timer was configured to generate a $\sim$15-second HIGH pulse upon activation, with the configuration $$1.1 \times 470\ \mu{F} \times 27\ {k}\Omega\approx 15s$$
-The HIGH output from the timer was {inverted} and used to control one of the input pins for an AND gate. This way, while the timer was active, the motor would {coast/stop}. Once the timer expired, the motor would resume operation. By this point, the directional control was fixed, and I planned to tackle that aspect later, after establishing a reliable pause-reset flow.
+The HIGH output from the timer was was essentially my \texttt{PWR} signal. This way, while the timer was active, \code{1}, the motor would {coast/stop}. Once the timer expired, \code{0}, the motor would resume operation. By this point, the directional control, \texttt{DIR}, was fixed, and I planned to tackle that aspect later, after establishing a reliable pause-reset flow.
 
 \subsection{Direction Logic}
 \subsubsection{Button-Based Reversal}
