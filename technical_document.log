@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 15:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 15:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2803,8 +2803,15 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `technical_document.out' has not changed.
-(rerunfilecheck)             Checksum: 5BB43170821AE05CA053AF795CE15506;4928.
+
+
+Package rerunfilecheck Warning: File `technical_document.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `technical_document.out':
+(rerunfilecheck)             Before: 5BB43170821AE05CA053AF795CE15506;4928
+(rerunfilecheck)             After:  79156C299E680FF2C1F2C6E5ED0CC4DB;4999.
  ) 
 Here is how much of TeX's memory you used:
  78282 strings out of 473201
@@ -2827,7 +2834,7 @@ xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on technical_document.pdf (17 pages, 7436781 bytes).
+Output written on technical_document.pdf (17 pages, 7436797 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  319 compressed objects within 4 object streams
