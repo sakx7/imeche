@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 15:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2549,7 +2549,12 @@ ted_images2/image(4).png> <./images/feaone.png> <./images/featwo.png>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6
+95.
 
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 Overfull \hbox (123.14755pt too wide) in paragraph at lines 691--699
 []$[]$ 
  []
@@ -2570,15 +2575,11 @@ Overfull \hbox (123.14755pt too wide) in paragraph at lines 691--699
  []
 
 
-Overfull \hbox (111.08417pt too wide) in paragraph at lines 817--818
+Overfull \hbox (106.48721pt too wide) in paragraph at lines 817--818
  [] 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 8
-23.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
+
 Overfull \hbox (19.95294pt too wide) in paragraph at lines 690--840
 |  $[]$  $[]$ 
  []
@@ -2803,12 +2804,12 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `technical_document.out' has not changed.
-(rerunfilecheck)             Checksum: 1421CDD870C75A53CA3D5380700FDB14;4885.
+(rerunfilecheck)             Checksum: 5BB43170821AE05CA053AF795CE15506;4928.
  ) 
 Here is how much of TeX's memory you used:
  78282 strings out of 473201
  1960554 string characters out of 5716126
- 2847136 words of memory out of 5000000
+ 2847073 words of memory out of 5000000
  100360 multiletter control sequences out of 15000+600000
  616866 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2826,7 +2827,7 @@ xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on technical_document.pdf (17 pages, 7436298 bytes).
+Output written on technical_document.pdf (17 pages, 7436781 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  319 compressed objects within 4 object streams

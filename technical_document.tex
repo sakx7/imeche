@@ -475,7 +475,7 @@ This report/logbook serves as a comprehensive account of our group's involvement
 \section{Introduction}
 The \textit{Design Challenge}, organized annually by the Institution of Mechanical Engineers (IMechE), invites first-year undergraduate engineering students to participate in a competition that tests their skills in designing, building, and testing innovative solutions. This year, the challenge involves designing an \textbf{autonomous robotic charging device}. 
 \subsection{Competition Overview}
-Design a self-contained device that autonomously connects/disconnects from a charging target, simulating EV charging. It must navigate a 1m-wide horizontal track (1.4-4.0m length) to engage a vertical wall (0.3m min height) under these rules:
+Design a self-contained device that autonomously connects/disconnects from a charging target, simulating EV charging. It must navigate a 1m-wide horizontal track (1.4 -- 4.0m length) to engage a vertical wall (0.3m min height) under these rules:
 \subsubsection*{Key Requirements}
 \begin{itemize}[itemsep=-0.5mm,topsep=0pt]
 	\item Complete mission autonomously within 3 minutes
@@ -484,9 +484,9 @@ Design a self-contained device that autonomously connects/disconnects from a cha
 	\item Maintain contact for specified charging duration
 	\item Handle three distance ranges:
 	\begin{itemize}[noitemsep,topsep=0pt]
-		\item Short: 1.4-2.2m
-		\item Medium: 2.4-3.0m
-		\item Long: 3.2-4.0m
+		\item Short: 1.4 -- 2.2m
+		\item Medium: 2.4 -- 3.0m
+		\item Long: 3.2 -- 4.0m
 	\end{itemize}
 \end{itemize}
 \subsubsection*{Track Specifications}
@@ -692,7 +692,7 @@ The primary advice given was to use \textit{Tinkercad} for construction. While t
 My process started with building the core of the system:
 \end{minipage}\\[8pt] 
 \textbf{MOSFET-based H-bridge} using complementary P-channel and N-channel MOSFETs. At this stage, the focus was on creating two simple and clear signal inputs to control the motor:\\[8pt] 
-\textbf{DIR} for direction (CW/CCW) and \textbf{PWR} for enabling or disabling the motor.\\[8pt]
+\textbf{\texttt{DIR}} for direction (CW/CCW) and\\ \textbf{\texttt{PWR}} for enabling or disabling the motor.\\[8pt]
 \begin{minipage}{1.6\textwidth}
  I approached the design with basic logic gates, using {AND} and {NOT} gates to process the inputs into the necessary control signals for the MOSFETs. 
 \end{minipage}
@@ -810,9 +810,9 @@ My process started with building the core of the system:
 	
 	\draw (not0.in) --++(-\sigx*1.5,0) coordinate (pwr);
 	
-	\node[label={[font=\large]120:\textbf{PWR}}, draw, circle, fill=white, draw=black, scale=0.5,thick] at (pwr) {};
+	\node[label={[font=\large]120:\textbf{\texttt{PWR}}}, draw, circle, fill=white, draw=black, scale=0.5,thick] at (pwr) {};
 
-	\node[label={[font=\large]120:\textbf{DIR}}, draw, circle, fill=white, draw=black, scale=0.5,thick] at (dir) {};
+	\node[label={[font=\large]120:\textbf{\texttt{DIR}}}, draw, circle, fill=white, draw=black, scale=0.5,thick] at (dir) {};
 			
 	\end{tikzpicture}
 \end{center}
@@ -839,7 +839,7 @@ This initial switching matrix became the backbone of the system, and everything 
 \vspace{-0.4em}
 \subsection{Prioritizing Pause Logic}
 With the H-bridge logic in place, the next challenge was to implement a method to {pause the motor} for a fixed duration, triggered via physical contact. I decided to use a \textbf{555 timer} with a push-button trigger. The timer was configured to generate a $\sim$15-second HIGH pulse upon activation, with the configuration $$1.1 \times 470\ \mu{F} \times 27\ {k}\Omega\approx 15s$$
-The HIGH output from the timer was was essentially my \texttt{PWR} signal. This way, while the timer was active, \code{1}, the motor would {coast/stop}. Once the timer expired, \code{0}, the motor would resume operation. By this point, the directional control, \texttt{DIR}, was fixed, and I planned to tackle that aspect later, after establishing a reliable pause-reset flow.
+The HIGH output from the timer was was essentially my \texttt{PWR} signal. This way, while the timer was active, \texttt{1}, the motor would {coast/stop}. Once the timer expired, \texttt{0}, the motor would resume operation. By this point, the directional control, \texttt{DIR}, was fixed, and I planned to tackle that aspect later, after establishing a reliable pause-reset flow.
 
 \subsection{Direction Logic}
 \subsubsection{Button-Based Reversal}
@@ -902,7 +902,7 @@ These diagrams and setups were/are subject to change as the project progressed. 
 
 \newpage\restoregeometry
 
-\section{Bill of materials}
+\section{Bill of materials [draft]}
 Parts listed for the device are stated below. Every part that was mentioned was used within the final design of the device.
 \begin{itemize}[itemsep=-1mm]
 	\item Wheels x 4
