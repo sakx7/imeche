@@ -504,6 +504,7 @@ Design a self-contained device that autonomously connects/disconnects from a cha
 \subsubsection*{Measurement Tolerance}
 $\pm$10mm using a single tape measure. Barrier positions vary in 50mm increments within each range.
 
+\newpage\newgeometry{left=0.8in,right=0.8in,top=1in,bottom=0.6in}
 
 \section{Product Design Specification}
 Info is catered to the Foundation Group.
@@ -511,24 +512,63 @@ Info is catered to the Foundation Group.
 \begin{itemize}[itemsep=-0.7mm]
 	\item Maximum working envelope: 400mm $\times$ 400mm $\times$ 400mm (including all components)
 	\item Must maintain envelope compliance during all competition movements
-	\item Front plunger (plug simulator):
-	\begin{itemize}[noitemsep,topsep=0pt]
-		\item Max dimensions: 10mm $\times$ 10mm
-		\item Minimum protrusion: 10mm from device body when disengaged
-	\end{itemize}
 \end{itemize}
 
 \subsection{Required Components}
 \begin{itemize}[itemsep=-0.7mm]
-	\item \textbf{Rear datum pointer} (RS Components 397-4954):
-	\begin{itemize}[noitemsep,topsep=0pt]
-		\item Must remain vertical (pointing downward)
-		\item Max 6mm clearance from track surface
-		\item Determines device positioning
-	\end{itemize}
-	\item \textbf{Single front plunger} (non-adjustable height for Foundation Group)
-\end{itemize}
+	
+	\begin{figure}[H]
+	\begin{minipage}{0.4\textwidth}	
+	\centering\wm{0.8}{
+	\item[\textbf{1.}] \textbf{Rear Datum Pointer}:\\
+		\textbf{-} Must remain vertical\\ 
+		(pointing downward)\\
+		\textbf{-} Max 6mm clearance from track surface\\
+		\textbf{-} Determines device positioning
+	}
+	\end{minipage}\hspace{-2em}
+	\begin{minipage}{0.7\textwidth}	
+		\centering
+		\begin{subfigure}[t]{0.45\textwidth}
+			\centering
+			\includegraphics[width=0.7\textwidth,height=3cm]{extracted_images/image_10_2.png}
+			\caption{Datum Pointer relative to the target}
+			\label{fig:datumall}
+		\end{subfigure}\hspace*{1em}
+		\begin{subfigure}[t]{0.45\textwidth}
+			\centering
+			\includegraphics[width=0.7\textwidth,height=2cm]{extracted_images/image_10_1.png}
+			\caption{Datum Pointer (RS Components 397-4954)}
+			\label{fig:datum}
+		\end{subfigure}
+		\caption{Datum Pointer Specification}
+	\end{minipage}
+	\end{figure}
 
+	\begin{figure}[H]
+	\begin{minipage}{0.4\textwidth}\vspace{-3em}	
+	\centering\wm{0.7}{\item[\textbf{2.}] \textbf{Single Front Plunger} (non-adjustable height for Foundation Group)\\\textbf{-} Max dimensions: 10mm $\times$ 10mm\\
+	\textbf{-} Minimum protrusion: 10mm from device body when disengaged}
+	\end{minipage}\hspace{-2em}
+	\begin{minipage}{0.7\textwidth}			
+		\centering
+		\begin{subfigure}[t]{0.45\textwidth}
+			\centering
+			\includegraphics[width=0.7\textwidth,height=3cm]{extracted_images/image_11_2.png}
+			\caption{Plunger Relative To The Datum}
+			\label{fig:plungerall}
+		\end{subfigure}\hspace{-1em}
+		\begin{subfigure}[t]{0.5\textwidth}
+			\centering
+			\includegraphics[width=0.7\textwidth,height=3cm]{extracted_images/image_11_1.png}
+			\caption{Plunger (red thing)}
+			\label{fig:plunger}
+		\end{subfigure}
+		\caption{Plunger Specification}
+	\end{minipage}
+	\end{figure}
+\end{itemize}
+\vspace*{-2em}
 \subsection{Visual Indicators}
 \begin{itemize}[noitemsep,topsep=0pt]
 	\item Continuous green light during operation
@@ -542,19 +582,7 @@ Info is catered to the Foundation Group.
 	\item Device must be fully self-contained (no external control)
 \end{itemize}
 
-\begin{figure}[h]
-	\centering
-	\begin{minipage}{0.45\textwidth}
-		\centering
-		\includegraphics[width=0.8\linewidth]{extracted_images/image_10_2.png}
-		\caption{Front plunger requirements}
-	\end{minipage}
-	\begin{minipage}{0.45\textwidth}
-		\centering
-		\includegraphics[width=0.8\textwidth,height=3.2cm]{extracted_images/image_10_1.png}
-		\caption{Datum pointer specification}
-	\end{minipage}
-\end{figure}
+
 \subsection*{Key Differences from Advanced Category}
 \begin{itemize}[itemsep=-0.7mm]
 	\item No height adjustment capability required
