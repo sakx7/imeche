@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 14:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2263,10 +2263,12 @@ File: images/profile.png Graphic file (type png)
 <use images/profile.png>
 Package pdftex.def Info: images/profile.png  used on input line 454.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
-File: images/profile.png Graphic file (type png)
-<use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
-(pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
+<profile/Image(7)-Photoroom.png, id=201, 1016.79875pt x 1284.8pt>
+File: profile/Image(7)-Photoroom.png Graphic file (type png)
+<use profile/Image(7)-Photoroom.png>
+Package pdftex.def Info: profile/Image(7)-Photoroom.png  used on input line 454
+.
+(pdftex.def)             Requested size: 56.9055pt x 71.8895pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
 Package pdftex.def Info: images/profile.png  used on input line 454.
@@ -2288,10 +2290,11 @@ File: images/profile.png Graphic file (type png)
 <use images/profile.png>
 Package pdftex.def Info: images/profile.png  used on input line 454.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
-File: images/profile.png Graphic file (type png)
-<use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
-(pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
+File: profile/Image(7)-Photoroom.png Graphic file (type png)
+<use profile/Image(7)-Photoroom.png>
+Package pdftex.def Info: profile/Image(7)-Photoroom.png  used on input line 454
+.
+(pdftex.def)             Requested size: 56.9055pt x 71.8895pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
 Package pdftex.def Info: images/profile.png  used on input line 454.
@@ -2310,7 +2313,7 @@ Package pdftex.def Info: images/profile.png  used on input line 454.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 
 
-[3 <./images/profile.png>]
+[3 <./images/profile.png> <./profile/Image(7)-Photoroom.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: letterpaper
@@ -2348,7 +2351,8 @@ File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
 nput line 459.
 (pdftex.def)             Requested size: 614.3022pt x 794.98625pt.
- (./technical_document.toc
+
+(./technical_document.toc
 Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/5'
 
 (microtype)             (new value: 5.0pt) on input line 1.
@@ -2373,7 +2377,7 @@ Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/5'
 
 ]
 
-<images/Kingston_University_London_logo_200-tablet.png, id=245, 200.75pt x 200.
+<images/Kingston_University_London_logo_200-tablet.png, id=247, 200.75pt x 200.
 75pt>
 File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
 png)
@@ -2402,7 +2406,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<extracted_images/image_4_2.png, id=249, 701.62125pt x 321.45094pt>
+<extracted_images/image_4_2.png, id=251, 701.62125pt x 321.45094pt>
 File: extracted_images/image_4_2.png Graphic file (type png)
 <use extracted_images/image_4_2.png>
 Package pdftex.def Info: extracted_images/image_4_2.png  used on input line 501
@@ -2464,13 +2468,13 @@ l.507 \newpage
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<extracted_images/image_10_2.png, id=255, 739.26187pt x 463.7325pt>
+<extracted_images/image_10_2.png, id=257, 739.26187pt x 463.7325pt>
 File: extracted_images/image_10_2.png Graphic file (type png)
 <use extracted_images/image_10_2.png>
 Package pdftex.def Info: extracted_images/image_10_2.png  used on input line 53
 4.
 (pdftex.def)             Requested size: 109.94823pt x 85.35753pt.
-<extracted_images/image_10_1.png, id=256, 719.68875pt x 293.095pt>
+<extracted_images/image_10_1.png, id=258, 719.68875pt x 293.095pt>
 File: extracted_images/image_10_1.png Graphic file (type png)
 <use extracted_images/image_10_1.png>
 Package pdftex.def Info: extracted_images/image_10_1.png  used on input line 54
@@ -2481,13 +2485,13 @@ Overfull \hbox (31.76169pt too wide) in paragraph at lines 521--546
 []$[]$  $[]$ 
  []
 
-<extracted_images/image_11_2.png, id=257, 536.0025pt x 335.00156pt>
+<extracted_images/image_11_2.png, id=259, 536.0025pt x 335.00156pt>
 File: extracted_images/image_11_2.png Graphic file (type png)
 <use extracted_images/image_11_2.png>
 Package pdftex.def Info: extracted_images/image_11_2.png  used on input line 55
 7.
 (pdftex.def)             Requested size: 109.94664pt x 85.35526pt.
-<extracted_images/image_11_1.png, id=258, 990.70125pt x 665.48625pt>
+<extracted_images/image_11_1.png, id=260, 990.70125pt x 665.48625pt>
 File: extracted_images/image_11_1.png Graphic file (type png)
 <use extracted_images/image_11_1.png>
 Package pdftex.def Info: extracted_images/image_11_1.png  used on input line 56
@@ -2557,7 +2561,7 @@ png> <./extracted_images/image_11_2.png (PNG copy)> <./extracted_images/image_1
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/image_6_2-Photoroom.png, id=266, 583.17876pt x 379.4175pt>
+<images/image_6_2-Photoroom.png, id=268, 583.17876pt x 379.4175pt>
 File: images/image_6_2-Photoroom.png Graphic file (type png)
 <use images/image_6_2-Photoroom.png>
 Package pdftex.def Info: images/image_6_2-Photoroom.png  used on input line 604
@@ -2569,7 +2573,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 605.
 See the caption package documentation for explanation.
 
-<images/image_7_2-Photoroom.png, id=267, 479.7925pt x 411.5375pt>
+<images/image_7_2-Photoroom.png, id=269, 479.7925pt x 411.5375pt>
 File: images/image_7_2-Photoroom.png Graphic file (type png)
 <use images/image_7_2-Photoroom.png>
 Package pdftex.def Info: images/image_7_2-Photoroom.png  used on input line 615
@@ -2580,7 +2584,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 616.
 See the caption package documentation for explanation.
 
-<images/image_8_2-Photoroom.png, id=268, 564.1075pt x 392.46625pt>
+<images/image_8_2-Photoroom.png, id=270, 564.1075pt x 392.46625pt>
 File: images/image_8_2-Photoroom.png Graphic file (type png)
 <use images/image_8_2-Photoroom.png>
 Package pdftex.def Info: images/image_8_2-Photoroom.png  used on input line 626
@@ -2610,7 +2614,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
  <./images/image_6_2-Photoroom.png> <./images/image_7_2-Photoroom.png> <./image
 s/image_8_2-Photoroom.png>]
-<extracted_images2/image(2).png, id=279, 1099.10625pt x 759.83875pt>
+<extracted_images2/image(2).png, id=281, 1099.10625pt x 759.83875pt>
 File: extracted_images2/image(2).png Graphic file (type png)
 <use extracted_images2/image(2).png>
 Package pdftex.def Info: extracted_images2/image(2).png  used on input line 636
@@ -2622,7 +2626,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 637.
 See the caption package documentation for explanation.
 
-<extracted_images2/image.jpg, id=280, 602.25pt x 586.44093pt>
+<extracted_images2/image.jpg, id=282, 602.25pt x 586.44093pt>
 File: extracted_images2/image.jpg Graphic file (type jpg)
 <use extracted_images2/image.jpg>
 Package pdftex.def Info: extracted_images2/image.jpg  used on input line 641.
@@ -2632,7 +2636,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 642.
 See the caption package documentation for explanation.
 
-<extracted_images2/image(4).png, id=281, 1048.91875pt x 817.0525pt>
+<extracted_images2/image(4).png, id=283, 1048.91875pt x 817.0525pt>
 File: extracted_images2/image(4).png Graphic file (type png)
 <use extracted_images2/image(4).png>
 Package pdftex.def Info: extracted_images2/image(4).png  used on input line 646
@@ -2643,12 +2647,12 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 647.
 See the caption package documentation for explanation.
 
-<images/feaone.png, id=282, 562.1pt x 269.005pt>
+<images/feaone.png, id=284, 562.1pt x 269.005pt>
 File: images/feaone.png Graphic file (type png)
 <use images/feaone.png>
 Package pdftex.def Info: images/feaone.png  used on input line 658.
 (pdftex.def)             Requested size: 100.97636pt x 85.35683pt.
-<images/featwo.png, id=283, 562.1pt x 279.0425pt>
+<images/featwo.png, id=285, 562.1pt x 279.0425pt>
 File: images/featwo.png Graphic file (type png)
 <use images/featwo.png>
 Package pdftex.def Info: images/featwo.png  used on input line 665.
@@ -2834,7 +2838,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-<images/swappy-20250406-185116.png, id=315, 967.615pt x 706.64pt>
+<images/swappy-20250406-185116.png, id=317, 967.615pt x 706.64pt>
 File: images/swappy-20250406-185116.png Graphic file (type png)
 <use images/swappy-20250406-185116.png>
 Package pdftex.def Info: images/swappy-20250406-185116.png  used on input line 
@@ -2845,7 +2849,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 890.
 See the caption package documentation for explanation.
 
-<images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg, id=316, 1013.9481pt
+<images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg, id=318, 1013.9481pt
  x 428.802pt>
 File: images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg Graphic file (t
 ype jpg)
@@ -2863,7 +2867,7 @@ Overfull \hbox (76.96838pt too wide) in paragraph at lines 894--895
  [][] 
  []
 
-<images/Image(2).jpg, id=317, 2582.64874pt x 1453.43pt>
+<images/Image(2).jpg, id=319, 2582.64874pt x 1453.43pt>
 File: images/Image(2).jpg Graphic file (type jpg)
 <use images/Image(2).jpg>
 Package pdftex.def Info: images/Image(2).jpg  used on input line 899.
@@ -2941,7 +2945,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
 [11]
-<extracted_images2/image_13_2.png, id=339, 549.252pt x 413.1435pt>
+<extracted_images2/image_13_2.png, id=341, 549.252pt x 413.1435pt>
 File: extracted_images2/image_13_2.png Graphic file (type png)
 <use extracted_images2/image_13_2.png>
 Package pdftex.def Info: extracted_images2/image_13_2.png  used on input line 9
@@ -2986,10 +2990,10 @@ Package rerunfilecheck Info: File `technical_document.out' has not changed.
 (rerunfilecheck)             Checksum: 1421CDD870C75A53CA3D5380700FDB14;4885.
  ) 
 Here is how much of TeX's memory you used:
- 80588 strings out of 473201
- 1999381 string characters out of 5716126
- 2920752 words of memory out of 5000000
- 102394 multiletter control sequences out of 15000+600000
+ 80595 strings out of 473201
+ 1999639 string characters out of 5716126
+ 2920841 words of memory out of 5000000
+ 102401 multiletter control sequences out of 15000+600000
  624089 words of font info for 342 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,16n,108p,1313b,1230s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3006,10 +3010,10 @@ xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on technical_document.pdf (17 pages, 6344615 bytes).
+Output written on technical_document.pdf (17 pages, 7437794 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
+ 424 PDF objects out of 1000 (max. 8388607)
  319 compressed objects within 4 object streams
  61 named destinations out of 1000 (max. 500000)
- 60955 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 60960 words of extra memory for PDF output out of 61914 (max. 10000000)
 
