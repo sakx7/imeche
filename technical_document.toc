@@ -23,5 +23,11 @@
 \contentsline {subsection}{\numberline {6.6}Circuit Diagrams and Breadboard Setup}{8}{subsection.6.6}%
 \contentsline {section}{\numberline {7}Bill of materials}{9}{section.7}%
 \contentsline {section}{\numberline {8}Manufacturing process}{10}{section.8}%
-\contentsline {section}{\numberline {9}Final design}{11}{section.9}%
-\contentsline {section}{\numberline {10}References}{12}{section.10}%
+\contentsline {subsection}{\numberline {8.1}Prototypes}{10}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Chassis}{10}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Wheel hub}{10}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Wheels}{10}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Wall target}{10}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Circuit}{11}{subsection.8.6}%
+\contentsline {section}{\numberline {9}Final design}{12}{section.9}%
+\contentsline {section}{\numberline {10}References}{13}{section.10}%

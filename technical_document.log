@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 00:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 01:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2825,7 +2825,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 878.
+ used on input line 889.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2835,11 +2835,26 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
 [10]
-<extracted_images2/image_11_2.png, id=283, 549.252pt x 413.1435pt>
+
+File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
+png)
+<use images/Kingston_University_London_logo_200-tablet.png>
+Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
+ used on input line 892.
+(pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 37.74326pt, for example:
+(fancyhdr)                \setlength{\headheight}{37.74326pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
+
+[11]
+<extracted_images2/image_11_2.png, id=293, 549.252pt x 413.1435pt>
 File: extracted_images2/image_11_2.png Graphic file (type png)
 <use extracted_images2/image_11_2.png>
 Package pdftex.def Info: extracted_images2/image_11_2.png  used on input line 8
-81.
+95.
 (pdftex.def)             Requested size: 349.06227pt x 262.55753pt.
 
 
@@ -2847,7 +2862,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 887.
+ used on input line 901.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2856,13 +2871,13 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
-[11 <./extracted_images2/image_11_2.png>]
+[12 <./extracted_images2/image_11_2.png>]
 
 File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 890.
+ used on input line 904.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2871,22 +2886,29 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
-[12] (./technical_document.aux)
+[13] (./technical_document.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `technical_document.out' has not changed.
-(rerunfilecheck)             Checksum: FE5FF65219D137BB74AC2A529576D984;3931.
+
+
+Package rerunfilecheck Warning: File `technical_document.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `technical_document.out':
+(rerunfilecheck)             Before: FE5FF65219D137BB74AC2A529576D984;3931
+(rerunfilecheck)             After:  143794EB99C838D50BF366C4045DAAFF;4535.
  ) 
 Here is how much of TeX's memory you used:
- 80378 strings out of 473201
- 1995389 string characters out of 5716126
- 2916708 words of memory out of 5000000
+ 80388 strings out of 473201
+ 1995504 string characters out of 5716126
+ 2916705 words of memory out of 5000000
  102238 multiletter control sequences out of 15000+600000
- 622409 words of font info for 314 fonts, out of 8000000 for 9000
+ 622528 words of font info for 316 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,16n,117p,1015b,1147s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,16n,117p,1313b,1147s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
@@ -2899,10 +2921,10 @@ xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on technical_document.pdf (16 pages, 5111438 bytes).
+Output written on technical_document.pdf (17 pages, 5115614 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
  60874 words of extra memory for PDF output out of 61914 (max. 10000000)
 
