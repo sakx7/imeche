@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 01:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 01:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2032,7 +2032,7 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 File: fc-english.def 2016/01/12
 )
 <images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-convert
-er(2).jpg, id=151, 2835.59375pt x 3854.4pt>
+er(2).jpg, id=175, 2835.59375pt x 3854.4pt>
 File: images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-co
 nverter(2).jpg Graphic file (type jpg)
 <use images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-con
@@ -2159,7 +2159,7 @@ document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-converter(2).jpg>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/a13d25fa5178ce400e90e65f61d696d3.jpg, id=159, 1405.25pt x 2107.875pt>
+<images/a13d25fa5178ce400e90e65f61d696d3.jpg, id=183, 1405.25pt x 2107.875pt>
 File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 <use images/a13d25fa5178ce400e90e65f61d696d3.jpg>
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
@@ -2223,7 +2223,7 @@ Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/6'
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-<example-image.pdf, id=160, 321.2pt x 240.9pt>
+<example-image.pdf, id=184, 321.2pt x 240.9pt>
 File: example-image.pdf Graphic file (type pdf)
 <use example-image.pdf>
 Package pdftex.def Info: example-image.pdf  used on input line 426.
@@ -2251,7 +2251,7 @@ nput line 435.
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-<images/profile.png, id=171, 903.375pt x 831.105pt>
+<images/profile.png, id=195, 903.375pt x 831.105pt>
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
 Package pdftex.def Info: images/profile.png  used on input line 456.
@@ -2366,7 +2366,7 @@ Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/5'
 
 ]
 
-<images/Kingston_University_London_logo_200-tablet.png, id=210, 200.75pt x 200.
+<images/Kingston_University_London_logo_200-tablet.png, id=240, 200.75pt x 200.
 75pt>
 File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
 png)
@@ -2395,7 +2395,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<extracted_images/image_4_2.png, id=214, 701.62125pt x 321.45094pt>
+<extracted_images/image_4_2.png, id=244, 701.62125pt x 321.45094pt>
 File: extracted_images/image_4_2.png Graphic file (type png)
 <use extracted_images/image_4_2.png>
 Package pdftex.def Info: extracted_images/image_4_2.png  used on input line 503
@@ -2425,13 +2425,13 @@ l.512 \subsection{Dimensional Requirements}
                                             [2{/usr/local/texlive/2024/texmf-di
 st/fonts/enc/dvips/mnsymbol/MnSymbolC.enc} <./extracted_images/image_4_2.png (P
 NG copy)>]
-<extracted_images/image_10_2.png, id=220, 739.26187pt x 463.7325pt>
+<extracted_images/image_10_2.png, id=250, 739.26187pt x 463.7325pt>
 File: extracted_images/image_10_2.png Graphic file (type png)
 <use extracted_images/image_10_2.png>
 Package pdftex.def Info: extracted_images/image_10_2.png  used on input line 55
 1.
 (pdftex.def)             Requested size: 179.51799pt x 112.60712pt.
-<extracted_images/image_10_1.png, id=221, 719.68875pt x 293.095pt>
+<extracted_images/image_10_1.png, id=251, 719.68875pt x 293.095pt>
 File: extracted_images/image_10_1.png Graphic file (type png)
 <use extracted_images/image_10_1.png>
 Package pdftex.def Info: extracted_images/image_10_1.png  used on input line 55
@@ -2493,7 +2493,7 @@ l.568 \newpage
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/image_6_2-Photoroom.png, id=227, 583.17876pt x 379.4175pt>
+<images/image_6_2-Photoroom.png, id=257, 583.17876pt x 379.4175pt>
 File: images/image_6_2-Photoroom.png Graphic file (type png)
 <use images/image_6_2-Photoroom.png>
 Package pdftex.def Info: images/image_6_2-Photoroom.png  used on input line 578
@@ -2505,7 +2505,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 579.
 See the caption package documentation for explanation.
 
-<images/image_7_2-Photoroom.png, id=228, 479.7925pt x 411.5375pt>
+<images/image_7_2-Photoroom.png, id=258, 479.7925pt x 411.5375pt>
 File: images/image_7_2-Photoroom.png Graphic file (type png)
 <use images/image_7_2-Photoroom.png>
 Package pdftex.def Info: images/image_7_2-Photoroom.png  used on input line 589
@@ -2516,7 +2516,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 590.
 See the caption package documentation for explanation.
 
-<images/image_8_2-Photoroom.png, id=229, 564.1075pt x 392.46625pt>
+<images/image_8_2-Photoroom.png, id=259, 564.1075pt x 392.46625pt>
 File: images/image_8_2-Photoroom.png Graphic file (type png)
 <use images/image_8_2-Photoroom.png>
 Package pdftex.def Info: images/image_8_2-Photoroom.png  used on input line 600
@@ -2546,7 +2546,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
  <./images/image_6_2-Photoroom.png> <./images/image_7_2-Photoroom.png> <./image
 s/image_8_2-Photoroom.png>]
-<extracted_images2/image_9_2.png, id=240, 421.575pt x 602.25pt>
+<extracted_images2/image_9_2.png, id=270, 421.575pt x 602.25pt>
 File: extracted_images2/image_9_2.png Graphic file (type png)
 <use extracted_images2/image_9_2.png>
 Package pdftex.def Info: extracted_images2/image_9_2.png  used on input line 60
@@ -2558,7 +2558,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 610.
 See the caption package documentation for explanation.
 
-<extracted_images2/image_9_3.png, id=241, 413.29407pt x 451.6875pt>
+<extracted_images2/image_9_3.png, id=271, 413.29407pt x 451.6875pt>
 File: extracted_images2/image_9_3.png Graphic file (type png)
 <use extracted_images2/image_9_3.png>
 Package pdftex.def Info: extracted_images2/image_9_3.png  used on input line 61
@@ -2743,7 +2743,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-<images/swappy-20250406-185116.png, id=264, 967.615pt x 706.64pt>
+<images/swappy-20250406-185116.png, id=294, 967.615pt x 706.64pt>
 File: images/swappy-20250406-185116.png Graphic file (type png)
 <use images/swappy-20250406-185116.png>
 Package pdftex.def Info: images/swappy-20250406-185116.png  used on input line 
@@ -2754,7 +2754,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 831.
 See the caption package documentation for explanation.
 
-<images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg, id=265, 1013.9481pt
+<images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg, id=295, 1013.9481pt
  x 428.802pt>
 File: images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg Graphic file (t
 ype jpg)
@@ -2772,7 +2772,7 @@ Overfull \hbox (76.96838pt too wide) in paragraph at lines 835--836
  [][] 
  []
 
-<images/Image(2).jpg, id=266, 2582.64874pt x 1453.43pt>
+<images/Image(2).jpg, id=296, 2582.64874pt x 1453.43pt>
 File: images/Image(2).jpg Graphic file (type jpg)
 <use images/Image(2).jpg>
 Package pdftex.def Info: images/Image(2).jpg  used on input line 840.
@@ -2850,7 +2850,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
 [11]
-<extracted_images2/image_11_2.png, id=293, 549.252pt x 413.1435pt>
+<extracted_images2/image_11_2.png, id=317, 549.252pt x 413.1435pt>
 File: extracted_images2/image_11_2.png Graphic file (type png)
 <use extracted_images2/image_11_2.png>
 Package pdftex.def Info: extracted_images2/image_11_2.png  used on input line 8
@@ -2898,14 +2898,14 @@ Package rerunfilecheck Warning: File `technical_document.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `technical_document.out':
-(rerunfilecheck)             Before: FE5FF65219D137BB74AC2A529576D984;3931
-(rerunfilecheck)             After:  143794EB99C838D50BF366C4045DAAFF;4535.
+(rerunfilecheck)             Before: 143794EB99C838D50BF366C4045DAAFF;4535
+(rerunfilecheck)             After:  F27E01958E7FE19571001F99D06072F6;4578.
  ) 
 Here is how much of TeX's memory you used:
- 80388 strings out of 473201
- 1995504 string characters out of 5716126
- 2916705 words of memory out of 5000000
- 102238 multiletter control sequences out of 15000+600000
+ 80394 strings out of 473201
+ 1995600 string characters out of 5716126
+ 2916742 words of memory out of 5000000
+ 102244 multiletter control sequences out of 15000+600000
  622528 words of font info for 316 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,16n,117p,1313b,1147s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2921,10 +2921,10 @@ xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on technical_document.pdf (17 pages, 5115614 bytes).
+Output written on technical_document.pdf (17 pages, 5116761 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
+ 396 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
  57 named destinations out of 1000 (max. 500000)
- 60874 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 60922 words of extra memory for PDF output out of 61914 (max. 10000000)
 
