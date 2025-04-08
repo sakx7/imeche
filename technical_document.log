@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 14:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 14:59
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1467,44 +1467,16 @@ File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2024/12/12 v3.2 Micro-typographical refinements (RS)
-\MT@toks=\toks59
-\MT@tempbox=\box128
-\MT@count=\count413
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1075.
-LaTeX Info: Redefining \leftprotrusion on input line 1076.
-\MT@prot@toks=\toks60
-LaTeX Info: Redefining \rightprotrusion on input line 1095.
-LaTeX Info: Redefining \textls on input line 1437.
-\MT@outer@kern=\dimen395
-LaTeX Info: Redefining \microtypecontext on input line 2041.
-LaTeX Info: Redefining \textmicrotypecontext on input line 2058.
-\MT@listname@count=\count414
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2024/12/12 v3.2 Definitions specific to pdftex (RS)
-LaTeX Info: Redefining \lsstyle on input line 944.
-LaTeX Info: Redefining \lslig on input line 944.
-\MT@outer@space=\skip62
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2024/12/12 v3.2 microtype main configuration file (RS)
-)
-LaTeX Info: Redefining \microtypesetup on input line 3053.
-)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip63
-\fb@frw=\dimen396
-\fb@frh=\dimen397
-\FrameRule=\dimen398
-\FrameSep=\dimen399
+\OuterFrameSep=\skip62
+\fb@frw=\dimen395
+\fb@frh=\dimen396
+\FrameRule=\dimen397
+\FrameSep=\dimen398
 )
-\enitdp@gitemize=\count415
+\enitdp@gitemize=\count413
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -1512,147 +1484,147 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count416
-\Gm@cntv=\count417
-\c@Gm@tempcnt=\count418
-\Gm@bindingoffset=\dimen400
-\Gm@wd@mp=\dimen401
-\Gm@odd@mp=\dimen402
-\Gm@even@mp=\dimen403
-\Gm@layoutwidth=\dimen404
-\Gm@layoutheight=\dimen405
-\Gm@layouthoffset=\dimen406
-\Gm@layoutvoffset=\dimen407
-\Gm@dimlist=\toks61
+\Gm@cnth=\count414
+\Gm@cntv=\count415
+\c@Gm@tempcnt=\count416
+\Gm@bindingoffset=\dimen399
+\Gm@wd@mp=\dimen400
+\Gm@odd@mp=\dimen401
+\Gm@even@mp=\dimen402
+\Gm@layoutwidth=\dimen403
+\Gm@layoutheight=\dimen404
+\Gm@layouthoffset=\dimen405
+\Gm@layoutvoffset=\dimen406
+\Gm@dimlist=\toks59
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip64
-\f@nch@offset@elh=\skip65
-\f@nch@offset@erh=\skip66
-\f@nch@offset@olh=\skip67
-\f@nch@offset@orh=\skip68
-\f@nch@offset@elf=\skip69
-\f@nch@offset@erf=\skip70
-\f@nch@offset@olf=\skip71
-\f@nch@offset@orf=\skip72
-\f@nch@height=\skip73
-\f@nch@footalignment=\skip74
-\f@nch@widthL=\skip75
-\f@nch@widthC=\skip76
-\f@nch@widthR=\skip77
-\@temptokenb=\toks62
+\f@nch@headwidth=\skip63
+\f@nch@offset@elh=\skip64
+\f@nch@offset@erh=\skip65
+\f@nch@offset@olh=\skip66
+\f@nch@offset@orh=\skip67
+\f@nch@offset@elf=\skip68
+\f@nch@offset@erf=\skip69
+\f@nch@offset@olf=\skip70
+\f@nch@offset@orf=\skip71
+\f@nch@height=\skip72
+\f@nch@footalignment=\skip73
+\f@nch@widthL=\skip74
+\f@nch@widthC=\skip75
+\f@nch@widthR=\skip76
+\@temptokenb=\toks60
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tabularray/tabularray.sty
 Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
-\l__tblr_a_int=\count419
-\l__tblr_c_int=\count420
-\l__tblr_r_int=\count421
-\l__tblr_d_dim=\dimen408
-\l__tblr_h_dim=\dimen409
-\l__tblr_o_dim=\dimen410
-\l__tblr_p_dim=\dimen411
-\l__tblr_q_dim=\dimen412
-\l__tblr_r_dim=\dimen413
-\l__tblr_s_dim=\dimen414
-\l__tblr_t_dim=\dimen415
-\l__tblr_v_dim=\dimen416
-\l__tblr_w_dim=\dimen417
-\l__tblr_a_box=\box129
-\l__tblr_b_box=\box130
-\l__tblr_c_box=\box131
-\l__tblr_d_box=\box132
-\g__tblr_table_count_int=\count422
-\c@rownum=\count423
-\c@colnum=\count424
-\c@rowcount=\count425
-\c@colcount=\count426
-\abovesep=\dimen418
-\belowsep=\dimen419
-\leftsep=\dimen420
-\rightsep=\dimen421
-\g_tblr_level_int=\count427
-\g__tblr_data_row_key_count_int=\count428
-\g__tblr_data_column_key_count_int=\count429
-\g__tblr_data_cell_key_count_int=\count430
-\g__tblr_array_int=\count431
-\l__tblr_key_count_int=\count432
-\l__tblr_key_quotient_int=\count433
-\l__tblr_key_quotient_two_int=\count434
-\l__tblr_key_remainder_int=\count435
-\g__tblr_data_str_value_count_int=\count436
-\rulewidth=\dimen422
-\l__tblr_strut_dp_dim=\dimen423
-\l__tblr_strut_ht_dim=\dimen424
-\g__tblr_cell_wd_dim=\dimen425
-\g__tblr_cell_ht_dim=\dimen426
-\g__tblr_cell_head_dim=\dimen427
-\g__tblr_cell_foot_dim=\dimen428
-\l__column_target_dim=\dimen429
-\l__tblr_caption_box=\box133
-\l__tblr_caption_left_box=\box134
-\l__tblr_row_head_box=\box135
-\l__tblr_row_foot_box=\box136
-\l__tblr_row_head_foot_dim=\dimen430
-\tablewidth=\dimen431
-\l__tblr_table_firsthead_box=\box137
-\l__tblr_table_middlehead_box=\box138
-\l__tblr_table_lasthead_box=\box139
-\l__tblr_table_firstfoot_box=\box140
-\l__tblr_table_middlefoot_box=\box141
-\l__tblr_table_lastfoot_box=\box142
-\l__tblr_remain_height_dim=\dimen432
-\l__tblr_long_from_int=\count437
-\l__tblr_long_to_int=\count438
-\l__tblr_curr_i_int=\count439
-\l__tblr_prev_i_int=\count440
-\l__tblr_table_page_int=\count441
-\l__tblr_table_head_box=\box143
-\l__tblr_table_foot_box=\box144
-\l__tblr_table_head_foot_dim=\dimen433
-\l__tblr_table_head_body_foot_dim=\dimen434
-\l__tblr_table_box=\box145
-\l__tblr_table_hlines_box=\box146
-\l__tblr_hline_box=\box147
-\l__tblr_row_box=\box148
-\l__tblr_col_o_wd_dim=\dimen435
-\l__tblr_col_b_wd_dim=\dimen436
-\l__tblr_hline_leftskip_dim=\dimen437
-\l__tblr_hline_rightskip_dim=\dimen438
-\l__tblr_row_ht_dim=\dimen439
-\l__tblr_row_dp_dim=\dimen440
-\l__tblr_row_abovesep_dim=\dimen441
-\l__tblr_row_belowsep_dim=\dimen442
-\l__tblr_row_vlines_box=\box149
-\l__tblr_vline_box=\box150
-\l__tblr_cell_box=\box151
-\l__row_upper_dim=\dimen443
-\l__row_lower_dim=\dimen444
-\l__row_vpace_dim=\dimen445
-\l__tblr_vline_aboveskip_dim=\dimen446
-\l__tblr_vline_belowskip_dim=\dimen447
-\l__tblr_cell_wd_dim=\dimen448
-\l__tblr_cell_ht_dim=\dimen449
-\l__tblr_diag_box=\box152
+\l__tblr_a_int=\count417
+\l__tblr_c_int=\count418
+\l__tblr_r_int=\count419
+\l__tblr_d_dim=\dimen407
+\l__tblr_h_dim=\dimen408
+\l__tblr_o_dim=\dimen409
+\l__tblr_p_dim=\dimen410
+\l__tblr_q_dim=\dimen411
+\l__tblr_r_dim=\dimen412
+\l__tblr_s_dim=\dimen413
+\l__tblr_t_dim=\dimen414
+\l__tblr_v_dim=\dimen415
+\l__tblr_w_dim=\dimen416
+\l__tblr_a_box=\box128
+\l__tblr_b_box=\box129
+\l__tblr_c_box=\box130
+\l__tblr_d_box=\box131
+\g__tblr_table_count_int=\count420
+\c@rownum=\count421
+\c@colnum=\count422
+\c@rowcount=\count423
+\c@colcount=\count424
+\abovesep=\dimen417
+\belowsep=\dimen418
+\leftsep=\dimen419
+\rightsep=\dimen420
+\g_tblr_level_int=\count425
+\g__tblr_data_row_key_count_int=\count426
+\g__tblr_data_column_key_count_int=\count427
+\g__tblr_data_cell_key_count_int=\count428
+\g__tblr_array_int=\count429
+\l__tblr_key_count_int=\count430
+\l__tblr_key_quotient_int=\count431
+\l__tblr_key_quotient_two_int=\count432
+\l__tblr_key_remainder_int=\count433
+\g__tblr_data_str_value_count_int=\count434
+\rulewidth=\dimen421
+\l__tblr_strut_dp_dim=\dimen422
+\l__tblr_strut_ht_dim=\dimen423
+\g__tblr_cell_wd_dim=\dimen424
+\g__tblr_cell_ht_dim=\dimen425
+\g__tblr_cell_head_dim=\dimen426
+\g__tblr_cell_foot_dim=\dimen427
+\l__column_target_dim=\dimen428
+\l__tblr_caption_box=\box132
+\l__tblr_caption_left_box=\box133
+\l__tblr_row_head_box=\box134
+\l__tblr_row_foot_box=\box135
+\l__tblr_row_head_foot_dim=\dimen429
+\tablewidth=\dimen430
+\l__tblr_table_firsthead_box=\box136
+\l__tblr_table_middlehead_box=\box137
+\l__tblr_table_lasthead_box=\box138
+\l__tblr_table_firstfoot_box=\box139
+\l__tblr_table_middlefoot_box=\box140
+\l__tblr_table_lastfoot_box=\box141
+\l__tblr_remain_height_dim=\dimen431
+\l__tblr_long_from_int=\count435
+\l__tblr_long_to_int=\count436
+\l__tblr_curr_i_int=\count437
+\l__tblr_prev_i_int=\count438
+\l__tblr_table_page_int=\count439
+\l__tblr_table_head_box=\box142
+\l__tblr_table_foot_box=\box143
+\l__tblr_table_head_foot_dim=\dimen432
+\l__tblr_table_head_body_foot_dim=\dimen433
+\l__tblr_table_box=\box144
+\l__tblr_table_hlines_box=\box145
+\l__tblr_hline_box=\box146
+\l__tblr_row_box=\box147
+\l__tblr_col_o_wd_dim=\dimen434
+\l__tblr_col_b_wd_dim=\dimen435
+\l__tblr_hline_leftskip_dim=\dimen436
+\l__tblr_hline_rightskip_dim=\dimen437
+\l__tblr_row_ht_dim=\dimen438
+\l__tblr_row_dp_dim=\dimen439
+\l__tblr_row_abovesep_dim=\dimen440
+\l__tblr_row_belowsep_dim=\dimen441
+\l__tblr_row_vlines_box=\box148
+\l__tblr_vline_box=\box149
+\l__tblr_cell_box=\box150
+\l__row_upper_dim=\dimen442
+\l__row_lower_dim=\dimen443
+\l__row_vpace_dim=\dimen444
+\l__tblr_vline_aboveskip_dim=\dimen445
+\l__tblr_vline_belowskip_dim=\dimen446
+\l__tblr_cell_wd_dim=\dimen447
+\l__tblr_cell_ht_dim=\dimen448
+\l__tblr_diag_box=\box151
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box153
-\sift@deathcycles=\count442
-\@vwid@loff=\dimen450
-\@vwid@roff=\dimen451
+\@vwid@box=\box152
+\sift@deathcycles=\count440
+\@vwid@loff=\dimen449
+\@vwid@roff=\dimen450
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/scalerel/scalerel.sty
 Package: scalerel 2016/12/29 v1.8 Routines for constrained scaling and stretchi
 ng of objects, relative to a reference object or in absolute terms
-\thesrwidth=\skip78
-\thesrheight=\skip79
-\srblobheight=\skip80
-\srblobdepth=\skip81
-\mnxsrwidth=\skip82
-\LMex=\skip83
-\LMpt=\skip84
+\thesrwidth=\skip77
+\thesrheight=\skip78
+\srblobheight=\skip79
+\srblobdepth=\skip80
+\mnxsrwidth=\skip81
+\LMex=\skip82
+\LMpt=\skip83
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/pythonhighlight/pythonhighlight.s
 ty
@@ -1672,72 +1644,72 @@ Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box154
+\collectedbox=\box153
 )
-\tc@llx=\dimen452
-\tc@lly=\dimen453
-\tc@urx=\dimen454
-\tc@ury=\dimen455
+\tc@llx=\dimen451
+\tc@lly=\dimen452
+\tc@urx=\dimen453
+\tc@ury=\dimen454
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen456
-\adjbox@Height=\dimen457
-\adjbox@Depth=\dimen458
-\adjbox@Totalheight=\dimen459
-\adjbox@pwidth=\dimen460
-\adjbox@pheight=\dimen461
-\adjbox@pdepth=\dimen462
-\adjbox@ptotalheight=\dimen463
+\adjbox@Width=\dimen455
+\adjbox@Height=\dimen456
+\adjbox@Depth=\dimen457
+\adjbox@Totalheight=\dimen458
+\adjbox@pwidth=\dimen459
+\adjbox@pheight=\dimen460
+\adjbox@pdepth=\dimen461
+\adjbox@ptotalheight=\dimen462
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count443
+\c@checkoddpage=\count441
 LaTeX Info: Redefining \checkoddpage on input line 45.
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip85
-\cftbeforetoctitleskip=\skip86
-\cftaftertoctitleskip=\skip87
-\cftbeforepartskip=\skip88
-\cftpartnumwidth=\skip89
-\cftpartindent=\skip90
-\cftbeforesecskip=\skip91
-\cftsecindent=\skip92
-\cftsecnumwidth=\skip93
-\cftbeforesubsecskip=\skip94
-\cftsubsecindent=\skip95
-\cftsubsecnumwidth=\skip96
-\cftbeforesubsubsecskip=\skip97
-\cftsubsubsecindent=\skip98
-\cftsubsubsecnumwidth=\skip99
-\cftbeforeparaskip=\skip100
-\cftparaindent=\skip101
-\cftparanumwidth=\skip102
-\cftbeforesubparaskip=\skip103
-\cftsubparaindent=\skip104
-\cftsubparanumwidth=\skip105
-\cftbeforeloftitleskip=\skip106
-\cftafterloftitleskip=\skip107
-\cftbeforefigskip=\skip108
-\cftfigindent=\skip109
-\cftfignumwidth=\skip110
-\c@lofdepth=\count444
-\c@lotdepth=\count445
-\cftbeforelottitleskip=\skip111
-\cftafterlottitleskip=\skip112
-\cftbeforetabskip=\skip113
-\cfttabindent=\skip114
-\cfttabnumwidth=\skip115
+\cftparskip=\skip84
+\cftbeforetoctitleskip=\skip85
+\cftaftertoctitleskip=\skip86
+\cftbeforepartskip=\skip87
+\cftpartnumwidth=\skip88
+\cftpartindent=\skip89
+\cftbeforesecskip=\skip90
+\cftsecindent=\skip91
+\cftsecnumwidth=\skip92
+\cftbeforesubsecskip=\skip93
+\cftsubsecindent=\skip94
+\cftsubsecnumwidth=\skip95
+\cftbeforesubsubsecskip=\skip96
+\cftsubsubsecindent=\skip97
+\cftsubsubsecnumwidth=\skip98
+\cftbeforeparaskip=\skip99
+\cftparaindent=\skip100
+\cftparanumwidth=\skip101
+\cftbeforesubparaskip=\skip102
+\cftsubparaindent=\skip103
+\cftsubparanumwidth=\skip104
+\cftbeforeloftitleskip=\skip105
+\cftafterloftitleskip=\skip106
+\cftbeforefigskip=\skip107
+\cftfigindent=\skip108
+\cftfignumwidth=\skip109
+\c@lofdepth=\count442
+\c@lotdepth=\count443
+\cftbeforelottitleskip=\skip110
+\cftafterlottitleskip=\skip111
+\cftbeforetabskip=\skip112
+\cfttabindent=\skip113
+\cfttabnumwidth=\skip114
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 173.
+Package hyperref Info: Option `colorlinks' set `true' on input line 171.
 
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypatterns.meta.code.tex
@@ -1745,13 +1717,13 @@ s/tikzlibrarypatterns.meta.code.tex
 s.meta.code.tex))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
-\FN@temptoken=\toks63
-\footnotemargin=\dimen464
-\@outputbox@depth=\dimen465
-\FN@tempboxb=\box155
-\FN@tempboxc=\box156
-\footglue=\skip116
-\footnotebaselineskip=\dimen466
+\FN@temptoken=\toks61
+\footnotemargin=\dimen463
+\@outputbox@depth=\dimen464
+\FN@tempboxb=\box154
+\FN@tempboxc=\box155
+\footglue=\skip115
+\footnotebaselineskip=\dimen465
 Package footmisc Info: Declaring symbol style bringhurst on input line 699.
 Package footmisc Info: Declaring symbol style chicago on input line 707.
 Package footmisc Info: Declaring symbol style wiley on input line 716.
@@ -1772,41 +1744,41 @@ Package: fcprefix 2012/09/28
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count446
+\fc@digit@counter=\count444
 ))
-\c@padzeroesN=\count447
-\fc@tmpcatcode=\count448
-\@DT@modctr=\count449
-\@ordinalctr=\count450
-\@orgargctr=\count451
-\@strctr=\count452
-\@tmpstrctr=\count453
-\@DT@loopN=\count454
-\@DT@X=\count455
+\c@padzeroesN=\count445
+\fc@tmpcatcode=\count446
+\@DT@modctr=\count447
+\@ordinalctr=\count448
+\@orgargctr=\count449
+\@strctr=\count450
+\@tmpstrctr=\count451
+\@DT@loopN=\count452
+\@DT@X=\count453
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count456
-\@month=\count457
-\@year=\count458
-\c@HOUR=\count459
-\c@HOURXII=\count460
-\c@MINUTE=\count461
-\c@TOHOUR=\count462
-\c@TOMINUTE=\count463
-\c@SECOND=\count464
-\currenthour=\count465
-\currentminute=\count466
-\currentsecond=\count467
+\@day=\count454
+\@month=\count455
+\@year=\count456
+\c@HOUR=\count457
+\c@HOURXII=\count458
+\c@MINUTE=\count459
+\c@TOHOUR=\count460
+\c@TOMINUTE=\count461
+\c@SECOND=\count462
+\currenthour=\count463
+\currentminute=\count464
+\currentsecond=\count465
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count468
-\dayofyear=\count469
-\dayofweek=\count470
+\@dtctr=\count466
+\dayofyear=\count467
+\dayofweek=\count468
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks64
-\dt@b=\toks65
+\dt@a=\toks62
+\dt@b=\toks63
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/datenumber/datenumber.sty
 Package: datenumber 2022/01/27v0.03
@@ -1815,21 +1787,21 @@ Package: datenumber 2022/01/27v0.03
 f
 File: datenumberUSenglish.ldf 
 )
-\c@@dayscnt=\count471
-\c@@startyear=\count472
-\c@datenumber=\count473
-\c@dateyear=\count474
-\c@datemonth=\count475
-\c@dateday=\count476
-\c@datedayname=\count477
-\@nom=\count478
-\@den=\count479
+\c@@dayscnt=\count469
+\c@@startyear=\count470
+\c@datenumber=\count471
+\c@dateyear=\count472
+\c@datemonth=\count473
+\c@dateday=\count474
+\c@datedayname=\count475
+\@nom=\count476
+\@den=\count477
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/contour/contour.sty
 Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
-\con@length=\skip117
+\con@length=\skip116
 
 Loading configuration file `contour.cfg'.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/contour/contour.cfg
@@ -1839,37 +1811,37 @@ contour: Using driver file `pdftex.cnt'.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/contour/pdftex.cnt
 File: pdftex.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
 ))
-\c@deadlineyear=\count480
-\c@deadlinemonth=\count481
-\c@deadlineday=\count482
-\c@deadlinetime=\count483
-\c@mydatenumber=\count484
-\c@currentdate=\count485
-\c@daysdiff=\count486
-\c@currenttime=\count487
-\c@totalminutes=\count488
-\c@displaydays=\count489
-\c@remainingmins=\count490
-\c@displayhours=\count491
-\c@displaymins=\count492
-\c@tcb@cnt@briefillus=\count493
+\c@deadlineyear=\count478
+\c@deadlinemonth=\count479
+\c@deadlineday=\count480
+\c@deadlinetime=\count481
+\c@mydatenumber=\count482
+\c@currentdate=\count483
+\c@daysdiff=\count484
+\c@currenttime=\count485
+\c@totalminutes=\count486
+\c@displaydays=\count487
+\c@remainingmins=\count488
+\c@displayhours=\count489
+\c@displaymins=\count490
+\c@tcb@cnt@briefillus=\count491
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box157
-\beforetitleunit=\skip118
-\aftertitleunit=\skip119
-\ttl@plus=\dimen467
-\ttl@minus=\dimen468
-\ttl@toksa=\toks66
-\titlewidth=\dimen469
-\titlewidthlast=\dimen470
-\titlewidthfirst=\dimen471
+\ttl@box=\box156
+\beforetitleunit=\skip117
+\aftertitleunit=\skip118
+\ttl@plus=\dimen466
+\ttl@minus=\dimen467
+\ttl@toksa=\toks64
+\titlewidth=\dimen468
+\titlewidthlast=\dimen469
+\titlewidthfirst=\dimen470
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 356.
+h' as default language. on input line 354.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-56.
+54.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1877,38 +1849,38 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (./technical_document.aux)
 \openout1 = `technical_document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 356.
-LaTeX Font Info:    ... okay on input line 356.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 356.
-LaTeX Font Info:    ... okay on input line 356.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 356.
-LaTeX Font Info:    ... okay on input line 356.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 356.
-LaTeX Font Info:    ... okay on input line 356.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 356.
-LaTeX Font Info:    ... okay on input line 356.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 356.
-LaTeX Font Info:    ... okay on input line 356.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 356.
-LaTeX Font Info:    ... okay on input line 356.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 356.
-LaTeX Font Info:    ... okay on input line 356.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 356.
-LaTeX Font Info:    ... okay on input line 356.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count494
-\scratchdimen=\dimen472
-\scratchbox=\box158
-\nofMPsegments=\count495
-\nofMParguments=\count496
-\everyMPshowfont=\toks67
-\MPscratchCnt=\count497
-\MPscratchDim=\dimen473
-\MPnumerator=\count498
-\makeMPintoPDFobject=\count499
-\everyMPtoPDFconversion=\toks68
+\scratchcounter=\count492
+\scratchdimen=\dimen471
+\scratchbox=\box157
+\nofMPsegments=\count493
+\nofMParguments=\count494
+\everyMPshowfont=\toks65
+\MPscratchCnt=\count495
+\MPscratchDim=\dimen472
+\MPnumerator=\count496
+\makeMPintoPDFobject=\count497
+\everyMPtoPDFconversion=\toks66
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1940,18 +1912,18 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 356.
-Package hyperref Info: Link coloring ON on input line 356.
+or `english'. on input line 354.
+Package hyperref Info: Link coloring ON on input line 354.
  (./technical_document.out) (./technical_document.out)
 \@outlinefile=\write4
 \openout4 = `technical_document.out'.
 
-\c@lstlisting=\count500
+\c@lstlisting=\count498
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks69
-\inpenc@posthook=\toks70
+\inpenc@prehook=\toks67
+\inpenc@posthook=\toks68
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -1971,33 +1943,6 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package microtype Info: Patching varwidth to enable character protrusion.
-\MT@vwid@leftmargin=\dimen474
-\MT@vwid@rightmargin=\dimen475
-LaTeX Info: Redefining \microtypecontext on input line 356.
-Package microtype Info: Applying patch `item' on input line 356.
-Package microtype Info: Applying patch `toc' on input line 356.
-Package microtype Info: The `eqnum' patch may not be effective because you are
-(microtype)             using the mathtools package. Make sure to insert
-(microtype)             `\leftprotrusion' and `\rightprotrusion' as
-(microtype)             appropriate in mathtools's `\newtagform' command.
-Package microtype Info: Applying patch `eqnum' on input line 356.
-Package microtype Info: Applying patch `footnote' on input line 356.
-Package microtype Info: Applying patch `verbatim' on input line 356.
-LaTeX Info: Redefining \microtypesetup on input line 356.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 356.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-ptm.cfg
-File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
-)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -2045,84 +1990,26 @@ nverter(2).jpg Graphic file (type jpg)
 <use images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-con
 verter(2).jpg>
 Package pdftex.def Info: images/A4-document-placeholder-medium-blue_0.jpg-ezgif
-.com-webp-to-jpg-converter(2).jpg  used on input line 361.
+.com-webp-to-jpg-converter(2).jpg  used on input line 359.
 (pdftex.def)             Requested size: 614.27042pt x 794.92102pt.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/14
-.4'
-(microtype)             (new value: 14.4pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/10
-'
-(microtype)             (new value: 10.0pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/7'
-
-(microtype)             (new value: 7.0pt) on input line 371.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 371
+LaTeX Font Info:    Trying to load font information for U+msa on input line 369
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 371
+LaTeX Font Info:    Trying to load font information for U+msb on input line 369
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/14.4
-'
-(microtype)             (new value: 14.4pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/7'
-(microtype)             (new value: 7.0pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/14.4
-'
-(microtype)             (new value: 14.4pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/7'
-(microtype)             (new value: 7.0pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/14.4
-'
-(microtype)             (new value: 14.4pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/7'
-(microtype)             (new value: 7.0pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/14.4
-'
-(microtype)             (new value: 14.4pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/10'
-(microtype)             (new value: 10.0pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/7'
-(microtype)             (new value: 7.0pt) on input line 371.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 37
-1.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 36
+9.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/14
-.4'
-(microtype)             (new value: 14.4pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/10
-'
-(microtype)             (new value: 10.0pt) on input line 371.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/7'
-
-(microtype)             (new value: 7.0pt) on input line 371.
-
 
 [1
 
@@ -2170,7 +2057,7 @@ document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-converter(2).jpg>]
 File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 <use images/a13d25fa5178ce400e90e65f61d696d3.jpg>
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
-nput line 392.
+nput line 390.
 (pdftex.def)             Requested size: 614.3022pt x 794.98625pt.
 > Step: init table outer spec.
 > Step: parse table options.
@@ -2180,48 +2067,6 @@ nput line 392.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/12
-'
-(microtype)             (new value: 12.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/8'
-
-(microtype)             (new value: 8.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/6'
-
-(microtype)             (new value: 6.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/12'
-(microtype)             (new value: 12.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/8'
-(microtype)             (new value: 8.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/6'
-(microtype)             (new value: 6.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/12
-'
-(microtype)             (new value: 12.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/8'
-
-(microtype)             (new value: 8.0pt) on input line 407.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/6'
-
-(microtype)             (new value: 6.0pt) on input line 407.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2233,10 +2078,10 @@ Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/6'
 <example-image.pdf, id=188, 321.2pt x 240.9pt>
 File: example-image.pdf Graphic file (type pdf)
 <use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 424.
+Package pdftex.def Info: example-image.pdf  used on input line 422.
 (pdftex.def)             Requested size: 379.4048pt x 284.52756pt.
 
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 424--425
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 422--423
  [] 
  []
 
@@ -2249,7 +2094,7 @@ Overfull \hbox (12.79999pt too wide) in paragraph at lines 424--425
 File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 <use images/a13d25fa5178ce400e90e65f61d696d3.jpg>
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
-nput line 433.
+nput line 431.
 (pdftex.def)             Requested size: 614.3022pt x 794.98625pt.
 > Step: init table outer spec.
 > Step: parse table options.
@@ -2261,55 +2106,55 @@ nput line 433.
 <images/profile.png, id=199, 903.375pt x 831.105pt>
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
+Package pdftex.def Info: images/profile.png  used on input line 452.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 <profile/Image(7)-Photoroom.png, id=201, 1016.79875pt x 1284.8pt>
 File: profile/Image(7)-Photoroom.png Graphic file (type png)
 <use profile/Image(7)-Photoroom.png>
-Package pdftex.def Info: profile/Image(7)-Photoroom.png  used on input line 454
+Package pdftex.def Info: profile/Image(7)-Photoroom.png  used on input line 452
 .
 (pdftex.def)             Requested size: 56.9055pt x 71.8895pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
+Package pdftex.def Info: images/profile.png  used on input line 452.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
+Package pdftex.def Info: images/profile.png  used on input line 452.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
+Package pdftex.def Info: images/profile.png  used on input line 452.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
+Package pdftex.def Info: images/profile.png  used on input line 452.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 > Step: build the whole table.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
+Package pdftex.def Info: images/profile.png  used on input line 452.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: profile/Image(7)-Photoroom.png Graphic file (type png)
 <use profile/Image(7)-Photoroom.png>
-Package pdftex.def Info: profile/Image(7)-Photoroom.png  used on input line 454
+Package pdftex.def Info: profile/Image(7)-Photoroom.png  used on input line 452
 .
 (pdftex.def)             Requested size: 56.9055pt x 71.8895pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
+Package pdftex.def Info: images/profile.png  used on input line 452.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
+Package pdftex.def Info: images/profile.png  used on input line 452.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
+Package pdftex.def Info: images/profile.png  used on input line 452.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
-Package pdftex.def Info: images/profile.png  used on input line 454.
+Package pdftex.def Info: images/profile.png  used on input line 452.
 (pdftex.def)             Requested size: 56.9055pt x 52.34975pt.
 
 
@@ -2349,25 +2194,10 @@ Package pdftex.def Info: images/profile.png  used on input line 454.
 File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 <use images/a13d25fa5178ce400e90e65f61d696d3.jpg>
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
-nput line 459.
+nput line 457.
 (pdftex.def)             Requested size: 614.3022pt x 794.98625pt.
 
-(./technical_document.toc
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/5'
-
-(microtype)             (new value: 5.0pt) on input line 1.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/5'
-(microtype)             (new value: 5.0pt) on input line 1.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/5'
-(microtype)             (new value: 5.0pt) on input line 1.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/5'
-(microtype)             (new value: 5.0pt) on input line 1.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/5'
-(microtype)             (new value: 5.0pt) on input line 1.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/5'
-
-(microtype)             (new value: 5.0pt) on input line 1.
-)
+(./technical_document.toc)
 \tf@toc=\write5
 \openout5 = `technical_document.toc'.
 
@@ -2383,7 +2213,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 476.
+ used on input line 474.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2397,19 +2227,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.476 \newpage
+l.474 \newpage
                [1
 
  <./images/Kingston_University_London_logo_200-tablet.png (PNG copy)>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-83.
+81.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 <extracted_images/image_4_2.png, id=251, 701.62125pt x 321.45094pt>
 File: extracted_images/image_4_2.png Graphic file (type png)
 <use extracted_images/image_4_2.png>
-Package pdftex.def Info: extracted_images/image_4_2.png  used on input line 501
+Package pdftex.def Info: extracted_images/image_4_2.png  used on input line 499
 .
 (pdftex.def)             Requested size: 398.93158pt x 182.77768pt.
 
@@ -2418,7 +2248,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 507.
+ used on input line 505.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2432,7 +2262,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.507 \newpage
+l.505 \newpage
               \newgeometry{left=0.8in,right=0.8in,top=1in,bottom=0.6in}
 [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc} <
 ./extracted_images/image_4_2.png (PNG copy)>]
@@ -2472,16 +2302,16 @@ l.507 \newpage
 File: extracted_images/image_10_2.png Graphic file (type png)
 <use extracted_images/image_10_2.png>
 Package pdftex.def Info: extracted_images/image_10_2.png  used on input line 53
-4.
-(pdftex.def)             Requested size: 109.94823pt x 85.35753pt.
+2.
+(pdftex.def)             Requested size: 109.94823pt x 76.81682pt.
 <extracted_images/image_10_1.png, id=258, 719.68875pt x 293.095pt>
 File: extracted_images/image_10_1.png Graphic file (type png)
 <use extracted_images/image_10_1.png>
-Package pdftex.def Info: extracted_images/image_10_1.png  used on input line 54
-0.
+Package pdftex.def Info: extracted_images/image_10_1.png  used on input line 53
+8.
 (pdftex.def)             Requested size: 109.9473pt x 56.90508pt.
 
-Overfull \hbox (31.76169pt too wide) in paragraph at lines 521--546
+Overfull \hbox (31.76169pt too wide) in paragraph at lines 519--544
 []$[]$  $[]$ 
  []
 
@@ -2489,16 +2319,16 @@ Overfull \hbox (31.76169pt too wide) in paragraph at lines 521--546
 File: extracted_images/image_11_2.png Graphic file (type png)
 <use extracted_images/image_11_2.png>
 Package pdftex.def Info: extracted_images/image_11_2.png  used on input line 55
-7.
+5.
 (pdftex.def)             Requested size: 109.94664pt x 85.35526pt.
 <extracted_images/image_11_1.png, id=260, 990.70125pt x 665.48625pt>
 File: extracted_images/image_11_1.png Graphic file (type png)
 <use extracted_images/image_11_1.png>
 Package pdftex.def Info: extracted_images/image_11_1.png  used on input line 56
-3.
+1.
 (pdftex.def)             Requested size: 122.15938pt x 85.34848pt.
 
-Overfull \hbox (31.76169pt too wide) in paragraph at lines 549--569
+Overfull \hbox (31.76169pt too wide) in paragraph at lines 547--567
 []$[]$  $[]$ 
  []
 
@@ -2508,7 +2338,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 594.
+ used on input line 590.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2522,7 +2352,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.594 \newpage
+l.590 \newpage
               \newgeometry{left=0.8in,right=0.8in,top=1in,bottom=0.6in}
 [3
 
@@ -2564,35 +2394,35 @@ png> <./extracted_images/image_11_2.png (PNG copy)> <./extracted_images/image_1
 <images/image_6_2-Photoroom.png, id=268, 583.17876pt x 379.4175pt>
 File: images/image_6_2-Photoroom.png Graphic file (type png)
 <use images/image_6_2-Photoroom.png>
-Package pdftex.def Info: images/image_6_2-Photoroom.png  used on input line 604
+Package pdftex.def Info: images/image_6_2-Photoroom.png  used on input line 600
 .
 (pdftex.def)             Requested size: 199.46198pt x 129.77023pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 605.
+(caption)                particular \caption on input line 601.
 See the caption package documentation for explanation.
 
 <images/image_7_2-Photoroom.png, id=269, 479.7925pt x 411.5375pt>
 File: images/image_7_2-Photoroom.png Graphic file (type png)
 <use images/image_7_2-Photoroom.png>
-Package pdftex.def Info: images/image_7_2-Photoroom.png  used on input line 615
+Package pdftex.def Info: images/image_7_2-Photoroom.png  used on input line 611
 .
 (pdftex.def)             Requested size: 165.80765pt x 142.21921pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 616.
+(caption)                particular \caption on input line 612.
 See the caption package documentation for explanation.
 
 <images/image_8_2-Photoroom.png, id=270, 564.1075pt x 392.46625pt>
 File: images/image_8_2-Photoroom.png Graphic file (type png)
 <use images/image_8_2-Photoroom.png>
-Package pdftex.def Info: images/image_8_2-Photoroom.png  used on input line 626
+Package pdftex.def Info: images/image_8_2-Photoroom.png  used on input line 622
 .
 (pdftex.def)             Requested size: 199.46198pt x 138.77254pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 627.
+(caption)                particular \caption on input line 623.
 See the caption package documentation for explanation.
 
 
@@ -2601,7 +2431,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 631.
+ used on input line 627.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2617,49 +2447,54 @@ s/image_8_2-Photoroom.png>]
 <extracted_images2/image(2).png, id=281, 1099.10625pt x 759.83875pt>
 File: extracted_images2/image(2).png Graphic file (type png)
 <use extracted_images2/image(2).png>
-Package pdftex.def Info: extracted_images2/image(2).png  used on input line 636
+Package pdftex.def Info: extracted_images2/image(2).png  used on input line 632
 .
 (pdftex.def)             Requested size: 134.63934pt x 93.07816pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 637.
+(caption)                particular \caption on input line 633.
 See the caption package documentation for explanation.
 
 <extracted_images2/image.jpg, id=282, 602.25pt x 586.44093pt>
 File: extracted_images2/image.jpg Graphic file (type jpg)
 <use extracted_images2/image.jpg>
-Package pdftex.def Info: extracted_images2/image.jpg  used on input line 641.
+Package pdftex.def Info: extracted_images2/image.jpg  used on input line 637.
 (pdftex.def)             Requested size: 104.71974pt x 101.9665pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 642.
+(caption)                particular \caption on input line 638.
 See the caption package documentation for explanation.
 
 <extracted_images2/image(4).png, id=283, 1048.91875pt x 817.0525pt>
 File: extracted_images2/image(4).png Graphic file (type png)
 <use extracted_images2/image(4).png>
-Package pdftex.def Info: extracted_images2/image(4).png  used on input line 646
+Package pdftex.def Info: extracted_images2/image(4).png  used on input line 642
 .
 (pdftex.def)             Requested size: 134.63934pt x 104.87408pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 647.
+(caption)                particular \caption on input line 643.
 See the caption package documentation for explanation.
 
 <images/feaone.png, id=284, 562.1pt x 269.005pt>
 File: images/feaone.png Graphic file (type png)
 <use images/feaone.png>
-Package pdftex.def Info: images/feaone.png  used on input line 658.
+Package pdftex.def Info: images/feaone.png  used on input line 654.
 (pdftex.def)             Requested size: 100.97636pt x 85.35683pt.
+
+Underfull \hbox (badness 4013) in paragraph at lines 655--655
+[]\OT1/ptm/m/n/9 (a) |FEA of the squared
+ []
+
 <images/featwo.png, id=285, 562.1pt x 279.0425pt>
 File: images/featwo.png Graphic file (type png)
 <use images/featwo.png>
-Package pdftex.def Info: images/featwo.png  used on input line 665.
+Package pdftex.def Info: images/featwo.png  used on input line 661.
 (pdftex.def)             Requested size: 100.97636pt x 85.35692pt.
 
-Underfull \hbox (badness 1270) in paragraph at lines 666--666
-[]\OT1/ptm/m/n/9 (+20) (b) |FEA of the nar-rower
+Underfull \hbox (badness 1642) in paragraph at lines 662--662
+[]\OT1/ptm/m/n/9 (b) |FEA of the nar-rower
  []
 
 Missing character: There is no â in font ptmr7t!
@@ -2671,7 +2506,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 684.
+ used on input line 682.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2715,55 +2550,36 @@ ted_images2/image(4).png> <./images/feaone.png> <./images/featwo.png>]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (123.14755pt too wide) in paragraph at lines 693--701
+Overfull \hbox (123.14755pt too wide) in paragraph at lines 691--699
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 693--701
-\OT1/ptm/b/n/12 (+20) MOSFET-based H-bridge \OT1/ptm/m/n/12 (+20) us-ing com-
+Underfull \hbox (badness 2600) in paragraph at lines 691--699
+\OT1/ptm/b/n/12 MOSFET-based H-bridge \OT1/ptm/m/n/12 us-ing com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 693--701
-\OT1/ptm/m/n/12 (+20) ple-men-tary P-channel and N-channel
+Underfull \hbox (badness 10000) in paragraph at lines 691--699
+\OT1/ptm/m/n/12 ple-men-tary P-channel and N-channel
  []
 
 
-Overfull \hbox (123.14755pt too wide) in paragraph at lines 693--701
+Overfull \hbox (123.14755pt too wide) in paragraph at lines 691--699
 []$ 
  []
 
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/m/n/9'
 
-(microtype)             (new value: 9.0pt) on input line 753.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolA/m/n/9'
-(microtype)             (new value: 9.0pt) on input line 753.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolB/m/n/9'
-(microtype)             (new value: 9.0pt) on input line 753.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolC/m/n/9'
-(microtype)             (new value: 9.0pt) on input line 753.
-Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/9'
-(microtype)             (new value: 9.0pt) on input line 753.
-Package microtype Info: Fixing zero \fontdimen 6 for font `OMX/MnSymbolE/b/n/9'
-
-(microtype)             (new value: 9.0pt) on input line 753.
-
-Overfull \hbox (111.08417pt too wide) in paragraph at lines 818--819
+Overfull \hbox (111.08417pt too wide) in paragraph at lines 817--818
  [] 
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 8
-24.
+23.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `pcr' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Overfull \hbox (19.95294pt too wide) in paragraph at lines 692--841
+Overfull \hbox (19.95294pt too wide) in paragraph at lines 690--840
 |  $[]$  $[]$ 
  []
 
@@ -2773,7 +2589,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 845.
+ used on input line 844.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2825,7 +2641,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 871.
+ used on input line 870.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2842,11 +2658,11 @@ Missing character: There is no ™ in font ptmr7t!
 File: images/swappy-20250406-185116.png Graphic file (type png)
 <use images/swappy-20250406-185116.png>
 Package pdftex.def Info: images/swappy-20250406-185116.png  used on input line 
-889.
+888.
 (pdftex.def)             Requested size: 205.24384pt x 149.88675pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 890.
+(caption)                particular \caption on input line 889.
 See the caption package documentation for explanation.
 
 <images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg, id=318, 1013.9481pt
@@ -2855,25 +2671,25 @@ File: images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg Graphic file (t
 ype jpg)
 <use images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg>
 Package pdftex.def Info: images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.
-jpg  used on input line 894.
+jpg  used on input line 893.
 (pdftex.def)             Requested size: 333.5271pt x 141.04709pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 895.
+(caption)                particular \caption on input line 894.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (76.96838pt too wide) in paragraph at lines 894--895
+Overfull \hbox (76.96838pt too wide) in paragraph at lines 893--894
  [][] 
  []
 
 <images/Image(2).jpg, id=319, 2582.64874pt x 1453.43pt>
 File: images/Image(2).jpg Graphic file (type jpg)
 <use images/Image(2).jpg>
-Package pdftex.def Info: images/Image(2).jpg  used on input line 899.
+Package pdftex.def Info: images/Image(2).jpg  used on input line 898.
 (pdftex.def)             Requested size: 307.8736pt x 173.25084pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 885--901
+Underfull \hbox (badness 10000) in paragraph at lines 884--900
 
  []
 
@@ -2883,7 +2699,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 904.
+ used on input line 903.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2903,7 +2719,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 933.
+ used on input line 932.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2920,7 +2736,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 948.
+ used on input line 947.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2935,7 +2751,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 951.
+ used on input line 950.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2949,7 +2765,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 File: extracted_images2/image_13_2.png Graphic file (type png)
 <use extracted_images2/image_13_2.png>
 Package pdftex.def Info: extracted_images2/image_13_2.png  used on input line 9
-54.
+53.
 (pdftex.def)             Requested size: 349.06227pt x 262.55753pt.
 
 
@@ -2957,7 +2773,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 960.
+ used on input line 959.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2972,7 +2788,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 963.
+ used on input line 962.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2990,13 +2806,13 @@ Package rerunfilecheck Info: File `technical_document.out' has not changed.
 (rerunfilecheck)             Checksum: 1421CDD870C75A53CA3D5380700FDB14;4885.
  ) 
 Here is how much of TeX's memory you used:
- 80595 strings out of 473201
- 1999639 string characters out of 5716126
- 2920841 words of memory out of 5000000
- 102401 multiletter control sequences out of 15000+600000
- 624089 words of font info for 342 fonts, out of 8000000 for 9000
+ 78282 strings out of 473201
+ 1960554 string characters out of 5716126
+ 2847135 words of memory out of 5000000
+ 100360 multiletter control sequences out of 15000+600000
+ 616866 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,16n,108p,1313b,1230s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,16n,108p,1313b,1221s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
@@ -3010,10 +2826,10 @@ xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on technical_document.pdf (17 pages, 7437794 bytes).
+Output written on technical_document.pdf (17 pages, 7435991 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  319 compressed objects within 4 object streams
  61 named destinations out of 1000 (max. 500000)
- 60960 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 544 words of extra memory for PDF output out of 10000 (max. 10000000)
 

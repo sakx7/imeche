@@ -58,8 +58,6 @@
 	\draw (barycentric cs:base=0.5,collector=0.5,emitter=0.5) circle [radius=14pt];
 }
 
-
-\usepackage{microtype}
 \usepackage{tikz-3dplot}
 \usepackage{textcomp}
 % Custom commands
@@ -350,7 +348,7 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 \usepackage{titlesec}
 
 \titleformat{\section}[block]{\vspace*{-15pt}\normalfont\LARGE\bfseries\color{mainblue}}{\color{mainblue}\thesection}{1em}{}
-\titleformat{\subsection}[block]{\normalfont\large\bfseries\color{mainblue}}{\color{mainblue}\thesubsection}{1em}{}
+\titleformat{\subsection}[block]{\normalfont\large\bfseries\color{mainblue}}{\color{mainblue}\thesubsection }{1em}{}
 \titleformat{\subsubsection}[block]{\normalfont\normalsize\bfseries\color{mainblue}}{\color{mainblue}\thesubsubsection}{1em}{}
 
 \begin{document}
@@ -520,7 +518,7 @@ Info is catered to the Foundation Group.
 	\begin{figure}[H]
 	\begin{minipage}{0.4\textwidth}	
 	\centering\wm{0.8}{
-	\item[\textbf{1.}] \textbf{Rear Datum Pointer}:\\
+	\item[\textbf{1.}] \textbf{Rear Datum Pointer}\\
 		\textbf{-} Must remain vertical\\ 
 		(pointing downward)\\
 		\textbf{-} Max 6mm clearance from track surface\\
@@ -531,7 +529,7 @@ Info is catered to the Foundation Group.
 		\centering
 		\begin{subfigure}[t]{0.45\textwidth}
 			\centering
-			\includegraphics[width=0.7\textwidth,height=3cm]{extracted_images/image_10_2.png}
+			\includegraphics[width=0.7\textwidth,height=2.7cm]{extracted_images/image_10_2.png}
 			\caption{Datum Pointer relative to the target}
 			\label{fig:datumall}
 		\end{subfigure}\hspace*{1em}
@@ -574,15 +572,13 @@ Info is catered to the Foundation Group.
 	\item Continuous green light during operation
 	\item Red light + audible signal upon successful wall engagement
 \end{itemize}
-
 \subsection{Technical Restrictions}
 \begin{itemize}[itemsep=-0.7mm,topsep=0pt]
 	\item \textbf{No programmable circuitry} permitted (analog systems only)
 	\item All repairs must be completed within allocated competition time
 	\item Device must be fully self-contained (no external control)
 \end{itemize}
-
-
+\vspace{1em}\hrule\vspace{0.5em}
 \subsection*{Key Differences from Advanced Category}
 \begin{itemize}[itemsep=-0.7mm]
 	\item No height adjustment capability required
@@ -670,11 +666,13 @@ Finally, the \textbf{Top Isometric View} offers an overall perspective of the de
 	\label{fig:fea_comparison}
 	\end{minipage}\hfill
 	\begin{minipage}{0.5\textwidth}
-		\subsection{Finite Element Analysis (FEA)}
+		\subsection{Finite Element Analysis (FEA)}\large
 		3D models of the vehicle’s base were developed using Fusion 360, and Finite Element Analysis (FEA) was carried out to assess structural stress distribution. Figure~\ref{fig:fea_comparison} compares two design variants: the squared chassis in Figure~\ref{fig:fea_squared} and the narrower, more streamlined version in Figure~\ref{fig:fea_narrow}.\\[8pt]
-		The colour scale in each image represents stress intensity, where red and yellow indicate high stress, and green to blue indicate low stress regions. The squared design recorded a maximum stress of 2.165~MPa, while the narrower chassis showed a slightly reduced maximum of 2.001~MPa. Due to better stress distribution and reduced material usage, the narrower design was chosen for the final prototype.
+		The colour scale in each image represents stress intensity, where red and yellow indicate high stress, and green to blue indicate low stress regions.
 	\end{minipage}		
 \end{figure}\noindent
+The squared design recorded a maximum stress of 2.165~MPa, while the narrower chassis showed a slightly reduced maximum of 2.001~MPa. Due to better stress distribution and reduced material usage, the narrower design was chosen for the final prototype.
+\vspace{0.5em}\hrule\vspace{0.5em}\noindent
 Using CAD software like SolidWorks or Fusion 360 allow for precise visualization of spatial requirements, ensuring that all electronic and mechanical components fit within the given constraints. CAD tools also enhance accuracy, reduce errors, and streamline the design-to-manufacture process. By simulating the design beforehand, potential issues can be resolved early, improving both cost-efficiency and production speed.
 
 
@@ -724,10 +722,11 @@ My process started with building the core of the system:
 	\draw (fet1.S) -- ++(0,0.5) coordinate (vdd1);
 	\draw (fet2.S) -- ++(0,0.5) coordinate (vdd2);
 
-	\draw (vdd1) -- (vdd2) coordinate[midway] (mid1)
-	(mid1) -- ++(0,0.5)
-	node[above] {\large Vcc};
+	\draw (vdd1) -- (vdd2) coordinate[midway] (mid1) (mid1) -- ++(0,0.5) node[above] {\normalsize \textbf{Vcc}} coordinate (mid1t); 
+	
 	\node[circle,color=black, fill=black, inner sep=0pt,minimum size=3pt] (b) at (mid1) {};
+	
+	\draw ($(mid1t)+(-0.3,0)$) -- ($(mid1t)-(-0.3,0)$);
 	
 	
 	\draw (fet3.D) -- ++(0,-0.5) coordinate (gnd1);
@@ -735,7 +734,7 @@ My process started with building the core of the system:
 	
 	\draw (gnd1) -- (gnd2) coordinate[midway] (midpoint);
 	\draw (midpoint) -- ++(0,-0.1) node[ground]{} coordinate[midway] (gnd);
-	\node[below=0.7] at (gnd) {\large GND};
+	\node[below=0.7] at (gnd) {\footnotesize \textbf{GND}};
 	\node[circle,color=black, fill=black, inner sep=0pt,minimum size=3pt] (b) at (midpoint) {};
 
 
@@ -835,7 +834,7 @@ The logic was straightforward yet crucial, as it needed to handle some key respo
 		\item \code{1} : Reverse direction ($P_2$ and $N_1$ activated)
 		\item \code{0} : Forward direction ($P_1$ and $N_2$ activated)
 	\end{itemize}
-\end{minipage}\\[5pt]
+\end{minipage}\\[8pt]
 This initial switching matrix became the backbone of the system, and everything I built afterward had to integrate seamlessly with this simple but essential layer. I made sure to carefully test and validate the gate network, ensuring it was stable and reliable before moving on to more complex features. Ultimately, the success of the entire system depended on the reliability of this basic setup.
 \vspace{-0.4em}
 \subsection{Prioritizing Pause Logic}
