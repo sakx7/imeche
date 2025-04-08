@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.11)  8 APR 2025 15:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2804,13 +2804,13 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `technical_document.out' has not changed.
-(rerunfilecheck)             Checksum: 79156C299E680FF2C1F2C6E5ED0CC4DB;4999.
+(rerunfilecheck)             Checksum: 6F836A3E86591FFF9351E6F02A3C2797;4999.
  ) 
 Here is how much of TeX's memory you used:
- 78282 strings out of 473201
- 1960554 string characters out of 5716126
- 2847073 words of memory out of 5000000
- 100360 multiletter control sequences out of 15000+600000
+ 78283 strings out of 473201
+ 1960587 string characters out of 5716126
+ 2847306 words of memory out of 5000000
+ 100361 multiletter control sequences out of 15000+600000
  616866 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,16n,108p,1313b,1221s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2827,7 +2827,7 @@ xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on technical_document.pdf (17 pages, 7436824 bytes).
+Output written on technical_document.pdf (17 pages, 7437032 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  319 compressed objects within 4 object streams

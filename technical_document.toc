@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {6.4}Breadboarding}{7}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}Final Behavior -- What It Actually Does}{8}{subsection.6.5}%
 \contentsline {subsection}{\numberline {6.6}Circuit Diagrams and Breadboard Setup}{8}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Bill of materials [draft]}{9}{section.7}%
+\contentsline {section}{\numberline {7}Bill Of Materials [draft]}{9}{section.7}%
 \contentsline {section}{\numberline {8}Manufacturing process [eh.. draft]}{10}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Prototypes}{10}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Chassis}{10}{subsection.8.2}%
