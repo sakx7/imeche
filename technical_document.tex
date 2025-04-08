@@ -15,6 +15,7 @@
 \usepackage[most]{tcolorbox}
 \definecolor{light-gray}{gray}{0.9}
 \newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
+\usepackage{subcaption}
 
 %\usepackage{showframe}
 \usepackage{times}
@@ -352,9 +353,6 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 \titleformat{\subsection}[block]{\normalfont\large\bfseries\color{mainblue}}{\color{mainblue}\thesubsection}{1em}{}
 \titleformat{\subsubsection}[block]{\normalfont\normalsize\bfseries\color{mainblue}}{\color{mainblue}\thesubsubsection}{1em}{}
 
-
-
-
 \begin{document}
 
 \thispagestyle{empty}
@@ -565,7 +563,7 @@ Info is catered to the Foundation Group.
 \end{itemize}
 
 
-\newpage\newgeometry{left=0.8in,right=0.8in,top=1in,bottom=0.69in}
+\newpage\newgeometry{left=0.8in,right=0.8in,top=1in,bottom=0.6in}
 \section{Design Concepts}
 
 \begin{minipage}{0.59\textwidth}
@@ -602,24 +600,57 @@ However, it is an aesthetic and versatile design, easy to swap parts if it break
 \end{minipage}\\[8pt]
 Despite this, it was a durable and strong design that could withstand impact and perform well.
 
-\newpage\restoregeometry
-\section{CAD [draft]}
-\begin{minipage}{0.4\textwidth}
+\newpage
+\section{Computer-Aided Design (CAD)}
+
+\begin{minipage}{0.3\textwidth}
 	\centering
-	\includegraphics[width=1\textwidth]{extracted_images2/image_9_2.png}
-	\captionof{figure}{s}
-\end{minipage}\hfil
-\begin{minipage}{0.55\textwidth}
-	A 3D model of the base of the vehicle was created using fusion 360. From the image provided, you can see that we are showing a finite element analysis of the design of the vehicle. The colours on the vehicle represent different stresses such as yellow/red is high stress whereas green/blue is representing a low stress. There is two pictures provided that show different shapes of the vehicle. The top one is squared design, and the bottom image is a narrower design. The main reason why we chose fusion 360 was that we can input these models into the software, and it shows the max stress on each design. The top design has a maximum stress of 2.165 MPa, and the bottom design has a maximum stress of 2.001 MPa. Since the bottom design contains a lesser load for it to function, we went with this concept.
-\end{minipage}\\[8pt]
-\begin{minipage}{0.4\textwidth}
+	\includegraphics[width=0.9\textwidth]{extracted_images2/image(2).png}
+	\captionof{figure}{Bottom Isometric View}
+\end{minipage}\hfill
+\begin{minipage}{0.3\textwidth}
 	\centering
-	\includegraphics[width=1\textwidth]{extracted_images2/image_9_3.png}
-	\captionof{figure}{s}
-\end{minipage}\hfil
-\begin{minipage}{0.55\textwidth}
-In this image provided, you can see the chassis, shafts, and bearings shown on SolidWorks. This is the mechanism that drives the car to move where the shaft is rotating to move the car. The screw threaded rod is connected to a motor which is moving the car. The motor is then spinning the rod which will then rotate the rear wheels. The wiring for this design is that the red and black wires are connected to the motor which is connected to the circuit. 
-\end{minipage}
+	\includegraphics[width=0.7\textwidth]{extracted_images2/image.jpg}
+	\captionof{figure}{Bottom Birds Eye View}
+\end{minipage}\hfill
+\begin{minipage}{0.3\textwidth}
+	\centering
+	\includegraphics[width=0.9\textwidth]{extracted_images2/image(4).png}
+	\captionof{figure}{Top Isometric View}
+\end{minipage}\\[1em]
+The images above illustrate various perspectives of the chassis design, modelled in SolidWorks. In the \textbf{Bottom Isometric View}, key components such as the chassis, shafts, and bearings are clearly visible. This mechanism forms the core structure that enables the vehicle's motion. A motor is attached to a threaded rod, which, when rotated, drives the rear wheels. Power is supplied via red and black wires connected to the motor, which interfaces with the main control circuit.\\[8pt]
+Moving to the \textbf{Bottom Birds Eye View}, the image provides a clear representation of the base layout. This view emphasizes the arrangement of the front and rear shafts, both supported by mounts and bearings. The rear shaft is driven by the motor and connected to the rear wheels. The structural alignment ensures mechanical stability and efficient motion transfer from the motor to the wheels.\\[8pt]
+Finally, the \textbf{Top Isometric View} offers an overall perspective of the design. This view was particularly useful for planning the placement of components and routing of wires. The breadboard was positioned on this side of the chassis, which was chosen as the front-facing side during the race. This decision was made due to the flat and spacious surface available, unlike the bottom section where the drive mechanism occupied most of the space. The ample area on this side allowed for secure placement of key components such as the battery pack, breadboard, and other electronic parts.
+\vspace{1em}\hrule\vspace{0.5em}\noindent
+\begin{figure}[H]
+	\begin{minipage}{0.45\textwidth}
+	\centering
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth,height=3cm]{images/feaone.png}
+		\caption{FEA of the squared chassis design}
+		\label{fig:fea_squared}
+	\end{subfigure}%
+	\hfill
+	\begin{subfigure}[t]{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth,height=3cm]{images/featwo.png}
+		\caption{FEA of the narrower chassis design}
+		\label{fig:fea_narrow}
+	\end{subfigure}
+	\caption{Finite Element Analysis (FEA) comparing stress distributions between (a) the squared chassis and (b) the narrower chassis.}
+	\label{fig:fea_comparison}
+	\end{minipage}\hfill
+	\begin{minipage}{0.5\textwidth}
+		\subsection{Finite Element Analysis (FEA)}
+		3D models of the vehicle’s base were developed using Fusion 360, and Finite Element Analysis (FEA) was carried out to assess structural stress distribution. Figure~\ref{fig:fea_comparison} compares two design variants: the squared chassis in Figure~\ref{fig:fea_squared} and the narrower, more streamlined version in Figure~\ref{fig:fea_narrow}.\\[8pt]
+		The colour scale in each image represents stress intensity, where red and yellow indicate high stress, and green to blue indicate low stress regions. The squared design recorded a maximum stress of 2.165~MPa, while the narrower chassis showed a slightly reduced maximum of 2.001~MPa. Due to better stress distribution and reduced material usage, the narrower design was chosen for the final prototype.
+	\end{minipage}		
+\end{figure}\noindent
+Using CAD software like SolidWorks or Fusion 360 allow for precise visualization of spatial requirements, ensuring that all electronic and mechanical components fit within the given constraints. CAD tools also enhance accuracy, reduce errors, and streamline the design-to-manufacture process. By simulating the design beforehand, potential issues can be resolved early, improving both cost-efficiency and production speed.
+
+
+
 
 
 \newpage\newgeometry{left=0.7in,right=0.7in,top=1in,bottom=0.6in}
@@ -758,7 +789,7 @@ My process started with building the core of the system:
 			
 	\end{tikzpicture}
 \end{center}
-\end{minipage}\\[1em]
+\end{minipage}\\[8pt]
 The logic was straightforward yet crucial, as it needed to handle some key responsibilities:\\[5pt]
 \hspace*{-1em}
 \begin{minipage}{0.53\textwidth}
@@ -892,7 +923,7 @@ Our initial build incorporated a breadboard for the circuitry. A PCB was ready t
 \newpage
 \section{Final design}
 \begin{center}
-	\includegraphics[width=0.7\textwidth]{extracted_images2/image_11_2.png}
+	\includegraphics[width=0.7\textwidth]{extracted_images2/image_13_2.png}
 \end{center}\vspace{0.6em}\noindent
 As you can see from the picture provided of the car, you can see that we have fully manufactured a working car that follows all the guidelines and specifications that were required. The main aim of this competition was to create a device that could reach a target there and back under three minutes. The datum pointer should start in the centre of the target and move towards the wall. It should then touch the end of the wall and stay there for 15 seconds then return to the same position as before where the datum pointer started from. The device was safe to use since we ensures that all rules were carefully followed such as electrical connections not being exposed or having the car not fit within the maximum envelope.\\[1em]
 As you can see, we received no penalties given since our datum pointer was not too high from the ground. Our front plunger was not larger that it was allowed, and it could realign between the two vertical targets. If the above was not completed it would have resulted in penalties for our team.\\[1em]
