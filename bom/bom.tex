@@ -46,6 +46,11 @@
 
 \hspace*{-1em}
 \begin{adjustbox}{valign=t,minipage={0.51\textwidth}}
+\begin{tblrtikzbelow}
+	\draw[line width=0.2em]
+	(h11-|v7) rectangle ($(h11-|v8)!-1!(h10-|v8)$)
+	node[midway] {\color{blue}$\Sigma=\pounds31.66$};
+\end{tblrtikzbelow}
 \begin{tblr}{
 		colspec = {|[0.2em]c|[0.2em]l|[0.2em]l|[0.2em]l|[0.2em]c|[0.2em]c|[0.2em]c|[0.2em]l|},
 		row{1} = {font=\bfseries,c,m},
@@ -60,18 +65,20 @@
 	5 & Hub connectors & -- & Steel connectors & 4 & \pounds6.99 & \pounds6.99 & Amazon \\ 
 	6 & Screw and Lead & -- & Lead screw with nut & 2 & \pounds8.99 & \pounds4.50 & Amazon \\ 
 	7 & Plastic Tube & -- & Hollow plastic tube & 1 & \pounds4.27 & \pounds4.27 & Amazon \\ 
-	8 & Motor & -- & DC Motor (mechanical) & 1 & \pounds6.99 & \pounds6.99 & Amazon \\ 
 	9 & Datum & -- & Reference point component & 1 & -- & -- & Amazon \\ 
 	10 & Gears & -- & 3D printed & 1 & \pounds10.99 & \pounds0.13 & In house 
 \end{tblr}
+\vspace{1.2em}
+\captionof{table}{Bill of Material for the Mechanical Components}
 \end{adjustbox}\hspace*{2em}%
-\begin{adjustbox}{valign=t,minipage={0.22\textwidth}}
-	\subsection{Mechanics}
-\end{adjustbox}
+\begin{adjustbox}{valign=t,minipage={0.47\textwidth}}
+	\subsection{Mechanics}\large
+	This table lists the components and materials used to build the chassis for the competition. Key parts include gears for motion transfer and structural elements like plywood, acrylic, and plastic tubes. The hubs and connectors provide stability. The total cost of the components is \textbf{\pounds31.66}, covering both in-house and purchased materials.
+\end{adjustbox}\\
 
 \vspace*{\fill}
 
-\hspace*{-1em}
+\hspace*{-2.6em}
 \begin{adjustbox}{valign=t,minipage={0.795\textwidth}}
 %\begin{tblrtikzbelow}
 %	\draw[line width=0.2em]
@@ -111,16 +118,16 @@
 	&  & F2707-ND & FUSE GLASS 3A 250VAC 5X20MM &  & \pounds0.92 & \pounds0.92 & 250VAC & Littelfuse Inc. \\
     & & & & & & $\Sigma=\pounds14.40$ & &    \\
 \end{tblr}
+\captionof{table}{Bill of Materials for the  Electronical Components}
 \end{adjustbox}\hspace*{2em}%
 \begin{adjustbox}{valign=t,minipage={0.22\textwidth}}
 \subsection{Electronics}
-Bulk Buy Basket: \url{https://www.digikey.co.uk/short/75mq0qh1}\\
-\textbf{Miscellaneous items (purchased on the general internet):}
-\begin{itemize}[itemsep=-1mm]
-	\item 6V AA Battery Pack with Holder (As needed)
-	\item Jumper Wires (As needed)
-	\item Insulation Tape for Wires (As needed)
-\end{itemize}
+Creating a Bill of Materials (BOM) for electronics can be a complex and dynamic task. Unlike other types of materials, electronic components are subject to continuous testing, changes, and improvements during the design process. It's not uncommon for designs to evolve, which means the BOM may need to be updated frequently as parts are tested, replaced, or modified. This makes it especially difficult to finalize the BOM until the product reaches the final stages of manufacturing.\\[8pt]
+The list of components here includes key electronic parts such as ICs, resistors, capacitors, LEDs, MOSFETs, switches, buzzers, and fuses. These components were selected to meet the required specifications, but further modifications and testing are expected as the design is refined.\\[8pt]
+The total cost for the electronics components as currently planned is \textbf{\pounds14.40}.\\[8pt]
+\textbf{Bulk Buy Basket:} \url{https://www.digikey.co.uk/short/75mq0qh1}\\[8pt]
+\paragraph{Miscellaneous Items (purchased on the general internet):}\mbox{}
+Some additional components, such as the DC motor, battery pack, and jumper wires, may be sourced from general suppliers as needed.
 \end{adjustbox}
 
 \vspace*{\fill}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 21:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1067,13 +1067,28 @@ Package hyperref Info: Link coloring OFF on input line 37.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (3.59737pt too wide) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+[][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--78
+
+ []
+
+
+Overfull \hbox (3.59737pt too wide) in paragraph at lines 120--121
 [][] 
  []
 
 
-Overfull \hbox (28.8664pt too wide) in paragraph at lines 74--125
-|  []| [] 
+Underfull \hbox (badness 10000) in paragraph at lines 125--129
+
+ []
+
+
+Overfull \hbox (27.86632pt too wide) in paragraph at lines 81--132
+[]|  []| [] 
  []
 
 
@@ -1085,7 +1100,7 @@ tablet.png Graphic file (type png)
 <use /home/sak/Documents/imech_doc/images/Kingston_University_London_logo_200-t
 ablet.png>
 Package pdftex.def Info: /home/sak/Documents/imech_doc/images/Kingston_Universi
-ty_London_logo_200-tablet.png  used on input line 130.
+ty_London_logo_200-tablet.png  used on input line 137.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1107,25 +1122,28 @@ Package rerunfilecheck Info: File `bom.out' has not changed.
 (rerunfilecheck)             Checksum: 24C75837876207B8F81468BFB13CE0CF;348.
  ) 
 Here is how much of TeX's memory you used:
- 38436 strings out of 469626
- 906059 string characters out of 5471532
- 1658083 words of memory out of 5000000
- 64698 multiletter control sequences out of 15000+600000
- 638803 words of font info for 66 fonts, out of 8000000 for 9000
+ 39989 strings out of 469626
+ 943594 string characters out of 5471532
+ 1768529 words of memory out of 5000000
+ 66247 multiletter control sequences out of 15000+600000
+ 639968 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,15n,105p,724b,3221s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,15n,105p,724b,3154s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/sak/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </home/sak/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
 home/sak/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></ho
 me/sak/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/
-sak/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/sa
-k/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/sak/
-texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></home/sak/te
-xlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on bom.pdf (1 page, 125085 bytes).
+sak/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/sak
+/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/sak/t
+exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/sak/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></home/sak/texli
+ve/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></home/sak/texlive/
+2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></home/sak/texlive/202
+5/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on bom.pdf (1 page, 166196 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  42 words of extra memory for PDF output out of 10000 (max. 10000000)
 
