@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 22:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 22:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2095,11 +2095,17 @@ File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
 nput line 396.
 (pdftex.def)             Requested size: 614.3022pt x 794.98625pt.
-<images/Image(3).png, id=200, 5733.42pt x 4300.065pt>
-File: images/Image(3).png Graphic file (type png)
-<use images/Image(3).png>
-Package pdftex.def Info: images/Image(3).png  used on input line 427.
-(pdftex.def)             Requested size: 488.6028pt x 369.864pt.
+<images/Image-Photoroom(1).png, id=200, 963.6pt x 827.09pt>
+File: images/Image-Photoroom(1).png Graphic file (type png)
+<use images/Image-Photoroom(1).png>
+Package pdftex.def Info: images/Image-Photoroom(1).png  used on input line 427.
+
+(pdftex.def)             Requested size: 488.67998pt x 398.34906pt.
+
+Overfull \hbox (17.87285pt too wide) in paragraph at lines 427--427
+[]|  [] 
+ []
+
 
 Overfull \hbox (12.79999pt too wide) in paragraph at lines 427--428
  [] 
@@ -2109,7 +2115,8 @@ Overfull \hbox (12.79999pt too wide) in paragraph at lines 427--428
 
 [2
 
- <./images/a13d25fa5178ce400e90e65f61d696d3.jpg> <./images/Image(3).png>]
+ <./images/a13d25fa5178ce400e90e65f61d696d3.jpg> <./images/Image-Photoroom(1).p
+ng>]
 File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 <use images/a13d25fa5178ce400e90e65f61d696d3.jpg>
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
@@ -2117,8 +2124,7 @@ nput line 436.
 (pdftex.def)             Requested size: 614.3022pt x 794.98625pt.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
 66.
-
-(/home/sak/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+ (/home/sak/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
@@ -2722,14 +2728,14 @@ Package pdftex.def Info: bom/bom.pdf , page1 used on input line 921.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(57.81621pt, 498.66258pt, 57.81621pt)
-* v-part:(T,H,B)=(72.26999pt, 672.83353pt, 49.86647pt)
+* v-part:(T,H,B)=(79.49744pt, 665.60608pt, 49.86647pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=498.66258pt
-* \textheight=672.83353pt
+* \textheight=665.60608pt
 * \oddsidemargin=-14.45378pt
 * \evensidemargin=-14.45378pt
-* \topmargin=-55.0pt
+* \topmargin=-47.77255pt
 * \headheight=30.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -2785,7 +2791,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 File: extracted_images2/image_13_2.png Graphic file (type png)
 <use extracted_images2/image_13_2.png>
 Package pdftex.def Info: extracted_images2/image_13_2.png  used on input line 9
-75.
+76.
 (pdftex.def)             Requested size: 349.06227pt x 262.55753pt.
 
 
@@ -2793,7 +2799,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 981.
+ used on input line 982.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2808,7 +2814,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 988.
+ used on input line 989.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2827,8 +2833,8 @@ Package rerunfilecheck Info: File `technical_document.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  78805 strings out of 469626
- 1973557 string characters out of 5471532
- 2852568 words of memory out of 5000000
+ 1973627 string characters out of 5471532
+ 2851564 words of memory out of 5000000
  104438 multiletter control sequences out of 15000+600000
  684751 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2854,7 +2860,7 @@ nts/type1/public/cm-super/sfrm1000.pfb></home/sak/texlive/2025/texmf-dist/fonts
 w/courier/ucrr8a.pfb></home/sak/texlive/2025/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></home/sak/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /home/sak/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on technical_document.pdf (17 pages, 24584511 bytes).
+Output written on technical_document.pdf (17 pages, 6924056 bytes).
 PDF statistics:
  514 PDF objects out of 1000 (max. 8388607)
  388 compressed objects within 4 object streams
