@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 21:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 22:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2025,7 +2025,7 @@ Package hyperref Info: Link coloring ON on input line 360.
 File: fc-english.def 2016/01/12
 )
 <images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-convert
-er(2).jpg, id=187, 2835.59375pt x 3854.4pt>
+er(2).jpg, id=191, 2835.59375pt x 3854.4pt>
 File: images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-co
 nverter(2).jpg Graphic file (type jpg)
 <use images/A4-document-placeholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-con
@@ -2089,13 +2089,13 @@ ceholder-medium-blue_0.jpg-ezgif.com-webp-to-jpg-converter(2).jpg>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/a13d25fa5178ce400e90e65f61d696d3.jpg, id=195, 1405.25pt x 2107.875pt>
+<images/a13d25fa5178ce400e90e65f61d696d3.jpg, id=199, 1405.25pt x 2107.875pt>
 File: images/a13d25fa5178ce400e90e65f61d696d3.jpg Graphic file (type jpg)
 <use images/a13d25fa5178ce400e90e65f61d696d3.jpg>
 Package pdftex.def Info: images/a13d25fa5178ce400e90e65f61d696d3.jpg  used on i
 nput line 396.
 (pdftex.def)             Requested size: 614.3022pt x 794.98625pt.
-<images/Image(3).png, id=196, 5733.42pt x 4300.065pt>
+<images/Image(3).png, id=200, 5733.42pt x 4300.065pt>
 File: images/Image(3).png Graphic file (type png)
 <use images/Image(3).png>
 Package pdftex.def Info: images/Image(3).png  used on input line 427.
@@ -2170,7 +2170,7 @@ nput line 471.
 
 ]
 
-<images/Kingston_University_London_logo_200-tablet.png, id=248, 200.75pt x 200.
+<images/Kingston_University_London_logo_200-tablet.png, id=253, 200.75pt x 200.
 75pt>
 File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
 png)
@@ -2194,7 +2194,7 @@ l.488 \newpage
                [1
 
  <./images/Kingston_University_London_logo_200-tablet.png (PNG copy)>]
-<extracted_images/image_4_2.png, id=252, 701.62125pt x 321.45094pt>
+<extracted_images/image_4_2.png, id=257, 701.62125pt x 321.45094pt>
 File: extracted_images/image_4_2.png Graphic file (type png)
 <use extracted_images/image_4_2.png>
 Package pdftex.def Info: extracted_images/image_4_2.png  used on input line 513
@@ -2256,13 +2256,13 @@ l.519 \newpage
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<extracted_images/image_10_2.png, id=258, 739.26187pt x 463.7325pt>
+<extracted_images/image_10_2.png, id=263, 739.26187pt x 463.7325pt>
 File: extracted_images/image_10_2.png Graphic file (type png)
 <use extracted_images/image_10_2.png>
 Package pdftex.def Info: extracted_images/image_10_2.png  used on input line 54
 6.
 (pdftex.def)             Requested size: 109.94823pt x 76.81682pt.
-<extracted_images/image_10_1.png, id=259, 719.68875pt x 293.095pt>
+<extracted_images/image_10_1.png, id=264, 719.68875pt x 293.095pt>
 File: extracted_images/image_10_1.png Graphic file (type png)
 <use extracted_images/image_10_1.png>
 Package pdftex.def Info: extracted_images/image_10_1.png  used on input line 55
@@ -2273,13 +2273,13 @@ Overfull \hbox (31.76169pt too wide) in paragraph at lines 533--558
 []$[]$  $[]$ 
  []
 
-<extracted_images/image_11_2.png, id=260, 536.0025pt x 335.00156pt>
+<extracted_images/image_11_2.png, id=265, 536.0025pt x 335.00156pt>
 File: extracted_images/image_11_2.png Graphic file (type png)
 <use extracted_images/image_11_2.png>
 Package pdftex.def Info: extracted_images/image_11_2.png  used on input line 56
 9.
 (pdftex.def)             Requested size: 109.94664pt x 85.35526pt.
-<extracted_images/image_11_1.png, id=261, 990.70125pt x 665.48625pt>
+<extracted_images/image_11_1.png, id=266, 990.70125pt x 665.48625pt>
 File: extracted_images/image_11_1.png Graphic file (type png)
 <use extracted_images/image_11_1.png>
 Package pdftex.def Info: extracted_images/image_11_1.png  used on input line 57
@@ -2349,7 +2349,7 @@ png> <./extracted_images/image_11_2.png (PNG copy)> <./extracted_images/image_1
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/image_6_2-Photoroom.png, id=269, 583.17876pt x 379.4175pt>
+<images/image_6_2-Photoroom.png, id=274, 583.17876pt x 379.4175pt>
 File: images/image_6_2-Photoroom.png Graphic file (type png)
 <use images/image_6_2-Photoroom.png>
 Package pdftex.def Info: images/image_6_2-Photoroom.png  used on input line 614
@@ -2361,7 +2361,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 615.
 See the caption package documentation for explanation.
 
-<images/image_7_2-Photoroom.png, id=270, 479.7925pt x 411.5375pt>
+<images/image_7_2-Photoroom.png, id=275, 479.7925pt x 411.5375pt>
 File: images/image_7_2-Photoroom.png Graphic file (type png)
 <use images/image_7_2-Photoroom.png>
 Package pdftex.def Info: images/image_7_2-Photoroom.png  used on input line 625
@@ -2372,7 +2372,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 626.
 See the caption package documentation for explanation.
 
-<images/image_8_2-Photoroom.png, id=271, 564.1075pt x 392.46625pt>
+<images/image_8_2-Photoroom.png, id=276, 564.1075pt x 392.46625pt>
 File: images/image_8_2-Photoroom.png Graphic file (type png)
 <use images/image_8_2-Photoroom.png>
 Package pdftex.def Info: images/image_8_2-Photoroom.png  used on input line 636
@@ -2402,7 +2402,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
  <./images/image_6_2-Photoroom.png> <./images/image_7_2-Photoroom.png> <./image
 s/image_8_2-Photoroom.png>]
-<extracted_images2/image(2).png, id=282, 1099.10625pt x 759.83875pt>
+<extracted_images2/image(2).png, id=287, 1099.10625pt x 759.83875pt>
 File: extracted_images2/image(2).png Graphic file (type png)
 <use extracted_images2/image(2).png>
 Package pdftex.def Info: extracted_images2/image(2).png  used on input line 646
@@ -2414,7 +2414,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 647.
 See the caption package documentation for explanation.
 
-<extracted_images2/image.jpg, id=283, 602.25pt x 586.44093pt>
+<extracted_images2/image.jpg, id=288, 602.25pt x 586.44093pt>
 File: extracted_images2/image.jpg Graphic file (type jpg)
 <use extracted_images2/image.jpg>
 Package pdftex.def Info: extracted_images2/image.jpg  used on input line 651.
@@ -2424,7 +2424,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 652.
 See the caption package documentation for explanation.
 
-<extracted_images2/image(4).png, id=284, 1048.91875pt x 817.0525pt>
+<extracted_images2/image(4).png, id=289, 1048.91875pt x 817.0525pt>
 File: extracted_images2/image(4).png Graphic file (type png)
 <use extracted_images2/image(4).png>
 Package pdftex.def Info: extracted_images2/image(4).png  used on input line 656
@@ -2435,7 +2435,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 657.
 See the caption package documentation for explanation.
 
-<images/feaone.png, id=285, 562.1pt x 269.005pt>
+<images/feaone.png, id=290, 562.1pt x 269.005pt>
 File: images/feaone.png Graphic file (type png)
 <use images/feaone.png>
 Package pdftex.def Info: images/feaone.png  used on input line 668.
@@ -2445,7 +2445,7 @@ Underfull \hbox (badness 4013) in paragraph at lines 669--669
 []\OT1/ptm/m/n/9 (a) |FEA of the squared
  []
 
-<images/featwo.png, id=286, 562.1pt x 279.0425pt>
+<images/featwo.png, id=291, 562.1pt x 279.0425pt>
 File: images/featwo.png Graphic file (type png)
 <use images/featwo.png>
 Package pdftex.def Info: images/featwo.png  used on input line 675.
@@ -2613,7 +2613,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-<images/swappy-20250406-185116.png, id=318, 967.615pt x 706.64pt>
+<images/swappy-20250406-185116.png, id=323, 967.615pt x 706.64pt>
 File: images/swappy-20250406-185116.png Graphic file (type png)
 <use images/swappy-20250406-185116.png>
 Package pdftex.def Info: images/swappy-20250406-185116.png  used on input line 
@@ -2624,7 +2624,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 898.
 See the caption package documentation for explanation.
 
-<images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg, id=319, 1013.9481pt
+<images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg, id=324, 1013.9481pt
  x 428.802pt>
 File: images/Schematic_SAKARIYEPCB.sch_2025-04-06_page-0001.jpg Graphic file (t
 ype jpg)
@@ -2642,7 +2642,7 @@ Overfull \hbox (76.96838pt too wide) in paragraph at lines 902--903
  [][] 
  []
 
-<images/Image(2).jpg, id=320, 2582.64874pt x 1453.43pt>
+<images/Image(2).jpg, id=325, 2582.64874pt x 1453.43pt>
 File: images/Image(2).jpg Graphic file (type jpg)
 <use images/Image(2).jpg>
 Package pdftex.def Info: images/Image(2).jpg  used on input line 907.
@@ -2684,12 +2684,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.0pt
 (hyperref)                replaced by space on input line 919.
 
-<bom/bom.pdf, id=328, 1223.46881pt x 845.0471pt>
+<bom/bom.pdf, id=333, 1223.46881pt x 845.0471pt>
 File: bom/bom.pdf Graphic file (type pdf)
 <use bom/bom.pdf>
 Package pdftex.def Info: bom/bom.pdf  used on input line 921.
 (pdftex.def)             Requested size: 1223.46584pt x 845.04504pt.
-<bom/bom.pdf, id=330, page=1, 1223.46881pt x 845.0471pt>
+<bom/bom.pdf, id=335, page=1, 1223.46881pt x 845.0471pt>
 File: bom/bom.pdf Graphic file (type pdf)
 <use bom/bom.pdf, page 1>
 Package pdftex.def Info: bom/bom.pdf , page1 used on input line 921.
@@ -2715,12 +2715,45 @@ Package pdftex.def Info: bom/bom.pdf , page1 used on input line 921.
 [9
 
  <./bom/bom.pdf>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(57.81621pt, 498.66258pt, 57.81621pt)
+* v-part:(T,H,B)=(72.26999pt, 672.83353pt, 49.86647pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=498.66258pt
+* \textheight=672.83353pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-55.0pt
+* \headheight=30.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=20.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
 
 File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 938.
+ used on input line 959.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2731,13 +2764,14 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 [10
 
+
 ]
 
 File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type 
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 941.
+ used on input line 972.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2747,11 +2781,11 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.74326pt}.
 
 [11]
-<extracted_images2/image_13_2.png, id=414, 549.252pt x 413.1435pt>
+<extracted_images2/image_13_2.png, id=419, 549.252pt x 413.1435pt>
 File: extracted_images2/image_13_2.png Graphic file (type png)
 <use extracted_images2/image_13_2.png>
 Package pdftex.def Info: extracted_images2/image_13_2.png  used on input line 9
-44.
+75.
 (pdftex.def)             Requested size: 349.06227pt x 262.55753pt.
 
 
@@ -2759,7 +2793,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 950.
+ used on input line 981.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2774,7 +2808,7 @@ File: images/Kingston_University_London_logo_200-tablet.png Graphic file (type
 png)
 <use images/Kingston_University_London_logo_200-tablet.png>
 Package pdftex.def Info: images/Kingston_University_London_logo_200-tablet.png 
- used on input line 957.
+ used on input line 988.
 (pdftex.def)             Requested size: 34.14235pt x 34.14322pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2789,16 +2823,16 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
 Package rerunfilecheck Info: File `technical_document.out' has not changed.
-(rerunfilecheck)             Checksum: 8886854D9C7622F74E11BDD3D45B8DCD;5270.
+(rerunfilecheck)             Checksum: 36B0CA662B452B9DF8F43692015C6AD1;5451.
  ) 
 Here is how much of TeX's memory you used:
- 78803 strings out of 469626
- 1973485 string characters out of 5471532
- 2852565 words of memory out of 5000000
- 104437 multiletter control sequences out of 15000+600000
+ 78805 strings out of 469626
+ 1973557 string characters out of 5471532
+ 2852569 words of memory out of 5000000
+ 104438 multiletter control sequences out of 15000+600000
  684751 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,17n,108p,1313b,1222s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,17n,108p,1337b,1222s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/sak/texlive/2025/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb
 ></home/sak/texlive/2025/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb>
 </home/sak/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
@@ -2820,10 +2854,10 @@ nts/type1/public/cm-super/sfrm1000.pfb></home/sak/texlive/2025/texmf-dist/fonts
 w/courier/ucrr8a.pfb></home/sak/texlive/2025/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></home/sak/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /home/sak/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on technical_document.pdf (17 pages, 24582522 bytes).
+Output written on technical_document.pdf (17 pages, 24584512 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 383 compressed objects within 4 object streams
- 65 named destinations out of 1000 (max. 500000)
- 565 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 514 PDF objects out of 1000 (max. 8388607)
+ 388 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 573 words of extra memory for PDF output out of 10000 (max. 10000000)
 
