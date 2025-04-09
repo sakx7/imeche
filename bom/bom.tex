@@ -74,17 +74,20 @@
 \hspace*{-1em}
 \begin{adjustbox}{valign=t,minipage={0.795\textwidth}}
 %\begin{tblrtikzbelow}
-%	\draw[red, line width=0.2em]
-%	(h9-|v7) rectangle ($(h9-|v8)!-1!(h8-|v8)$)
-%	node[midway] {$\Sigma$};
+%	\draw[line width=0.2em]
+%	(h21-|v7) rectangle ($(h21-|v8)!-1!(h20-|v8)$)
+%	node[midway] {$\Sigma=\pounds14.40$};
 %\end{tblrtikzbelow}
 \begin{tblr}{
-		colspec = {
-			|[0.2em]c|[0.2em]l|[0.2em]l|[0.2em]l|[0.2em]c|[0.2em]c|[0.2em]c|[0.2em]l|},
+        colspec = {clllcccl},
 		row{1} = {font=\bfseries,c,m},
 		column{4} = {c,m},
-		hlines,vlines,
-		hline{1,2,6,9,11,13,15,18,19-X,Z} = {0.2em},
+		hline{1-Y}={-}{solid},
+		vline{1-Z} = {1-Y}{solid,0.2em},
+        hline{1,2,6,9,11,13,15,18,19,Y} = {0.2em},
+		hline{Z}={7}{solid,.2em},
+		vline{7-8}={Z}{solid,.2em},
+		row{Z}={fg=blue}
 	}
 	No & Name & Part No & Description & Qty & Cost per unit & Total Cost & Voltage/Rating & Manufacturer \\
 	\SetCell[r=4]{m}1 & \SetCell[r=4]{m} IC/Chips & SN7404N & Hex Inverter IC & \SetCell[r=4]{m,c}$\times$1 & \pounds1.99 & \pounds1.99 & 5V & Texas Instruments \\
@@ -106,7 +109,7 @@
 	\SetCell[r=1]{m}9 & Buzzer & 433-1028-ND & 5V Magnetic Buzzer & $\times$1 & \pounds0.39 & \pounds0.39 & 5V & Soberton Inc. \\
 	\SetCell[r=2]{m}10 & \SetCell[r=2]{m}Fuse & BF310-ND & Fuse Holder with 3A Fuse & \SetCell[r=2]{m,c}$\times$1 & \pounds1.53 & \pounds1.53 & 250VAC & MPD (Memory Protection Devices) \\
 	&  & F2707-ND & FUSE GLASS 3A 250VAC 5X20MM &  & \pounds0.92 & \pounds0.92 & 250VAC & Littelfuse Inc. \\
-	%& & & & & & \pounds$\Sigma$ & &
+    & & & & & & $\Sigma=\pounds14.40$ & &    \\
 \end{tblr}
 \end{adjustbox}\hspace*{2em}%
 \begin{adjustbox}{valign=t,minipage={0.22\textwidth}}
