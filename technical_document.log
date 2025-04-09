@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 22:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2828,7 +2828,7 @@ Package rerunfilecheck Info: File `technical_document.out' has not changed.
 Here is how much of TeX's memory you used:
  78805 strings out of 469626
  1973557 string characters out of 5471532
- 2852569 words of memory out of 5000000
+ 2852568 words of memory out of 5000000
  104438 multiletter control sequences out of 15000+600000
  684751 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2854,7 +2854,7 @@ nts/type1/public/cm-super/sfrm1000.pfb></home/sak/texlive/2025/texmf-dist/fonts
 w/courier/ucrr8a.pfb></home/sak/texlive/2025/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></home/sak/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /home/sak/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on technical_document.pdf (17 pages, 24584512 bytes).
+Output written on technical_document.pdf (17 pages, 24584511 bytes).
 PDF statistics:
  514 PDF objects out of 1000 (max. 8388607)
  388 compressed objects within 4 object streams
