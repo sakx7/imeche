@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 22:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.9)  9 APR 2025 22:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1067,7 +1067,7 @@ Package hyperref Info: Link coloring OFF on input line 37.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Overfull \hbox (1.17937pt too wide) in paragraph at lines 70--72
 [][][][]
  []
 
@@ -1124,7 +1124,7 @@ Package rerunfilecheck Info: File `bom.out' has not changed.
 Here is how much of TeX's memory you used:
  39989 strings out of 469626
  943594 string characters out of 5471532
- 1768538 words of memory out of 5000000
+ 1768541 words of memory out of 5000000
  66247 multiletter control sequences out of 15000+600000
  639968 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1140,7 +1140,7 @@ live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></home/sak/texli
 ve/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></home/sak/texlive/
 2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></home/sak/texlive/202
 5/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on bom.pdf (1 page, 166213 bytes).
+Output written on bom.pdf (1 page, 166206 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
