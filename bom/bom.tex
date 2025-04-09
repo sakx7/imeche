@@ -1,0 +1,127 @@
+\documentclass{article}
+\usepackage{pdflscape}
+\usepackage{afterpage}
+\usepackage{capt-of}
+\usepackage{pgfplots, pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{xstring}
+\usepackage{tabularray}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage[landscape]{geometry}
+\geometry{papersize={297mm,430mm}, margin=20mm}
+\definecolor{mainblue}{HTML}{1D73BE}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{\includegraphics[height=1.2cm]{/home/sak/Documents/imech_doc/images/Kingston_University_London_logo_200-tablet.png}}
+\fancyhead[R]{EG4023 – ME – IMechE Design Challenge Project}
+\fancyfoot[C]{Department of Mechanical Engineering}
+\fancyfoot[R]{9}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+\titleformat{\section}[block]{\vspace*{1em}\normalfont\huge\bfseries\color{mainblue}}{\color{mainblue}\thesection}{1em}{}
+\titleformat{\subsection}[block]{\vspace*{1em}\normalfont\Large\bfseries\color{mainblue}}{\color{mainblue}\thesubsection}{1em}{}
+
+\usepackage{adjustbox}
+\usepackage{tikz}
+\UseTblrLibrary{tikz}
+
+\begin{document}
+	
+\setcounter{section}{6}
+
+\vspace{0em}
+
+\section{Bill Of Materials}
+
+\vspace*{2em}
+
+\hspace*{-1em}
+\begin{adjustbox}{valign=t,minipage={0.51\textwidth}}
+\begin{tblr}{
+		colspec = {|[0.2em]c|[0.2em]l|[0.2em]l|[0.2em]l|[0.2em]c|[0.2em]c|[0.2em]c|[0.2em]l|},
+		row{1} = {font=\bfseries,c,m},
+		hlines,vlines,
+		hline{1-Z} = {0.2em},
+	}
+	No & Name & Part No & Description & Qty & Cost per unit & Total Cost & Manufacturer \\
+	1 & Wheels & -- & Plywood wheels & 4 & \pounds6.80 & \pounds0.93 & In house \\ 
+	2 & Base (Plywood) & -- & Base platform & 1 & \pounds6.80 & \pounds2.79 & In house \\ 
+	3 & Base (Acrylic) & -- & Base platform & 1 & \pounds7.49 & \pounds4.81 & In house \\ 
+	4 & Hubs & -- & Plywood hubs & 4 & \pounds6.80 & \pounds0.25 & In house \\ 
+	5 & Hub connectors & -- & Steel connectors & 4 & \pounds6.99 & \pounds6.99 & Amazon \\ 
+	6 & Screw and Lead & -- & Lead screw with nut & 2 & \pounds8.99 & \pounds4.50 & Amazon \\ 
+	7 & Plastic Tube & -- & Hollow plastic tube & 1 & \pounds4.27 & \pounds4.27 & Amazon \\ 
+	8 & Motor & -- & DC Motor (mechanical) & 1 & \pounds6.99 & \pounds6.99 & Amazon \\ 
+	9 & Datum & -- & Reference point component & 1 & -- & -- & Amazon \\ 
+	10 & Gears & -- & 3D printed & 1 & \pounds10.99 & \pounds0.13 & In house 
+\end{tblr}
+\end{adjustbox}\hspace*{2em}%
+\begin{adjustbox}{valign=t,minipage={0.22\textwidth}}
+	\subsection{Mechanics}
+\end{adjustbox}
+
+\vspace*{\fill}
+
+\hspace*{-1em}
+\begin{adjustbox}{valign=t,minipage={0.795\textwidth}}
+%\begin{tblrtikzbelow}
+%	\draw[red, line width=0.2em]
+%	(h9-|v7) rectangle ($(h9-|v8)!-1!(h8-|v8)$)
+%	node[midway] {$\Sigma$};
+%\end{tblrtikzbelow}
+\begin{tblr}{
+		colspec = {
+			|[0.2em]c|[0.2em]l|[0.2em]l|[0.2em]l|[0.2em]c|[0.2em]c|[0.2em]c|[0.2em]l|},
+		row{1} = {font=\bfseries,c,m},
+		column{4} = {c,m},
+		hlines,vlines,
+		hline{1,2,6,9,11,13,15,18,19-X,Z} = {0.2em},
+	}
+	No & Name & Part No & Description & Qty & Cost per unit & Total Cost & Voltage/Rating & Manufacturer \\
+	\SetCell[r=4]{m}1 & \SetCell[r=4]{m} IC/Chips & SN7404N & Hex Inverter IC & \SetCell[r=4]{m,c}$\times$1 & \pounds1.99 & \pounds1.99 & 5V & Texas Instruments \\
+	&  & SN74LS08N & AND Gate IC (Quad 2-input) &  & \pounds0.57 & \pounds0.57 & 5V & Texas Instruments \\
+	&  & CD74HC73E & Dual JK Flip-Flop IC (Dual 1-bit) &  & \pounds0.64 & \pounds0.64 & 5V & Texas Instruments \\
+	&  & SE555P & Timer IC (Astable, Monostable) &  & \pounds0.27 & \pounds0.27 & 5V & Texas Instruments \\
+	\SetCell[r=3]{m}2 & \SetCell[r=3]{m} Resistors & CF14JT27K0CT-ND & 27k$\Omega$ Fixed Resistor & $\times$1 & \pounds0.08 & \pounds0.08 & 1/4W & Stackpole Electronics \\
+	&  & CF12JT10K0CT-ND & 10k$\Omega$ Fixed Resistor & \SetCell[r=2]{m,c}$\times$2 & \pounds0.08 & \pounds0.16 & 1/2W & Stackpole Electronics \\
+	&  & CF14JT220RCT-ND & 220$\Omega$ Fixed Resistor &  & \pounds0.08 & \pounds0.16 & 1/4W & Stackpole Electronics \\
+	\SetCell[r=2]{m}3 & \SetCell[r=2]{m} Capacitors & 738-CML0603X7R104KT50VCT-ND & 100nF Ceramic Capacitor (X7R) & \SetCell[r=2]{m,c}$\times$1 & \pounds0.08 & \pounds0.08 & 50V & Stackpole Electronics \\
+	&  & 16ZLJ470MTA8X11.5 & 470$\mu$F Electrolytic Capacitor &  & \pounds0.38 & \pounds0.38 & 16V & Rubycon \\
+	\SetCell[r=2]{m}4 & \SetCell[r=2]{m} LEDs & 754-1264-ND & Red Diffused LED (T-1 3/4) & \SetCell[r=2]{m,c}$\times$1 & \pounds0.15 & \pounds0.15 & 2V & Kingbright \\
+	&  & 754-1263-ND & Green Diffused LED (T-1 3/4) &  & \pounds0.15 & \pounds0.15 & 2V & Kingbright \\
+	\SetCell[r=2]{m}5 & \SetCell[r=2]{m} MOSFETs & IRLZ44NPBF-ND & N-channel MOSFET & \SetCell[r=2]{m,c}$\times$2 & \pounds0.96 & \pounds1.92 & 55V/47A & Infineon Technologies \\
+	&  & IRF5305PBF-ND & P-channel MOSFET &  & \pounds1.35 & \pounds2.70 & 55V/31A & Infineon Technologies \\
+	\SetCell[r=3]{m}6 & \SetCell[r=3]{m} Switch & CKN10157-ND & SPDT Snap Action Switch & \SetCell[r=3]{m,c}$\times$1 & \pounds0.76 & \pounds0.76 & 100mA/125V & C\&K \\
+	&  & EG5619-ND & Rocker Switch SPST &  & \pounds0.55 & \pounds0.55 & 10A/125V & E-Switch \\
+	&  & MS0850506F020P1C-ND & SPST-NO Snap Action Switch &  & \pounds0.92 & \pounds0.92 & 5A/125V & E-Switch \\
+	\SetCell[r=1]{m}9 & Buzzer & 433-1028-ND & 5V Magnetic Buzzer & $\times$1 & \pounds0.39 & \pounds0.39 & 5V & Soberton Inc. \\
+	\SetCell[r=2]{m}10 & \SetCell[r=2]{m}Fuse & BF310-ND & Fuse Holder with 3A Fuse & \SetCell[r=2]{m,c}$\times$1 & \pounds1.53 & \pounds1.53 & 250VAC & MPD (Memory Protection Devices) \\
+	&  & F2707-ND & FUSE GLASS 3A 250VAC 5X20MM &  & \pounds0.92 & \pounds0.92 & 250VAC & Littelfuse Inc. \\
+	%& & & & & & \pounds$\Sigma$ & &
+\end{tblr}
+\end{adjustbox}\hspace*{2em}%
+\begin{adjustbox}{valign=t,minipage={0.22\textwidth}}
+\subsection{Electronics}
+Bulk Buy Basket: \url{https://www.digikey.co.uk/short/75mq0qh1}\\
+\textbf{Miscellaneous items (purchased on the general internet):}
+\begin{itemize}[itemsep=-1mm]
+	\item 6V AA Battery Pack with Holder (As needed)
+	\item Jumper Wires (As needed)
+	\item Insulation Tape for Wires (As needed)
+\end{itemize}
+\end{adjustbox}
+
+\vspace*{\fill}
+
+	
+	
+\end{document}

@@ -5,7 +5,6 @@
 \usepackage{array}
 \usepackage{arydshln}
 \usepackage{siunitx}
-\usepackage{hyperref}
 \usepackage{cancel}
 \usepackage{changepage}
 \usepackage{placeins}
@@ -16,6 +15,7 @@
 \definecolor{light-gray}{gray}{0.9}
 \newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
 \usepackage{subcaption}
+
 
 %\usepackage{showframe}
 \usepackage{times}
@@ -32,7 +32,11 @@
 \usepackage{chemfig}
 \usepackage{caption}
 \usepackage{bm}
+
 \usepackage{pdfpages}
+\usepackage{pdflscape}
+\usepackage{afterpage}
+
 \usepackage{empheq}
 \usepackage{pgfplots}
 \usepackage{pgfplotstable}
@@ -121,6 +125,7 @@
 
 \usepackage[left=0.8in,right=0.8in,top=0.5in,bottom=0.69in,includeheadfoot,letterpaper]{geometry}
 \usepackage{fancyhdr}
+\usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{tabularray}
 \usepackage{varwidth} 
@@ -227,6 +232,7 @@
 \usepackage{datetime}
 
 \usepackage{etoolbox}
+\AfterEndEnvironment{landscape}{\clearpage\restoregeometry}
 
 \makeatletter
 \def\tagform@#1{\maketag@@@{{Eq.~#1}}} 
@@ -456,7 +462,7 @@ top color=watercol!90!black!90,bottom color=watercol!90!black!90,middle color=wa
 	 \end{itemize}} \\
 	 Jayden Balgobind & \vspace{-1em}{\begin{itemize}[itemsep=-1mm] \item Abstract \item Introduction \item BOM \item Manufacturing Process\end{itemize}} \\
 	 Hector Huser & \vspace{-1em}{\begin{itemize}[itemsep=-1mm]\item BOM \item Manufacturing Process\end{itemize}} \\
-	 Hashaam Khan & \vspace{-1em}{\begin{itemize}[itemsep=-1mm]\item CAD \item Product Design \item Manufacturing Process\end{itemize}}\\
+	 Hashaam Khan & \vspace{-1em}{\begin{itemize}[itemsep=-1mm]\item CAD \item Product Design \item Manufacturing \item Final Design  Process\end{itemize}}\\
 	 Josh Mossman & \vspace{-1em}{\begin{itemize}[itemsep=-1mm]\item Product Design Specification \item Manufacturing Process\end{itemize}}
 \end{tblr}
 \end{center}	
@@ -681,7 +687,7 @@ Finally, the \textbf{Top Isometric View} offers an overall perspective of the de
 	\end{minipage}		
 \end{figure}\noindent
 The squared design recorded a maximum stress of 2.165~MPa, while the narrower chassis showed a slightly reduced maximum of 2.001~MPa. Due to better stress distribution and reduced material usage, the narrower design was chosen for the final prototype.
-\vspace{0.7em}\hrule\vspace{1em}\noindent
+\vspace{0.4em}\hrule\vspace{0.7em}\noindent
 Using CAD software like SolidWorks or Fusion 360 allow for precise visualization of spatial requirements, ensuring that all electronic and mechanical components fit within the given constraints. CAD tools also enhance accuracy, reduce errors, and streamline the design-to-manufacture process. By simulating the design beforehand, potential issues can be resolved early, improving both cost-efficiency and production speed.
 
 \newpage\newgeometry{left=0.7in,right=0.7in,top=1in,bottom=0.6in}
@@ -904,38 +910,20 @@ The underlying main circuit schematic is shown below:\\
 \end{figure}\noindent
 These diagrams and setups were/are subject to change as the project progressed. They are included here to illustrate the foundational premise of the design. You may notice discrepancies, such as the RC debounce, fuse box, limit-switch, and other minor details, please note these are things refined and adjusted throughout the process.
 
-\newpage\restoregeometry
-
-\section{Bill Of Materials [draft]}
-Parts listed for the device are stated below. Every part that was mentioned was used within the final design of the device.
-\begin{itemize}[itemsep=-1mm]
-	\item Wheels x 4
-	\item Lead thread hub x 4
-	\item Base x 1
-	\item Screw and lead x 1
-	\item Plastic tube x 1
-	\item Thread screw x 1
-	\item Motor x 1
-	\item Datum x 1
-	\item Belt x 1
-\end{itemize}\noindent
-Below is a list of the electrical components that were used within the device. Everything mentioned below was used in the final design of the device.
-\begin{itemize}[itemsep=-1mm]
-	\item \textbf{Chips:} SN7404N (NOT/INVERTER), SN74LS08N (AND), SN7476N (J\&K), 555 Timer
-	\item \textbf{Resistors:} 33k, 27k, 10k (x2), 220 (x2)
-	\item \textbf{Capacitors:} 470~\textmu F, 100~nF
-	\item \textbf{LEDs:} Green, Red
-	\item \textbf{MOSFETs:} 2 NPN, 2 PNP
-	\item \textbf{Switches:} Main switch (SPDT), Limit switch, Push switch
-	\item \textbf{Source:} 6V (4 batteries)
-	\item \textbf{Motor:} Unbranded/Generic (50 and 100 rpm testing)
-	\item \textbf{Miscellaneous:} Buzzer, Fusebox, Wires, Heat Shrink Insulation Tape
-\end{itemize}
-These were parts that were essential when building the device. Since we used all components, we did not waste any money, which could have impacted our costs — we could have used the money to purchase better equipment or parts if needed.
-
 \newpage
-\section{Manufacturing Process [eh.. draft]}
+\phantomsection
+\refstepcounter{section}
+\addcontentsline{toc}{section}{\thesection\quad Bill Of Materials (BOM)}
+\refstepcounter{subsection}
+\addcontentsline{toc}{subsection}{\thesubsection\quad Mechanics}
+\refstepcounter{subsection}
+\addcontentsline{toc}{subsection}{\thesubsection\quad Electronics}
 
+\includepdf[pages=-,landscape,fitpaper]{bom/bom.pdf}
+
+\restoregeometry
+
+\section{Manufacturing Process [eh.. draft]}
 \subsection{Prototypes}
 Although our first prototype complied with all specifications it had certain drawbacks that ultimately affected the overall performance, durability and accuracy of the vehicle. After considered analysis we decided to change and redesign certain parts to eliminate these problems. Design for Manufacturability (DFM) was a key area we focused on, changing materials and components we used. 
 \subsection{Chassis}
